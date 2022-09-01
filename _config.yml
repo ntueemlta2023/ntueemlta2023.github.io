@@ -24,6 +24,14 @@ syllabus:
         path: ./slides/ML syllabus (109-1).pdf
       - title: Introduction
         path: ./slides/W1a_Introduction.pdf
+  - id: 2
+    title: Week 02
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf
 
 # Homework
 # Please follow the format below to update the content.
