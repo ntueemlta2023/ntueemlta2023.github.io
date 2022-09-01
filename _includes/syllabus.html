@@ -3,19 +3,28 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-8"">
                 <h2>Syllabus</h2>
-          <div class="card">
-            <i class="fa fa-list" aria-hidden="true"></i><p> 課程講義 </p>
-
-            <ul class="list-group">
-                {% for week in site.syllabus %}
-                <li class="list-group-item" id={{week.id}}>
-                    <p> {{week.title}} </p>
-                </li>
-                {% endfor %}
-            </ul>
-          </div>
-
+                <div class="card">
+                    <i class="fa fa-list" aria-hidden="true"></i><p> 課程講義 </p>
+                </div>
+                <ul class="list-group">
+                    {% for week in site.syllabus %}
+                    <li class="list-group-item" id={{week.id}}>
+                    <div class="w-100 justify-content-between">
+                        <p class="text-left"> {{week.title}} </p>
+                        {% for slide in week.slides %}
+                        <p class="text-right">
+                            <a href="{{slide.path}}">
+                                <button class="btn btn-outline-secondary btn-sm">
+                                    <i class="far fa-file-pdf"></i>
+                                    {{slide.title}}
+                                </button>
+                            </a>
+                        </p>
+                        {% endfor %}
+                    </div>
+                    </li>
+                    {% endfor %}
+                </ul>
             </div>
-
         </div>
     </section>
