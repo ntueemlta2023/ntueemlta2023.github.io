@@ -6,14 +6,14 @@
                 <p> - 若想問任何課程 or 作業相關問題，請寄信到助教信箱為主，感謝！</br>
                 - Please send email to our TA email if you have any questions, Thank you!
                 </p>
-                <p>助教信箱：<a href="mailto:{{ site.TAemail }}">{{ site.TAemail }}</a>
-                </p>
+                <p>
+                助教信箱: <a href="mailto:{{ site.TAemail }}">{{ site.TAemail }}</a></br>
                 {% for TA in site.TAs %}
-                    <p>助教：{{TA.name}}<a href="mailto:{{ TA.email }}">{{ TA.email }}</a>
-                    </p>
+                    助教{{TA.name}}: <a href="mailto:{{ TA.email }}">{{ TA.email }}</a></br>
+                    
                 {% endfor %}
-                <p>老師信箱：<a href="mailto:{{ site.TeacherEmail }}">{{ site.TeacherEmail }}</a>
-                </p>  
+                老師信箱: <a href="mailto:{{ site.TeacherEmail }}">{{ site.TeacherEmail }}</a></br>
+                </p>
                 <ul class="list-inline banner-network-buttons">
                     {% for network in site.networks %}
                     <li>
