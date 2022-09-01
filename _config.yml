@@ -5,10 +5,11 @@ url: https://ntueemlta2022.github.io
 year: "2022 FALL "
 description: "授課教授：吳沛遠"
 
-homework:
-  tltle: hw1 regression
-  spec: https://www.kaggle.com
-  kaggle: https://www.kaggle.com
+homeworks:
+  - number: hw1
+    title: regression
+    spec: https://www.kaggle.com
+    kaggle: https://www.kaggle.com
   
 
 
