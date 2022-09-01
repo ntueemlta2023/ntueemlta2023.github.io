@@ -6,15 +6,15 @@ year: "2022 FALL "
 description: "授課教授：吳沛遠"
 
 homeworks:
-  - number: hw1
-    title: regression
+  - number: Hw1
+    title: Regression
     spec: https://www.kaggle.com
     url: https://www.kaggle.com
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 networks:
-  - kind: facebook
+  - kind: Facebook
     title: Discussion Group
     url: https://www.facebook.com/groups/412720760954309/?notif_id=1661958299977609&notif_t=groups_more_posts_in_new_group&ref=notif
 
