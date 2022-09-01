@@ -12,8 +12,20 @@ homeworks:
     slide: https://www.kaggle.com
     kaggle: https://www.kaggle.com
     colab: https://colab.research.google.com
-    
 
+  - number: HW2
+    title: CNN
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slide: https://www.kaggle.com
+    kaggle: https://www.kaggle.com
+    colab: https://colab.research.google.com   
+
+  - number: HW3
+    title: Embedding
+    video: 
+    slide: 
+    kaggle: 
+    colab: 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 networks:
