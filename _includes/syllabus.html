@@ -11,16 +11,7 @@
                 <li class="list-group-item" id={{week.id}}>
                     <div class="w-100 justify-content-between">
                         <p class="text-left"> {{week.title}} </p>
-                        {% for slide in week.slides %}
-                        <p class="text-right">
-                            <a href="./slides/{{slide.path}}">
-                              <button class="btn btn-outline-secondary btn-sm">
-                                <i class="far fa-file-pdf"></i>
-                                 {{slide.title}}
-                              </button>
-                            </a>
-                        </p>
-                        {% endfor %}
+
                     </div>
                 </li>
                 {% endfor %}

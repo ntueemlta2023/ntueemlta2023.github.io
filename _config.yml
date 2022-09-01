@@ -16,11 +16,10 @@ TAs:
 
 # Syllabus
 syllabus:
-  - week: Week 01
-    contents:
-      - name: Introduction
-        slide: https://www.kaggle.com
+  - id: 1
+    title: Week 01
     video: https://www.youtube.com/watch?v=Wcp4VAAM468
+
 
 # Homework
 # Please follow the format below to update the content.
