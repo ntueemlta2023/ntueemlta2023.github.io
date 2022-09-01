@@ -7,31 +7,26 @@
             <i class="fa fa-list" aria-hidden="true"></i><p> 課程講義 </p>
 
             <ul class="list-group">
-              <li class="list-group-item" id="week01">
-                <div class="w-100 justify-content-between">
-                  <p class="text-left"> Weeok 01 </p>
-
-                  <p class="text-right">
-                    <a href="./slides/ML syllabus (109-1).pdf">
-                      <button class="btn btn-outline-secondary btn-sm">
-                        <i class="far fa-file-pdf"></i>
-                         Syllabus
-                      </button>
-                    </a>
-                    <a href="./slides/W1a_Introduction.pdf">
-                      <button class="btn btn-outline-secondary btn-sm">
-                        <i class="far fa-file-pdf"></i>
-                         Introduction
-                      </button>
-                    </a>
-                  </p>
-
-                </div>
-              </li>
-
+                {% for week in site.syllabus %}
+                <li class="list-group-item" id={{week.id}}>
+                    <div class="w-100 justify-content-between">
+                        <p class="text-left"> {{week.title}} </p>
+                        {% for slide in week.slides %}
+                        <p class="text-right">
+                            <a href="./slides/{{slide.path}}">
+                              <button class="btn btn-outline-secondary btn-sm">
+                                <i class="far fa-file-pdf"></i>
+                                 {{slide.title}}
+                              </button>
+                            </a>
+                        </p>
+                        {% endfor %}
+                    </div>
+                </li>
+                {% endfor %}
             </ul>
           </div>
-          
+
             </div>
 
         </div>
