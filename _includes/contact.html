@@ -1,10 +1,10 @@
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-2">
+            <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
-                <p> - 若想問任何課程 or 作業相關問題，請先到討論區發問，或以寄信到助教信箱為主，感謝！</br>
-                - Please join our discussion group, or send email to our TA email if you have any questions. Thank you!</p>
+                <p> - 若想問任何課程 or 作業相關問題，請先到討論區發問，感謝！</br>
+                - Please join our discussion group if you have any questions. Thank you!</p>
                 <ul class="list-inline banner-network-buttons">
                     {% for network in site.networks %}
                     <li>
@@ -12,7 +12,7 @@
                     </li>
                     {% endfor %}
                 </ul>
-                
+
                 <p>助教信箱: <a href="mailto:{{ site.TAemail }}">{{ site.TAemail }}</a></br></p>
                 <p>
                 {% for TA in site.TAs %}
