@@ -4,8 +4,15 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Homework</h2>
-                    <p>待補.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Homework Page</a>
+                    {% for homework in site.homeworks %}
+                    <p> {{homework.hw1}} : {{homework.title}} </p>
+                    <li>
+                        <a href="{{ homework.spec }}" class="btn btn-default btn-lg"><i class="fa fa-kaggle fa-fw"></i> <span class="homework-name">{{ homework.number }} spec</span></a>
+                    </li>
+                    <li>
+                        <a href="{{ homework.kaggle }}" class="btn btn-default btn-lg"><i class="fa fa-kaggle fa-fw"></i> <span class="homework-name">{{ homework.number }} kaggle</span></a>
+                    </li>
+                    {% endfor %}
                 </div>
             </div>
         </div>

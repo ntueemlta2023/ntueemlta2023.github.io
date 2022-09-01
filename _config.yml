@@ -5,6 +5,19 @@ url: https://ntueemlta2022.github.io
 year: "2022 FALL "
 description: "授課教授：吳沛遠"
 
+homework:
+  tltle: hw1 regression
+  spec: https://www.kaggle.com
+  kaggle: https://www.kaggle.com
+  
+
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: Discussion Group
+    url: https://www.facebook.com/groups/412720760954309/?notif_id=1661958299977609&notif_t=groups_more_posts_in_new_group&ref=notif
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
@@ -12,11 +25,6 @@ color:
 
 # Footer settings
 footer: Your Website
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: Discussion Group
-    url: https://www.facebook.com/groups/412720760954309/?notif_id=1661958299977609&notif_t=groups_more_posts_in_new_group&ref=notif
 
 # Build settings
 markdown: kramdown
