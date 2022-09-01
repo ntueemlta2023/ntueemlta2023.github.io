@@ -8,7 +8,7 @@
                         - We have 5 homework and 1 final project in this course.
                     </p>
                     <p>{% for homework in site.homeworks %}</p>
-                    <li>
+                    
                         <p> {{homework.number}} : {{homework.title}} </p>
                         <a href="{{ homework.video }}" class="btn btn-default btn-lg"><i class="fa fa-youtube-play" aria-hidden="true"></i>
                             <span class="homework-video">Video</span>
@@ -22,7 +22,7 @@
                         <a href="{{ homework.colab }}" class="btn btn-default btn-lg"><i class="fa fa-python"></i>
                             <span class="homework-colab">Code</span>
                         </a>
-                    </li>
+                    
                     {% endfor %}
                 </div>
             </div>
