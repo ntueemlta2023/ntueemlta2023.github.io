@@ -5,19 +5,19 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Homework</h2>
                     {% for homework in site.homeworks %}
-                    <p> {{homework.number}} : {{homework.title}} </p>
                     <li>
+                        <p> {{homework.number}} : {{homework.title}} </p>
                         <a href="{{ homework.video }}" class="btn btn-default btn-lg">
-                            <span class="homework-name">{{ homework.number }} Video</span>
+                            <span class="homework-video">Video</span>
                         </a>
                         <a href="{{ homework.slide }}" class="btn btn-default btn-lg">
-                            <span class="homework-name">{{ homework.number }} Slide</span>
+                            <span class="homework-slide">Slide</span>
                         </a>
                         <a href="{{ homework.kaggle }}" class="btn btn-default btn-lg">
-                            <span class="homework-name">{{ homework.number }} kaggle</span>
+                            <span class="homework-kaggle">Kaggle</span>
                         </a>
                         <a href="{{ homework.colab }}" class="btn btn-default btn-lg">
-                            <span class="homework-name">{{ homework.number }} Colab</span>
+                            <span class="homework-colab">Colab</span>
                         </a>
                     </li>
                     {% endfor %}
