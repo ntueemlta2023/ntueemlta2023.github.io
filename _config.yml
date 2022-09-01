@@ -1,6 +1,8 @@
 # Site settings
+# You can update website by simply updating this config file!
 title: Machine Learning 
 TAemail: ntueemlta2022@gmail.com
+TeacherEmail: peiyuanwu@ntu.edu.tw
 url: https://ntueemlta2022.github.io
 year: "2022 FALL "
 description: "授課教授：吳沛遠"
