@@ -7,8 +7,13 @@
                 - Please send email to our TA email if you have any questions, Thank you!
                 </p>
                 <p>助教信箱：<a href="mailto:{{ site.TAemail }}">{{ site.TAemail }}</a>
-                <p>老師信箱：<a href="mailto:{{ site.TeacherEmail }}">{{ site.TeacherEmail }}</a>     
                 </p>
+                {% for TA in site.TAs %}
+                    <p>助教：{{TA.name}}<a href="mailto:{{ TA.email }}">{{ TA.email }}</a>
+                    </p>
+                {% endfor %}
+                <p>老師信箱：<a href="mailto:{{ site.TeacherEmail }}">{{ site.TeacherEmail }}</a>
+                </p>  
                 <ul class="list-inline banner-network-buttons">
                     {% for network in site.networks %}
                     <li>
