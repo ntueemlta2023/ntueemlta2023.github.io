@@ -6,10 +6,13 @@ year: "2022 FALL "
 description: "授課教授：吳沛遠"
 
 homeworks:
-  - number: Hw1
+  - number: HW1
     title: Regression
-    spec: https://www.kaggle.com
-    url: https://www.kaggle.com
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slide: https://www.kaggle.com
+    kaggle: https://www.kaggle.com
+    colab: https://colab.research.google.com
+    
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)

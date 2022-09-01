@@ -7,8 +7,17 @@
                     {% for homework in site.homeworks %}
                     <p> {{homework.number}} : {{homework.title}} </p>
                     <li>
-                        <a href="{{ homework.url }}" class="btn btn-default btn-lg">
+                        <a href="{{ homework.video }}" class="btn btn-default btn-lg">
+                            <span class="homework-name">{{ homework.number }} Video</span>
+                        </a>
+                        <a href="{{ homework.slide }}" class="btn btn-default btn-lg">
+                            <span class="homework-name">{{ homework.number }} Slide</span>
+                        </a>
+                        <a href="{{ homework.kaggle }}" class="btn btn-default btn-lg">
                             <span class="homework-name">{{ homework.number }} kaggle</span>
+                        </a>
+                        <a href="{{ homework.colab }}" class="btn btn-default btn-lg">
+                            <span class="homework-name">{{ homework.number }} Colab</span>
                         </a>
                     </li>
                     {% endfor %}
