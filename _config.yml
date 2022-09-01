@@ -19,7 +19,11 @@ syllabus:
   - id: 1
     title: Week 01
     video: https://www.youtube.com/watch?v=Wcp4VAAM468
-
+    slides:
+      - title: Syllabus
+        path: ./slides/ML syllabus (109-1).pdf
+      - title: Introduction
+        path: ./slides/W1a_Introduction.pdf
 
 # Homework
 # Please follow the format below to update the content.

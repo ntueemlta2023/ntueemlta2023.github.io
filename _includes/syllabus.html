@@ -9,10 +9,7 @@
             <ul class="list-group">
                 {% for week in site.syllabus %}
                 <li class="list-group-item" id={{week.id}}>
-                    <div class="w-100 justify-content-between">
-                        <p class="text-left"> {{week.title}} </p>
-
-                    </div>
+                    <p> {{week.title}} </p>
                 </li>
                 {% endfor %}
             </ul>
