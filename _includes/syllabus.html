@@ -8,8 +8,8 @@
                 </div>
                 <ul class="list-group">
                     {% for week in site.syllabus %}
+                    <p> {{week.title}} </p>
                     <li class="list-group-item" id={{week.id}}>
-                        <p> {{week.title}} </p>
                         {% for slide in week.slides %}
                         <a href="{{ slide.path }}" class="btn btn-default btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <span class="slide-name">{{ slide.title }}</span></a>
                         {% endfor %}
