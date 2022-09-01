@@ -9,14 +9,13 @@ homeworks:
   - number: hw1
     title: regression
     spec: https://www.kaggle.com
-    kaggle: https://www.kaggle.com
-  
-
+    url: https://www.kaggle.com
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: Discussion Group
+networks:
+  - kind: facebook
+    title: Discussion Group
     url: https://www.facebook.com/groups/412720760954309/?notif_id=1661958299977609&notif_t=groups_more_posts_in_new_group&ref=notif
 
 # Color settings (hex-codes without the leading hash-tag)
