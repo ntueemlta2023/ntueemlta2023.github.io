@@ -3,16 +3,13 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-8"">
                 <h2>Syllabus</h2>
-                <div class="card">
-                    <p> 課程講義 </p>
-                </div>
+                
                 <ol class="list-group">
                     {% for week in site.syllabus %}
                     <li class="list-group-item list-group-item-action" id={{week.id}}> 
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">L {{week.title}} </h5>
                         </div>
-
                             {% for slide in week.slides %}
                             <a href="{{ slide.path }}" class="btn btn-default btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <span class="slide-name">{{ slide.title }}</span></a>
                             {% endfor %}
