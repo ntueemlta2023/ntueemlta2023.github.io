@@ -5,6 +5,9 @@ url: https://ntueemlta2022.github.io
 year: "2022 FALL "
 description: "授課教授：吳沛遠"
 
+
+# Homework
+# Please follow the format below to update the content.
 homeworks:
   - number: HW1
     title: Regression
@@ -20,12 +23,6 @@ homeworks:
     kaggle: https://www.kaggle.com
     colab: https://colab.research.google.com   
 
-  - number: HW3
-    title: Embedding
-    video: 
-    slide: 
-    kaggle: 
-    colab: 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 networks:
@@ -33,13 +30,14 @@ networks:
     title: Discussion Group
     url: https://www.facebook.com/groups/412720760954309/?notif_id=1661958299977609&notif_t=groups_more_posts_in_new_group&ref=notif
 
+################ website theme design ################
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
   links: '#219ab3'
 
 # Footer settings
-footer: Your Website
+footer: https://ntueemlta2022.github.io
 
 # Build settings
 markdown: kramdown

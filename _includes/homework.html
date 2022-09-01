@@ -4,25 +4,24 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Homework</h2>
-                    <p> - 本學期作業共有5份，以及一份期末專題。</br> 
-                        - We have 5 homeworks and 1 final projects in this course.
+                    <p> - 本學期作業共有 5 份，以及一份期末專題。</br> 
+                        - We have 5 homework and 1 final project in this course.
                     </p>
                     <p>{% for homework in site.homeworks %}</p>
                     <li>
-                        <p> {{homework.number}} : {{homework.title}} 
-                            <a href="{{ homework.video }}" class="btn btn-default btn-lg">
-                                <span class="homework-video">Video</span>
-                            </a>
-                            <a href="{{ homework.slide }}" class="btn btn-default btn-lg">
-                                <span class="homework-slide">Slide</span>
-                            </a>
-                            <a href="{{ homework.kaggle }}" class="btn btn-default btn-lg">
-                                <span class="homework-kaggle">Kaggle</span>
-                            </a>
-                            <a href="{{ homework.colab }}" class="btn btn-default btn-lg">
-                                <span class="homework-colab">Colab</span>
-                            </a>
-                        </p>
+                        <p> {{homework.number}} : {{homework.title}} </p>
+                        <a href="{{ homework.video }}" class="btn btn-default btn-lg">
+                            <span class="homework-video">Video</span>
+                        </a>
+                        <a href="{{ homework.slide }}" class="btn btn-default btn-lg">
+                            <span class="homework-slide">Slide</span>
+                        </a>
+                        <a href="{{ homework.kaggle }}" class="btn btn-default btn-lg">
+                            <span class="homework-kaggle">Kaggle</span>
+                        </a>
+                        <a href="{{ homework.colab }}" class="btn btn-default btn-lg">
+                            <span class="homework-colab">Colab</span>
+                        </a>
                     </li>
                     {% endfor %}
                 </div>
