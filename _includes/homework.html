@@ -4,6 +4,9 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Homework</h2>
+                    <p> - 本學期作業共有5份，以及一份期末專題。</br> 
+                        - We have 5 homeworks and 1 final projects in this course.
+                    </p>
                     <p>{% for homework in site.homeworks %}</p>
                     <li>
                         <p> {{homework.number}} : {{homework.title}} </p>
