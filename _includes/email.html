@@ -7,7 +7,6 @@
                 <p>
                 {% for TA in site.TAs %}
                     助教-{{TA.name}}: <a href="mailto:{{ TA.email }}">{{ TA.email }}</a></br>
-                    
                 {% endfor %}
                 老師信箱: <a href="mailto:{{ site.TeacherEmail }}">{{ site.TeacherEmail }}</a></br></p>
             </div>
