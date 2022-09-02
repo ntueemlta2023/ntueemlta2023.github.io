@@ -291,7 +291,7 @@ a:focus {
     display: block;
     padding: 10px 30px; /*10px 15px*/
     margin-bottom: -1px;
-    background-color: #f8f8ff; /*fff*/
+    background-color: #fff; /*fff*/
     border: 2px solid #ddd; /*1px*/
 }
 
