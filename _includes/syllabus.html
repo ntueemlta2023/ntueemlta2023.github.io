@@ -8,10 +8,11 @@
                     {% for week in site.syllabus %}
                     <li class="list-group-item list-group-item-info"> 
                         <h5 class="text-left">{{week.title}}</h5>
-                        {% for slide in week.slides %}
-                        <a href="{{ slide.path }}" class="btn btn-outline-secondary btn-sm"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <span class="slide-name">{{ slide.title }}</span></a>
-                        {% endfor %}
-                        
+                        <p class="text-right">
+                            {% for slide in week.slides %}
+                            <a href="{{ slide.path }}" class="btn btn-default btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <span class="slide-name">{{ slide.title }}</span></a>
+                            {% endfor %}
+                        </p> 
                     </li>
                     {% endfor %}
                 </ul>
