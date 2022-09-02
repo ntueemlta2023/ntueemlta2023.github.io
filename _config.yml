@@ -51,6 +51,41 @@ syllabus:
         path: ./slides/W3e_DNN tip.pdf
       - title: CNN
         path: ./slides/W4a_CNN.pdf
+  - title: Week 06
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf
+  - title: Week 07
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf
+  - title: Week 08
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf
+  - title: Week 09
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf
+  - title: Week 10
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf
 
 
 # Homework
