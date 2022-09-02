@@ -11,12 +11,12 @@
                     </div>
                     <ul class="list-group">
                         {% for week in site.syllabus %}
-                        <li class="list-group-item"> 
+                        <li class="list-group-item list-group-item-info"> 
                             <h3 class="text-center"> {{week.title}} </h3>
                             <hr/>
                             <p class="text-center">
                                 {% for slide in week.slides %}
-                                <a href="{{ slide.path }}" class="btn btn-default btn-sm"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><span class="slide-name">{{ slide.title }}</span></a>
+                                <a href="{{ slide.path }}" class="btn btn-default btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><span class="slide-name">{{ slide.title }}</span></a>
                                 {% endfor %}
                             </p> 
                         </li>
