@@ -2,28 +2,32 @@
     <section id="homework" class="content-section text-center">
         <div class="homework-section">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-6 col-lg-offset-3">
                     <h2>Homework</h2>
                     <p> - 本學期作業共有 5 份，以及一份期末專題。</br> 
                         - We have 5 homework and 1 final project in this course.
                     </p>
-                    <p>{% for homework in site.homeworks %}</p>
-                    
-                        <p> {{homework.number}} : {{homework.title}} </p>
-                        <a href="{{ homework.video }}" class="btn btn-default btn-lg"><i class="fa fa-youtube-play" aria-hidden="true"></i>
-                            <span class="homework-video">Video</span>
-                        </a>
-                        <a href="{{ homework.slide }}" class="btn btn-default btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                            <span class="homework-slide">Slide</span>
-                        </a>
-                        <a href="{{ homework.kaggle }}" class="btn btn-default btn-lg"><i class="fab fa-kaggle"></i>
-                            <span class="homework-kaggle">Kaggle</span>
-                        </a>
-                        <a href="{{ homework.colab }}" class="btn btn-default btn-lg"><i class="fa fa-python"></i>
-                            <span class="homework-colab">Code</span>
-                        </a>
-                    
-                    {% endfor %}
+
+                    <ul class="list-group">
+                        {% for homework in site.homeworks %}
+                        <li class="list-group-item list-group-item-info"> 
+                            <h3 class="text-left"> {{week.title}} </h3> 
+
+                            <a href="{{ homework.video }}" class="btn btn-default btn-lg"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                <span class="homework-video">Video</span>
+                            </a>
+                            <a href="{{ homework.slide }}" class="btn btn-default btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                                <span class="homework-slide">Slide</span>
+                            </a>
+                            <a href="{{ homework.kaggle }}" class="btn btn-default btn-lg"><i class="fab fa-kaggle"></i>
+                                <span class="homework-kaggle">Kaggle</span>
+                            </a>
+                            <a href="{{ homework.colab }}" class="btn btn-default btn-lg"><i class="fa fa-python"></i>
+                                <span class="homework-colab">Code</span>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
         </div>
