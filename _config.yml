@@ -23,6 +23,10 @@ syllabus:
         path: ./slides/ML syllabus (109-1).pdf
       - title: Introduction
         path: ./slides/W1a_Introduction.pdf
+      - title: Syllabus
+        path: ./slides/ML syllabus (109-1).pdf
+      - title: Introduction
+        path: ./slides/W1a_Introduction.pdf
   - title: Week 02
     video: https://www.youtube.com/watch?v=Wcp4VAAM468
     slides:
