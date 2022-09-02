@@ -285,16 +285,6 @@ a:focus {
     }
 }
 
-.list-group-item{
-    overflow:hidden;  
-    position: relative;
-    display: block;
-    padding: 10px 30px; /*10px 15px*/
-    margin-bottom: -1px;
-    background-color: #f8f8ff; /*fff*/
-    border: 2px solid #ddd; /*1px*/
-}
-
 .btn {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
