@@ -153,21 +153,14 @@ syllabus:
 # Homework
 # Please follow the format below to update the content.
 homeworks:
-  - number: HW1
-    title: Regression
+  - title: HW1 - Regression
     video: https://www.youtube.com/watch?v=Wcp4VAAM468
     slide: https://www.kaggle.com
     kaggle: https://www.kaggle.com
     colab: https://colab.research.google.com
-
-  - number: HW2
-    title: CNN
-    video: https://www.youtube.com/watch?v=Wcp4VAAM468
-    slide: https://www.kaggle.com
-    kaggle: https://www.kaggle.com
-    colab: https://colab.research.google.com   
  
-  - number: HW2 - CNN
+ 
+  - title: HW2 - CNN
     video: https://www.youtube.com/watch?v=Wcp4VAAM468
     slide: https://www.kaggle.com
     kaggle: https://www.kaggle.com
