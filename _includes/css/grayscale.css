@@ -252,18 +252,6 @@ a:focus {
     padding-top: 100px;
 }
 
-.syllabus-section {
-    width: 100%;
-    padding: 80px 0;
-    color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
 .homework-section {
     width: 100%;
     padding: 80px 0;
@@ -286,11 +274,7 @@ a:focus {
     .content-section {
         padding-top: 200px;
     }
-
-    .syllabus-section {
-        padding-top: 100px 0;
-    }
-
+    
     .homework-section {
         padding: 100px 0;
     }
