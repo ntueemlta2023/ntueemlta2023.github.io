@@ -6,12 +6,13 @@
                 <h2>Syllabus</h2>
                 <div class="card">
                     <div class="card-header">
-                    <h3><i class="fa fa-bars" aria-hidden="true">課程講義 </i></h3>
+                    <h3><i class="fa fa-bars" aria-hidden="true"> 課程講義 </i></h3>
                     </div>
                     <ul class="list-group">
                         {% for week in site.syllabus %}
                         <li class="list-group-item list-group-item-info"> 
                             <h3 class="text-left">{{week.title}}</h3>
+                            <hr/>
                             <p class="text-right">
                                 {% for slide in week.slides %}
                                 <a href="{{ slide.path }}" class="btn btn-default btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <span class="slide-name">{{ slide.title }}</span></a>
