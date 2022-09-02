@@ -192,10 +192,14 @@ homeworks:
 
 # Resources:
 resources:
-  - title: 2021 機器學習網站
+  - title: 2021 fall 機器學習網站 - 吳沛遠
     url: https://ntueeml.github.io/ml-website/
-  - title: 2021 機器學習網站
-    url: https://ntueeml.github.io/ml-website/
+
+  - title: 2022 spring 機器學習網站 - 李宏毅
+    url: https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php
+    
+  - title: 李宏毅 Youtube
+    url: https://www.youtube.com/c/HungyiLeeNTU
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 networks:
