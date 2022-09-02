@@ -190,6 +190,11 @@ homeworks:
     kaggle: https://www.kaggle.com
     colab: https://colab.research.google.com   
 
+# Resources:
+resources:
+    title: 2021 機器學習網站
+    url: https://ntueeml.github.io/ml-website/
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 networks:
   - kind: facebook

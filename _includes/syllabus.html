@@ -24,9 +24,11 @@
                 </div>
                 <div class="card">
                     <h3 class="text-left"><i class="fa fa-link" aria-hidden="true"></i> 其他連結</h3>
+                    {% for resource in site.resources %}
                     <ul>
-                        <li><h4 class="text-left"><a href="https://ntueeml.github.io/ml-website/"> 2021 機器學習網站 </a></h4></li>
+                        <li><h4 class="text-left"><a href="{{resources.url}}"> {{resources.title}} </a></h4></li>
                     </ul>
+                    {% endfor %}
                 </div>
 
             </div>
