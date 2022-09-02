@@ -274,7 +274,7 @@ a:focus {
     .content-section {
         padding-top: 200px;
     }
-    
+
     .homework-section {
         padding: 100px 0;
     }
@@ -284,6 +284,17 @@ a:focus {
         margin-top: 250px;
     }
 }
+
+.list-group-item{
+    overflow:hidden;  
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
 
 .btn {
     text-transform: uppercase;
