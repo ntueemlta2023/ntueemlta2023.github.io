@@ -24,45 +24,50 @@ syllabus:
         path: ./slides/ML syllabus (109-1).pdf
       - title: Introduction
         path: ./slides/W1a_Introduction.pdf
-      - title: Syllabus
-        path: ./slides/ML syllabus (109-1).pdf
-      - title: Introduction
-        path: ./slides/W1a_Introduction.pdf
+      - title: Regression
+        path: ./slides/W1b_Regression.pdf
   - title: Week 02
     video: https://www.youtube.com/watch?v=Wcp4VAAM468
     slides:
-      - title: DNN
-        path: ./slides/W3e_DNN tip.pdf
-      - title: CNN
-        path: ./slides/W4a_CNN.pdf
+      - title: Bias and Variance
+        path: ./slides/W2a_Bias and Variance.pdf
+      - title: Classification
+        path: ./slides/W2b_Classification (v2).pdf
+      - title: Logistic Regression
+        path: ./slides/W2c_Logistic Regression (v4).pdf
   - title: Week 03
     video: https://www.youtube.com/watch?v=Wcp4VAAM468
     slides:
+      - title: Deep_Learning
+        path: ./slides/W3a_DL_introduction.pdf
+      - title: Gradient Descent
+        path: ./slides/W3b_Gradient Descent.pdf
+      - title: Backpropagation
+        path: ./slides/W3c_BP (v2).pdf
+      - title: Backpropagation
+        path: ./slides/W3c_BP (v2).pdf      
+      - title: Backpropagation
+        path: ./slides/W3c_BP (v2).pdf    
       - title: DNN
         path: ./slides/W3e_DNN tip.pdf
-      - title: CNN
-        path: ./slides/W4a_CNN.pdf
   - title: Week 04
     video: https://www.youtube.com/watch?v=Wcp4VAAM468
     slides:
-      - title: DNN
-        path: ./slides/W3e_DNN tip.pdf
       - title: CNN
         path: ./slides/W4a_CNN.pdf
   - title: Week 05
     video: https://www.youtube.com/watch?v=Wcp4VAAM468
     slides:
-      - title: DNN
-        path: ./slides/W3e_DNN tip.pdf
-      - title: CNN
-        path: ./slides/W4a_CNN.pdf
+      - title: PCA
+        path: ./slides/W5a_PCA.pdf
   - title: Week 06
     video: https://www.youtube.com/watch?v=Wcp4VAAM468
     slides:
-      - title: DNN
-        path: ./slides/W3e_DNN tip.pdf
-      - title: CNN
-        path: ./slides/W4a_CNN.pdf
+      - title: Auto Encoder
+        path: ./slides/W6a_auto.pdf
+      - title: TSNE
+        path: ./slides/W6b_TSNE.pdf
+  
   - title: Week 07
     video: https://www.youtube.com/watch?v=Wcp4VAAM468
     slides:
