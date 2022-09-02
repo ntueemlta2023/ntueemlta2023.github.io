@@ -18,7 +18,7 @@ TAs:
 # Syllabus
 syllabus:
   - title: Week 01
-    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    video: https://drive.google.com/drive/folders/1-iHwvCefqNQCySxwoohmYbpePZq7wqoR
     slides:
       - title: Syllabus
         path: ./slides/ML syllabus (109-1).pdf
@@ -27,7 +27,7 @@ syllabus:
       - title: Regression
         path: ./slides/W1b_Regression.pdf
   - title: Week 02
-    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    video: https://drive.google.com/drive/folders/1jGBuc7pZehO_9FMdTL1ahfTVIGp5aoj2?usp=sharing
     slides:
       - title: Bias and Variance
         path: ./slides/W2a_Bias and Variance.pdf
@@ -36,32 +36,28 @@ syllabus:
       - title: Logistic Regression
         path: ./slides/W2c_Logistic Regression (v4).pdf
   - title: Week 03
-    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    video: https://drive.google.com/drive/folders/1telw5nIfU2zAojDErOETD2RF3lx7SirZ?usp=sharing
     slides:
       - title: Deep_Learning
         path: ./slides/W3a_DL_introduction.pdf
       - title: Gradient Descent
         path: ./slides/W3b_Gradient Descent.pdf
       - title: Backpropagation
-        path: ./slides/W3c_BP (v2).pdf
-      - title: Backpropagation
-        path: ./slides/W3c_BP (v2).pdf      
-      - title: Backpropagation
-        path: ./slides/W3c_BP (v2).pdf    
+        path: ./slides/W3c_BP (v2).pdf  
       - title: DNN
         path: ./slides/W3e_DNN tip.pdf
   - title: Week 04
-    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    video: https://www.youtube.com/watch?v=OP5HcXJg2Aw&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J&index=10
     slides:
       - title: CNN
         path: ./slides/W4a_CNN.pdf
   - title: Week 05
-    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    video: https://drive.google.com/drive/folders/1FCQjw6BMc-AjKwQJlYZp_mpPbPKyuNXC?usp=sharing
     slides:
       - title: PCA
         path: ./slides/W5a_PCA.pdf
   - title: Week 06
-    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    video: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
     slides:
       - title: Auto Encoder
         path: ./slides/W6a_auto.pdf
