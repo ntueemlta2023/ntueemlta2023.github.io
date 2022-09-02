@@ -86,7 +86,69 @@ syllabus:
         path: ./slides/W3e_DNN tip.pdf
       - title: CNN
         path: ./slides/W4a_CNN.pdf
-
+  - title: Week 11
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf
+  - title: Week 12
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf
+  - title: Week 02
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf        
+  - title: Week 13
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf
+  - title: Week 14
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf
+  - title: Week 15
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf
+  - title: Week 16
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf
+  - title: Week 17
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf
+  - title: Week 18
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slides:
+      - title: DNN
+        path: ./slides/W3e_DNN tip.pdf
+      - title: CNN
+        path: ./slides/W4a_CNN.pdf
 
 # Homework
 # Please follow the format below to update the content.
@@ -104,7 +166,30 @@ homeworks:
     slide: https://www.kaggle.com
     kaggle: https://www.kaggle.com
     colab: https://colab.research.google.com   
+ 
+  - number: HW2 - CNN
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slide: https://www.kaggle.com
+    kaggle: https://www.kaggle.com
+    colab: https://colab.research.google.com   
 
+  - title: HW3 - CNN
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slide: https://www.kaggle.com
+    kaggle: https://www.kaggle.com
+    colab: https://colab.research.google.com   
+
+  - title: HW4 - CNN
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slide: https://www.kaggle.com
+    kaggle: https://www.kaggle.com
+    colab: https://colab.research.google.com   
+
+  - title: HW5 - CNN
+    video: https://www.youtube.com/watch?v=Wcp4VAAM468
+    slide: https://www.kaggle.com
+    kaggle: https://www.kaggle.com
+    colab: https://colab.research.google.com   
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 networks:
