@@ -189,7 +189,10 @@ networks:
   - kind: facebook
     title: Join Discussion
     url: https://www.facebook.com/groups/412720760954309/?notif_id=1661958299977609&notif_t=groups_more_posts_in_new_group&ref=notif
-
+  - kind: gmail
+    title: Email
+    url: ntueemlta2022@gmail.com
+    
 ################ website theme design ################
 # Color settings (hex-codes without the leading hash-tag)
 color:
