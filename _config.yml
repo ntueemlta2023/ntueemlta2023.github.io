@@ -76,7 +76,6 @@ syllabus:
         kind: play-circle
         path: https://www.youtube.com/watch?v=OP5HcXJg2Aw&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J&index=10
 
-
   - title: Week 05
     slides:
       - title: PCA
@@ -94,6 +93,18 @@ syllabus:
       - title: TSNE
         kind: file-pdf-o
         path: ./slides/W6b_TSNE.pdf
+      - title: W6-video
+        kind: play-circle
+        path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+
+  - title: Week 07
+    slides:
+      - title: RNN
+        kind: file-pdf-o
+        path: ./slides/W7_RNN.pdf
+      - title: TSNE
+        kind: Gradient Boosting
+        path: ./slides/W7_Gradient_boosting.pdf
       - title: W6-video
         kind: play-circle
         path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
@@ -117,23 +128,25 @@ homeworks:
       - title: colab # colab
         kind: cloud 
         url: https://colab.research.google.com
+
+   - title: To Be Discussed...
+
+  # - title: HW2 - CNN
+  #   links:
+  #     - title: video # video
+  #       kind: youtube-play 
+  #       url: https://www.youtube.com/watch?v=Wcp4VAAM468
+  #     - title: slide # slide
+  #       kind: file-pdf-o 
+  #       url: https://www.kaggle.com
+  #     - title: kaggle # kaggle
+  #       kind: tasks  
+  #       url: https://www.kaggle.com
+  #     - title: colab # colab
+  #       kind: cloud 
+  #       url: https://colab.research.google.com
  
-  - title: HW2 - CNN
-    links:
-      - title: video # video
-        kind: youtube-play 
-        url: https://www.youtube.com/watch?v=Wcp4VAAM468
-      - title: slide # slide
-        kind: file-pdf-o 
-        url: https://www.kaggle.com
-      - title: kaggle # kaggle
-        kind: tasks  
-        url: https://www.kaggle.com
-      - title: colab # colab
-        kind: cloud 
-        url: https://colab.research.google.com
- 
-  - title: More to go...
+
 
 # Resources:
 resources:
