@@ -108,10 +108,12 @@ syllabus:
       - title: TSNE
         kind: Gradient Boosting
         path: ./slides/W7_Gradient_boosting.pdf
-      # - title: W6-video
-      #   kind: play-circle
-      #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
-
+      - title: W6-video
+        kind: play-circle
+        path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+      - title: W6-video-cnn
+        kind: play-circle
+        path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
   - title: More to go...
   
 # Homework
