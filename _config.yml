@@ -26,28 +26,37 @@ syllabus:
     slides:
       - title: Syllabus
         kind: file-pdf-o
-        path: ./slides/ML syllabus (109-1).pdf
-      - title: Introduction
-        kind: file-pdf-o
-        path: ./slides/W1a_Introduction.pdf
-      - title: Regression
-        kind: file-pdf-o
-        path: ./slides/W1b_Regression.pdf
+        path: ./slides/week1/ML syllabus (109-1).pdf
       # - title: W1-video
       #   kind: play-circle
       #   path: https://drive.google.com/drive/folders/1-iHwvCefqNQCySxwoohmYbpePZq7wqoR
 
   - title: Week 02
     slides:
+      - title: Syllabus
+        kind: file-pdf-o
+        path: ./slides/week2/W2_ML syllabus (109-1).pdf
+      - title: Introduction
+        kind: file-pdf-o
+        path: ./slides/week2/W2_Introduction.pdf
+      - title: Regression
+        kind: file-pdf-o
+        path: ./slides/week2/W2_Regression.pdf
+      # - title: W1-video
+      #   kind: play-circle
+      #   path: https://drive.google.com/drive/folders/1-iHwvCefqNQCySxwoohmYbpePZq7wqoR
+
+  - title: Week 03
+    slides:
       - title: Bias and Variance
         kind: file-pdf-o
-        path: ./slides/W2a_Bias and Variance.pdf
+        path: ./slides/W3a_Bias and Variance.pdf
       - title: Classification
         kind: file-pdf-o
-        path: ./slides/W2b_Classification (v2).pdf
+        path: ./slides/W3b_Classification (v2).pdf
       - title: Logistic Regression
         kind: file-pdf-o
-        path: ./slides/W2c_Logistic Regression (v4).pdf
+        path: ./slides/W3c_Logistic Regression (v4).pdf
       # - title: W2-video
       #   kind: play-circle
       #   path: https://drive.google.com/drive/folders/1jGBuc7pZehO_9FMdTL1ahfTVIGp5aoj2?usp=sharing
@@ -108,12 +117,10 @@ syllabus:
       - title: TSNE
         kind: Gradient Boosting
         path: ./slides/W7_Gradient_boosting.pdf
-      - title: W6-video
-        kind: play-circle
-        path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
-      - title: W6-video-cnn
-        kind: play-circle
-        path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+      # - title: W6-video
+      #   kind: play-circle
+      #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+
   - title: More to go...
   
 # Homework
