@@ -1,11 +1,14 @@
+###### EDIT NOTE ######
+# 1. You can update website by simply updating this config file!
+# 2. Please follow the format to edit. (alignment, variable name, etc.)
+# 3. For more detail, please contact author: R10942198@ntu.edu.tw
+
 # Site settings
-# You can update website by simply updating this config file!
 title: Machine Learning 
 TeacherEmail: peiyuanwu@ntu.edu.tw
 description: "Pei-Yuan Wu"
 location: 106 臺北市大安區羅斯福路四段 1 號博理館 530 室
 phone: 02-3366-3700 ext.6530
-
 
 url: https://ntueemlta2022.github.io
 year: "2022 Fall"
@@ -150,11 +153,11 @@ homeworks:
 
 # Resources:
 resources:
-  - title: 2021 fall 機器學習網站 - 吳沛遠
-    url: https://ntueeml.github.io/ml-website/
-
   - title: 2022 spring 機器學習網站 - 李宏毅
     url: https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php
+
+  - title: 2021 fall 機器學習網站 - 吳沛遠
+    url: https://ntueeml.github.io/ml-website/
 
   - title: 李宏毅 Youtube
     url: https://www.youtube.com/c/HungyiLeeNTU
