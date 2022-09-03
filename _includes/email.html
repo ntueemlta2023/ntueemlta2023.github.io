@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Email</h2>
-                <i class="fa fa-envelope" aria-hidden="true"></i><p> 助教信箱: <a href="mailto:{{ site.TAemail }}">{{ site.TAemail }}</a></br></p>
+                <p><i class="fa fa-envelope" aria-hidden="true"></i> 助教信箱: <a href="mailto:{{ site.TAemail }}">{{ site.TAemail }}</a></br></p>
                 <p>
                 {% for TA in site.TAs %}
                     - 助教 {{TA.name}}: <a href="mailto:{{ TA.email }}">{{ TA.email }}</a></br>
