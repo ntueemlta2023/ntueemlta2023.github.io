@@ -131,49 +131,6 @@ homeworks:
       - title: colab # colab
         kind: cloud 
         url: https://colab.research.google.com
-  - title: HW1 - Regression
-    links:
-      - title: video # video
-        kind: youtube-play 
-        url: https://www.youtube.com/watch?v=Wcp4VAAM468
-      - title: slide # slide
-        kind: file-pdf-o 
-        url: https://www.kaggle.com
-      - title: kaggle # kaggle
-        kind: tasks  
-        url: https://www.kaggle.com
-      - title: colab # colab
-        kind: cloud 
-        url: https://colab.research.google.com
-  - title: HW1 - Regression
-    links:
-      - title: video # video
-        kind: youtube-play 
-        url: https://www.youtube.com/watch?v=Wcp4VAAM468
-      - title: slide # slide
-        kind: file-pdf-o 
-        url: https://www.kaggle.com
-      - title: kaggle # kaggle
-        kind: tasks  
-        url: https://www.kaggle.com
-      - title: colab # colab
-        kind: cloud 
-        url: https://colab.research.google.com  
-  - title: HW1 - Regression
-    links:
-      - title: video # video
-        kind: youtube-play 
-        url: https://www.youtube.com/watch?v=Wcp4VAAM468
-      - title: slide # slide
-        kind: file-pdf-o 
-        url: https://www.kaggle.com
-      - title: kaggle # kaggle
-        kind: tasks  
-        url: https://www.kaggle.com
-      - title: colab # colab
-        kind: cloud 
-        url: https://colab.research.google.com   
-  - title: To Be Discussed...
 
   # - title: HW2 - CNN
   #   links:
@@ -189,6 +146,55 @@ homeworks:
   #     - title: colab # colab
   #       kind: cloud 
   #       url: https://colab.research.google.com
+
+  # - title: HW3 - Embedding
+  #   links:
+  #     - title: video # video
+  #       kind: youtube-play 
+  #       url: https://www.youtube.com/watch?v=Wcp4VAAM468
+  #     - title: slide # slide
+  #       kind: file-pdf-o 
+  #       url: https://www.kaggle.com
+  #     - title: kaggle # kaggle
+  #       kind: tasks  
+  #       url: https://www.kaggle.com
+  #     - title: colab # colab
+  #       kind: cloud 
+  #       url: https://colab.research.google.com  
+
+  # - title: HW4 - RNN
+  #   links:
+  #     - title: video # video
+  #       kind: youtube-play 
+  #       url: https://www.youtube.com/watch?v=Wcp4VAAM468
+  #     - title: slide # slide
+  #       kind: file-pdf-o 
+  #       url: https://www.kaggle.com
+  #     - title: kaggle # kaggle
+  #       kind: tasks  
+  #       url: https://www.kaggle.com
+  #     - title: colab # colab
+  #       kind: cloud 
+  #       url: https://colab.research.google.com  
+
+  # - title: HW5 - SVM
+  #   links:
+  #     - title: video # video
+  #       kind: youtube-play 
+  #       url: https://www.youtube.com/watch?v=Wcp4VAAM468
+  #     - title: slide # slide
+  #       kind: file-pdf-o 
+  #       url: https://www.kaggle.com
+  #     - title: kaggle # kaggle
+  #       kind: tasks  
+  #       url: https://www.kaggle.com
+  #     - title: colab # colab
+  #       kind: cloud 
+  #       url: https://colab.research.google.com  
+
+  - title: To Be Discussed...
+
+
  
 
 
