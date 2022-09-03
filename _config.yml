@@ -211,7 +211,7 @@ networks:
 color:
   primary-dark: '#000000'
   links: '#219ab3' # color for button
-  special_links: '#FFCC00'
+  special-links: '#FFCC00'
 
 # Footer settings
 footer: https://ntueemlta2022.github.io

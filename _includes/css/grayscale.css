@@ -40,7 +40,7 @@ p {
     p {
         margin: 0 0 35px;
         font-size: 20px;
-        line-height: 1.0;
+        line-height: 1.6;
     }
 }
 
@@ -324,6 +324,12 @@ a:focus {
     color: {{ site.color.primary-dark }};
     background-color: {{ site.color.links }};
 }
+
+/* NEW */
+.special-links {
+    color: {{ site.color.special-links }};
+}
+
 
 ul.banner-social-buttons {
     margin-top: 0;
