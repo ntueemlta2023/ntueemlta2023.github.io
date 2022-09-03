@@ -77,7 +77,6 @@ syllabus:
         path: https://www.youtube.com/watch?v=OP5HcXJg2Aw&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J&index=10
 
 
-        
   - title: Week 05
     slides:
       - title: PCA
@@ -115,7 +114,7 @@ homeworks:
       - title: kaggle # kaggle
         kind: tasks  
         url: https://www.kaggle.com
-      = title: colab # colab
+      - title: colab # colab
         kind: cloud 
         url: https://colab.research.google.com
  
@@ -130,7 +129,7 @@ homeworks:
       - title: kaggle # kaggle
         kind: tasks  
         url: https://www.kaggle.com
-      = title: colab # colab
+      - title: colab # colab
         kind: cloud 
         url: https://colab.research.google.com
  
