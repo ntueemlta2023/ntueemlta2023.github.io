@@ -16,9 +16,9 @@
                             <hr/>
                             <p class="text-center">
                                 {% for slide in week.slides %}
-                                <a href="{{ slide.path }}" class="btn btn-default btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><span class="slide-name"> {{slide.title}}</span></a>
+                                <a href="{{ slide.path }}" class="btn btn-default btn-lg"><i class="fa fa-{{slide.kind}}" aria-hidden="true"></i><span class="slide-name"> {{slide.title}}</span></a>
                                 {% endfor %}
-                            </p> 
+                            </p>  
                         </li>
                         {% endfor %}
                     </ul>
