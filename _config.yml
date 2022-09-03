@@ -98,42 +98,42 @@ syllabus:
       - title: W6-video
         kind: play-circle
         path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
-    
+
   - title: More to go...
   
 # Homework
 # Please follow the format below to update the content.
 homeworks:
   - title: HW1 - Regression
-    video: https://www.youtube.com/watch?v=Wcp4VAAM468
-    slide: https://www.kaggle.com
-    kaggle: https://www.kaggle.com
-    colab: https://colab.research.google.com
- 
+    links:
+      - title: video # video
+        kind: youtube-play 
+        url: https://www.youtube.com/watch?v=Wcp4VAAM468
+      - title: slide # slide
+        kind: file-pdf-o 
+        url: https://www.kaggle.com
+      - title: kaggle # kaggle
+        kind: tasks  
+        url: https://www.kaggle.com
+      = title: colab # colab
+        kind: cloud 
+        url: https://colab.research.google.com
  
   - title: HW2 - CNN
-    video: https://www.youtube.com/watch?v=Wcp4VAAM468
-    slide: https://www.kaggle.com
-    kaggle: https://www.kaggle.com
-    colab: https://colab.research.google.com   
-
-  - title: HW3 - CNN
-    video: https://www.youtube.com/watch?v=Wcp4VAAM468
-    slide: https://www.kaggle.com
-    kaggle: https://www.kaggle.com
-    colab: https://colab.research.google.com   
-
-  - title: HW4 - CNN
-    video: https://www.youtube.com/watch?v=Wcp4VAAM468
-    slide: https://www.kaggle.com
-    kaggle: https://www.kaggle.com
-    colab: https://colab.research.google.com   
-
-  - title: HW5 - CNN
-    video: https://www.youtube.com/watch?v=Wcp4VAAM468
-    slide: https://www.kaggle.com
-    kaggle: https://www.kaggle.com
-    colab: https://colab.research.google.com   
+    links:
+      - title: video # video
+        kind: youtube-play 
+        url: https://www.youtube.com/watch?v=Wcp4VAAM468
+      - title: slide # slide
+        kind: file-pdf-o 
+        url: https://www.kaggle.com
+      - title: kaggle # kaggle
+        kind: tasks  
+        url: https://www.kaggle.com
+      = title: colab # colab
+        kind: cloud 
+        url: https://colab.research.google.com
+ 
 
 # Resources:
 resources:
