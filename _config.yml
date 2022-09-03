@@ -33,9 +33,9 @@ syllabus:
       - title: Regression
         kind: file-pdf-o
         path: ./slides/W1b_Regression.pdf
-      - title: W1-video
-        kind: play-circle
-        path: https://drive.google.com/drive/folders/1-iHwvCefqNQCySxwoohmYbpePZq7wqoR
+      # - title: W1-video
+      #   kind: play-circle
+      #   path: https://drive.google.com/drive/folders/1-iHwvCefqNQCySxwoohmYbpePZq7wqoR
 
   - title: Week 02
     slides:
@@ -48,9 +48,9 @@ syllabus:
       - title: Logistic Regression
         kind: file-pdf-o
         path: ./slides/W2c_Logistic Regression (v4).pdf
-      - title: W2-video
-        kind: play-circle
-        path: https://drive.google.com/drive/folders/1jGBuc7pZehO_9FMdTL1ahfTVIGp5aoj2?usp=sharing
+      # - title: W2-video
+      #   kind: play-circle
+      #   path: https://drive.google.com/drive/folders/1jGBuc7pZehO_9FMdTL1ahfTVIGp5aoj2?usp=sharing
 
   - title: Week 03
     slides:
@@ -66,27 +66,27 @@ syllabus:
       - title: DNN
         kind: file-pdf-o
         path: ./slides/W3e_DNN tip.pdf
-      - title: W3-video
-        kind: play-circle
-        path: https://drive.google.com/drive/folders/1telw5nIfU2zAojDErOETD2RF3lx7SirZ?usp=sharing
+      # - title: W3-video
+      #   kind: play-circle
+      #   path: https://drive.google.com/drive/folders/1telw5nIfU2zAojDErOETD2RF3lx7SirZ?usp=sharing
   
   - title: Week 04
     slides:
       - title: CNN
         kind: file-pdf-o
         path: ./slides/W4a_CNN.pdf
-      - title: W4-video
-        kind: play-circle
-        path: https://www.youtube.com/watch?v=OP5HcXJg2Aw&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J&index=10
+      # - title: W4-video
+      #   kind: play-circle
+      #   path: https://www.youtube.com/watch?v=OP5HcXJg2Aw&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J&index=10
 
   - title: Week 05
     slides:
       - title: PCA
         kind: file-pdf-o
         path: ./slides/W5a_PCA.pdf
-      - title: W5-video
-        kind: play-circle
-        path: https://drive.google.com/drive/folders/1FCQjw6BMc-AjKwQJlYZp_mpPbPKyuNXC?usp=sharing
+      # - title: W5-video
+      #   kind: play-circle
+      #   path: https://drive.google.com/drive/folders/1FCQjw6BMc-AjKwQJlYZp_mpPbPKyuNXC?usp=sharing
    
   - title: Week 06
     slides:
@@ -96,9 +96,9 @@ syllabus:
       - title: TSNE
         kind: file-pdf-o
         path: ./slides/W6b_TSNE.pdf
-      - title: W6-video
-        kind: play-circle
-        path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+      # - title: W6-video
+      #   kind: play-circle
+      #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
 
   - title: Week 07
     slides:
@@ -108,9 +108,9 @@ syllabus:
       - title: TSNE
         kind: Gradient Boosting
         path: ./slides/W7_Gradient_boosting.pdf
-      - title: W6-video
-        kind: play-circle
-        path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+      # - title: W6-video
+      #   kind: play-circle
+      #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
 
   - title: More to go...
   
