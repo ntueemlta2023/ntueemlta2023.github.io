@@ -24,17 +24,9 @@
                             <h3 class="text-center"> {{homework.title}} </h3> 
                             <hr/>
                             <p class="text-center">
-                                <a href="{{ homework.video }}" class="btn btn-default btn-lg"><i class="fa fa-youtube-play"></i>
-                                    <span class="homework-video"> Video</span>
-                                </a>
-                                <a href="{{ homework.slide }}" class="btn btn-default btn-lg"><i class="fa fa-file-pdf-o"></i>
-                                    <span class="homework-slide"> Slide</span>
-                                </a>
-                                <a href="{{ homework.kaggle }}" class="btn btn-default btn-lg"><i class="fa fa-tasks"></i>
-                                    <span class="homework-kaggle"> Kaggle</span>
-                                </a>
-                                <a href="{{ homework.colab }}" class="btn btn-default btn-lg"><i class="fa fa-cloud"></i>
-                                    <span class="homework-colab"> Code</span>
+                                {% for link in homework.links %}
+                                <a href="{{ link.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{link.kind}}"></i>
+                                    <span>{{link.title}}</span>
                                 </a>
                             </p>
                         </li>
