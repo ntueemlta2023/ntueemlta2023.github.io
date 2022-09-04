@@ -118,7 +118,7 @@ syllabus:
       - title: Ensemble    
         kind: file-pdf-o
         path: ./slides/week8/W8_ensemble.pdf
-      - title: Neighbor Embedding
+      - title: AdaBoost
         kind: Gradient Boosting
         path: ./slides/week8/W8_adaBoost.pdf
       # - title: W8-video
