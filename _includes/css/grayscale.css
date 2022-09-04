@@ -254,6 +254,7 @@ a:focus {
 
 .homework-section {
     width: 100%;
+    height: auto;
     padding: 80px 0;
     color: #fff;
     background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
