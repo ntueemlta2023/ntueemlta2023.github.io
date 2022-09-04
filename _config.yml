@@ -23,7 +23,7 @@ TAs:
 
 # Syllabus
 syllabus:
-  - title: Week 01 - Moon Fest.
+  - title: Week 01 (Moon Fest.)
     slides:
       - title: Syllabus
         kind: file-pdf-o
@@ -104,7 +104,7 @@ syllabus:
       #   kind: play-circle
       #   path: https://drive.google.com/drive/folders/1FCQjw6BMc-AjKwQJlYZp_mpPbPKyuNXC?usp=sharing
    
-  - title: Week 07 - Guest Lecture
+  - title: Week 07 (Guest Lecture)
     slides:
       # - title: W7-video
       #   kind: play-circle
@@ -182,10 +182,10 @@ syllabus:
   - title: Week 14
     slides:
       
-  - title: Week 15 - Guest Lecture
+  - title: Week 15 (Guest Lecture)
     slides:
       
-  - title: Week 16 - Final
+  - title: Week 16 (Final)
     slides:
  
 
