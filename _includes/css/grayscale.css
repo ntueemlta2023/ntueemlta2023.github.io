@@ -324,13 +324,18 @@ a:focus {
 /* NEW */
 .special-links {
     color: {{ site.color.special-links }};
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .special-links:hover,
 .special-links:focus {
     text-decoration: none;
-    color: #11505d;
+    color: #9b870c;
 }
+/* End NEW */
+
 
 ul.banner-social-buttons {
     margin-top: 0;
