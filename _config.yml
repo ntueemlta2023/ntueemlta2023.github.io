@@ -198,12 +198,25 @@ syllabus:
       
   - title: Week 16 - Final
     slides:
+ 
+
+# Resources:
+resources:
+  - title: 2022 spring 機器學習網站 - 李宏毅
+    url: https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php
+
+  - title: 2021 fall 機器學習網站 - 吳沛遠
+    url: https://ntueeml.github.io/ml-website/
+
+  - title: 李宏毅教授 Youtube
+    url: https://www.youtube.com/c/HungyiLeeNTU
+
 
 # Homework
 # Please follow the format below to update the content.
 
 homeworks:
-  # - title: HW1 - Regression
+  - title: HW1 - Regression (TBD)
   #   links:
   #     - title: video # video
   #       kind: youtube-play 
@@ -278,28 +291,13 @@ homeworks:
   #       kind: cloud 
   #       url: https://colab.research.google.com  
 
-  - title: To Be Discussed...
-
-
- 
-
-
-# Resources:
-resources:
-  - title: 2022 spring 機器學習網站 - 李宏毅
-    url: https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php
-
-  - title: 2021 fall 機器學習網站 - 吳沛遠
-    url: https://ntueeml.github.io/ml-website/
-
-  - title: 李宏毅教授 Youtube
-    url: https://www.youtube.com/c/HungyiLeeNTU
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 networks:
   - kind: facebook
     title: Join Discussion
     url: https://www.facebook.com/groups/412720760954309/?notif_id=1661958299977609&notif_t=groups_more_posts_in_new_group&ref=notif
+
 
 ################ website theme design ################
 # Color settings (hex-codes without the leading hash-tag)
