@@ -22,7 +22,7 @@ TAs:
 
 # Syllabus
 syllabus:
-  - title: Week 01 (Moon Fest.)
+  - title: Week 01 - Moon Fest.
     slides:
       - title: Syllabus
         kind: file-pdf-o
@@ -103,7 +103,7 @@ syllabus:
       #   kind: play-circle
       #   path: https://drive.google.com/drive/folders/1FCQjw6BMc-AjKwQJlYZp_mpPbPKyuNXC?usp=sharing
    
-  - title: Week 07 (Guest)
+  - title: Week 07 - Guest Lecture
     slides:
       # - title: W7-video
       #   kind: play-circle
@@ -151,18 +151,18 @@ syllabus:
       #   kind: play-circle
       #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
 
-  # - title: Week 12
-  #   slides:
-  #     - title: SVM intro
-  #       kind: file-pdf-o
-  #       path: ./slides/week12/W12_L1_svm_intro.pdf
-  #     - title: SVM Optimization
-  #       kind: file-pdf-o
-  #       path: ./slides/week12/W12_L2_svm_optimization.pdf
-  #     # - title: W12-video
-  #     #   kind: play-circle
-  #     #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29 
-  
+  - title: Week 12
+    slides:
+      - title: SVM intro
+        kind: file-pdf-o
+        path: ./slides/week12/W12_L1_svm_intro.pdf
+      - title: SVM Optimization
+        kind: file-pdf-o
+        path: ./slides/week12/W12_L2_svm_optimization.pdf
+      # - title: W12-video
+      #   kind: play-circle
+      #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+
   #   - title: Week 13
   #   slides:
   #     - title: SVM Kernel Method
