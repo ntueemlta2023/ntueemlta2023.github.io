@@ -279,12 +279,14 @@ a:focus {
         padding: 100px 0;
     }
 
+    .contact-section {
+        padding-top: 100px;
+    }
+
     #map {
         height: 400px;
         margin-top: 250px;
     }
-
-
 }
 
 .list-group-item{
@@ -324,6 +326,11 @@ a:focus {
     color: {{ site.color.special-links }};
 }
 
+.special-links:hover,
+.special-links:focus {
+    text-decoration: none;
+    color: #11505d;
+}
 
 ul.banner-social-buttons {
     margin-top: 0;

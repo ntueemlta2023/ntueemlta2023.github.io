@@ -189,6 +189,7 @@ syllabus:
 
 # Homework
 # Please follow the format below to update the content.
+
 homeworks:
   # - title: HW1 - Regression
   #   links:
@@ -279,7 +280,7 @@ resources:
   - title: 2021 fall 機器學習網站 - 吳沛遠
     url: https://ntueeml.github.io/ml-website/
 
-  - title: 李宏毅 Youtube
+  - title: 李宏毅教授 Youtube
     url: https://www.youtube.com/c/HungyiLeeNTU
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
