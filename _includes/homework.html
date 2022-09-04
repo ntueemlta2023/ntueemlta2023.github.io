@@ -17,22 +17,27 @@
                     - Do NOT search or use additional data or pre-trained models.  <br>
                     - Prof. Wu & TAs preserve the rights to change the rules & grades.  
                     </p>
+                    <div class="card">
+                        <div class="card-header">
+                        <h3 class="text-left"><i class="fa fa-bars" aria-hidden="true"></i> 作業列表 homework lists</h3>
+                        </div>
+                        <ul class="list-group">
+                            {% for homework in site.homeworks %}
+                            <li class="list-group-item list-group-item-info"> 
+                                <h3 class="text-center"> {{homework.title}} </h3> 
+                                <hr/>
+                                <p class="text-center">
+                                    {% for link in homework.links %}
+                                    <a href="{{ link.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{link.kind}}"></i>
+                                        <span>{{link.title}}</span>
+                                    </a>
+                                    {% endfor %}
+                                </p>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
 
-                    <ul class="list-group">
-                        {% for homework in site.homeworks %}
-                        <li class="list-group-item list-group-item-info"> 
-                            <h3 class="text-center"> {{homework.title}} </h3> 
-                            <hr/>
-                            <p class="text-center">
-                                {% for link in homework.links %}
-                                <a href="{{ link.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{link.kind}}"></i>
-                                    <span>{{link.title}}</span>
-                                </a>
-                                {% endfor %}
-                            </p>
-                        </li>
-                        {% endfor %}
-                    </ul>
                     </br>
                     </br>
                     </br>
