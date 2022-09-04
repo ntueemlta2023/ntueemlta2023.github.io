@@ -220,7 +220,7 @@ homeworks:
   #       kind: cloud 
   #       url: https://colab.research.google.com
 
-  # - title: HW2 - CNN
+  - title: HW2 - CNN
   #   links:
   #     - title: video # video
   #       kind: youtube-play 
@@ -235,7 +235,7 @@ homeworks:
   #       kind: cloud 
   #       url: https://colab.research.google.com
 
-  # - title: HW3 - Embedding
+  - title: HW3 - Embedding
   #   links:
   #     - title: video # video
   #       kind: youtube-play 
@@ -250,7 +250,7 @@ homeworks:
   #       kind: cloud 
   #       url: https://colab.research.google.com  
 
-  # - title: HW4 - RNN
+  - title: HW4 - RNN
   #   links:
   #     - title: video # video
   #       kind: youtube-play 
@@ -265,7 +265,7 @@ homeworks:
   #       kind: cloud 
   #       url: https://colab.research.google.com  
 
-  # - title: HW5 - SVM
+  - title: HW5 - SVM
   #   links:
   #     - title: video # video
   #       kind: youtube-play 
