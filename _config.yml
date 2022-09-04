@@ -163,28 +163,28 @@ syllabus:
       #   kind: play-circle
       #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
 
-  #   - title: Week 13
-  #   slides:
-  #     - title: SVM Kernel Method
-  #       kind: file-pdf-o
-  #       path: ./slides/week13/W13_L3_svm_kernel.pdf
-  #     - title: SVM Duality
-  #       kind: file-pdf-o
-  #       path: ./slides/week13/W13_L4_optimization_duality_intro.pdf
-  #     - title: Appendix
-  #       kind: file-pdf-o
-  #       path: ./slides/week13/W13_L5_svm duality.pdf
-  #     # - title: W6-video
-  #     #   kind: play-circle
-  #     #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29 
+    - title: Week 13
+    slides:
+      - title: SVM Kernel Method
+        kind: file-pdf-o
+        path: ./slides/week13/W13_L3_svm_kernel.pdf
+      - title: SVM Duality
+        kind: file-pdf-o
+        path: ./slides/week13/W13_L4_optimization_duality_intro.pdf
+      - title: Appendix
+        kind: file-pdf-o
+        path: ./slides/week13/W13_L5_svm duality.pdf
+      # - title: W6-video
+      #   kind: play-circle
+      #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29 
    
   - title: Week 14
     slides:
       
-  - title: Week 15
+  - title: Week 15 - Guest Lecture
     slides:
       
-  - title: Week 16
+  - title: Week 16 - Final
     slides:
 
 # Homework
