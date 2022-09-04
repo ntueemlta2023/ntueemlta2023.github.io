@@ -151,6 +151,18 @@ syllabus:
       #   kind: play-circle
       #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
 
+  - title: Week 12
+    slides:
+      - title: SVM intro
+        kind: file-pdf-o
+        path: ./slides/week12/W12_L1_svm_intro.pdf
+      - title: SVM Optimization
+        kind: file-pdf-o
+        path: ./slides/week12/W12_L2_svm_optimization.pdf   
+      # - title: W12-video
+      #   kind: play-circle
+      #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+
   # - title: Week 12
   #   slides:
   #     - title: SVM intro
