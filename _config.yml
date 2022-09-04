@@ -169,10 +169,10 @@ syllabus:
       - title: SVM Kernel Method
         kind: file-pdf-o
         path: ./slides/week13/W13_L3_svm_kernel.pdf
-      - title: SVM Duality
+      - title: Lagrange Duality
         kind: file-pdf-o
-        path: ./slides/week13/W13_L4_optimization_duality_intro.pdf
-      - title: Appendix
+        path: ./slides/week13/W13_L4_duality_intro.pdf
+      - title: Duality of SVM
         kind: file-pdf-o
         path: ./slides/week13/W13_L5_svm duality.pdf
       # - title: W6-video
@@ -205,7 +205,7 @@ resources:
 # Please follow the format below to update the content.
 
 homeworks:
-  - title: HW1 - Regression (TBD)
+  - title: HW1 - Regression
   #   links:
   #     - title: video # video
   #       kind: youtube-play 
