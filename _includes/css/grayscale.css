@@ -271,6 +271,14 @@ a:focus {
     margin-top: 100px;
 }
 
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
 @media(min-width:767px) {
     .content-section {
         padding-top: 200px;
@@ -284,10 +292,6 @@ a:focus {
         height: 400px;
         margin-top: 250px;
     }
-    footer {
-        padding: 50px 0;
-    }
-
 }
 
 .list-group-item{
@@ -361,14 +365,6 @@ ul.banner-social-buttons li {
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
-}
-
-footer {
-    padding: 50px 0;
-}
-
-footer p {
-    margin: 0;
 }
 
 ::-moz-selection {
