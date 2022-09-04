@@ -70,7 +70,7 @@ syllabus:
       - title: Backpropagation
         kind: file-pdf-o
         path: ./slides/week4/W4_BP (v2).pdf  
-      - title: DNN
+      - title: Tips for DNN
         kind: file-pdf-o
         path: ./slides/week4/W4_DNN tip.pdf
       # - title: W4-video
@@ -94,7 +94,7 @@ syllabus:
       - title: Auto Encoder
         kind: file-pdf-o
         path: ./slides/week6/W6_autoencoder.pdf
-      - title: TSNE
+      - title: Neighbor Embedding
         kind: file-pdf-o
         path: ./slides/week6/W6_TSNE.pdf
       # - title: W6-video
