@@ -190,20 +190,20 @@ syllabus:
 # Homework
 # Please follow the format below to update the content.
 homeworks:
-  - title: HW1 - Regression
-    links:
-      - title: video # video
-        kind: youtube-play 
-        url: https://www.youtube.com/watch?v=Wcp4VAAM468
-      - title: slide # slide
-        kind: file-pdf-o 
-        url: https://www.kaggle.com
-      - title: kaggle # kaggle
-        kind: tasks  
-        url: https://www.kaggle.com
-      - title: colab # colab
-        kind: cloud 
-        url: https://colab.research.google.com
+  # - title: HW1 - Regression
+  #   links:
+  #     - title: video # video
+  #       kind: youtube-play 
+  #       url: https://www.youtube.com/watch?v=Wcp4VAAM468
+  #     - title: slide # slide
+  #       kind: file-pdf-o 
+  #       url: https://www.kaggle.com
+  #     - title: kaggle # kaggle
+  #       kind: tasks  
+  #       url: https://www.kaggle.com
+  #     - title: colab # colab
+  #       kind: cloud 
+  #       url: https://colab.research.google.com
 
   # - title: HW2 - CNN
   #   links:
