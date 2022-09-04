@@ -25,19 +25,16 @@ TAs:
 syllabus:
   - title: Week 01 (Moon Fest.)
     slides:
-      - title: Syllabus
-        kind: file-pdf-o
-        path: ./slides/week1/ML syllabus (109-1).pdf
+      # - title: Syllabus
+      #   kind: file-pdf-o
+      #   path: ./slides/week1/ML syllabus (109-1).pdf
       # - title: W1-video
       #   kind: play-circle
       #   path: https://drive.google.com/drive/folders/1-iHwvCefqNQCySxwoohmYbpePZq7wqoR
 
   - title: Week 02
     slides:
-      - title: Syllabus
-        kind: file-pdf-o
-        path: ./slides/week2/W2_ML syllabus (109-1).pdf
-      - title: Introduction
+      - title: What is ML
         kind: file-pdf-o
         path: ./slides/week2/W2_Introduction.pdf
       - title: Regression
