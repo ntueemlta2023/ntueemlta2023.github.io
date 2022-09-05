@@ -4,11 +4,26 @@ Author: Zhong-Wei Lin
 
 This coures page is created from: [Grayscale Jekyll theme](http://jekyllthemes.org/themes/grayscale/)
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
+## Some useful resources for building your github.io page:
 
+Adding thumbnail:
+https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html
 
-For more details, read the [documentation](http://jekyllrb.com/)
+Bootstrap:
+http://www.cythilya.tw/2015/04/07/bootstrap-grid-system/
+
+Google Map in Bootstrap:
+https://mdbootstrap.com/docs/b4/jquery/javascript/google-maps/
+
+Group list:
+https://bootstrap5.hexschool.com/docs/5.0/components/list-group/
+
+css selector:
+https://ithelp.ithome.com.tw/articles/10192117
+
+Where I fount this jekyll theme templates:
+http://jekyllthemes.org
+
+Other jekyll theme templates:
+https://jekyllrb.com/docs/themes/
