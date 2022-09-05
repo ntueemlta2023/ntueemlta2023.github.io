@@ -8,7 +8,7 @@ This coures page is created from: [Grayscale Jekyll theme](http://jekyllthemes.o
 ## Some useful resources for building your github.io page:
 
 Adding thumbnail:
-https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html
+https://agustinus.kristia.de/techblog/2016/08/15/jekyll-fb-share/
 
 Bootstrap:
 http://www.cythilya.tw/2015/04/07/bootstrap-grid-system/
