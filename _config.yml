@@ -6,7 +6,6 @@
 
 # Site settings
 title: Machine Learning 
-TeacherEmail: peiyuanwu@ntu.edu.tw
 description: "Pei-Yuan Wu, Hung-Yi Lee"
 location: 106 臺北市大安區羅斯福路四段 1 號博理館 530 室
 phone: 02-3366-3700 ext.6530
@@ -21,6 +20,7 @@ TAs:
   - name: 賴彥儒
     email: r09942079@ntu.edu.tw
 
+TeacherEmail: peiyuanwu@ntu.edu.tw
 
 # Syllabus
 syllabus:
