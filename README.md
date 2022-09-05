@@ -10,6 +10,10 @@ This coures page is created from: [Grayscale Jekyll theme](http://jekyllthemes.o
 Adding thumbnail:
 https://agustinus.kristia.de/techblog/2016/08/15/jekyll-fb-share/
 
+FB debug tool (to check preview of your website link)
+https://developers.facebook.com/tools/debug/
+https://stackoverflow.com/questions/8816601/sharing-url-link-does-not-show-thumbnail-image-on-facebook
+
 Bootstrap:
 http://www.cythilya.tw/2015/04/07/bootstrap-grid-system/
 
