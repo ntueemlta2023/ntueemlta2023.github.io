@@ -34,7 +34,7 @@ syllabus:
 
   - title: Week 02
     slides:
-      - title: What is ML
+      - title: What is ML？
         kind: file-pdf-o
         path: ./slides/week2/W2_Introduction.pdf
       - title: Regression
@@ -61,7 +61,7 @@ syllabus:
 
   - title: Week 04
     slides:
-      - title: Deep_Learning
+      - title: Deep Learning
         kind: file-pdf-o
         path: ./slides/week4/W4_DL_introduction.pdf
       - title: Gradient Descent
@@ -70,7 +70,7 @@ syllabus:
       - title: Backpropagation
         kind: file-pdf-o
         path: ./slides/week4/W4_BP (v2).pdf  
-      - title: Tips for DNN
+      - title: Tips for DL
         kind: file-pdf-o
         path: ./slides/week4/W4_DNN tip.pdf
       # - title: W4-video
@@ -124,7 +124,7 @@ syllabus:
 
   - title: Week 09
     slides:
-      - title: EM and GMM
+      - title: GMM and EM 
         kind: file-pdf-o
         path: ./slides/week9/W9_GMM_EM.pdf
       # - title: W9-video
