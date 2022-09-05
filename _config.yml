@@ -294,6 +294,7 @@ color:
 
 # Footer settings
 footer: https://ntueemlta2022.github.io
+time: "2022"
 
 # Build settings
 markdown: kramdown
