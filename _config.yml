@@ -34,9 +34,9 @@ syllabus:
 
   - title: Week 02
     slides:
-      - title: What is ML？
+      - title: Bias and Variance
         kind: file-pdf-o
-        path: ./slides/week2/W2_Introduction.pdf
+        path: ./slides/week2/W2_Bias and Variance.pdf
       - title: Regression
         kind: file-pdf-o
         path: ./slides/week2/W2_Regression.pdf
@@ -46,9 +46,6 @@ syllabus:
 
   - title: Week 03
     slides:
-      - title: Bias and Variance
-        kind: file-pdf-o
-        path: ./slides/week3/W3a_Bias and Variance.pdf
       - title: Classification
         kind: file-pdf-o
         path: ./slides/week3/W3b_Classification (v2).pdf
