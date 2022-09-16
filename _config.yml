@@ -34,6 +34,9 @@ syllabus:
 
   - title: Week 02
     slides:
+      - title: Introduction
+        kind: file-pdf-o
+        path: ./slides/week2/W2_Introduction.pdf
       - title: Bias and Variance
         kind: file-pdf-o
         path: ./slides/week2/W2_Bias and Variance.pdf
