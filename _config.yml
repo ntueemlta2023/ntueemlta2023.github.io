@@ -45,7 +45,7 @@ syllabus:
         path: ./slides/week2/W2_Regression.pdf
       - title: W2-video
         kind: play-circle
-        path: https://www.youtube.com/watch?v=dtGVPY0l4EI&list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
+        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
 
   - title: Week 03
     slides:
