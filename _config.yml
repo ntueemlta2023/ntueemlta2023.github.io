@@ -49,7 +49,7 @@ syllabus:
       - title: Bias and Variance
         kind: file-pdf-o
         path: ./slides/week3/W3a_Bias_and_Variance.pdf
-      - title: Classification and Generative Model
+      - title: Classification - Probability Generative Model
         kind: file-pdf-o
         path: ./slides/week3/W3b_Classification (v2).pdf
       - title: W3-video
