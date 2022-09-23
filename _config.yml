@@ -37,9 +37,6 @@ syllabus:
       - title: Introduction
         kind: file-pdf-o
         path: ./slides/week2/W2_Introduction.pdf
-      - title: Bias and Variance
-        kind: file-pdf-o
-        path: ./slides/week2/W2_Bias and Variance.pdf
       - title: Regression
         kind: file-pdf-o
         path: ./slides/week2/W2_Regression.pdf
@@ -49,18 +46,21 @@ syllabus:
 
   - title: Week 03
     slides:
-      - title: Classification
+      - title: Bias and Variance
+        kind: file-pdf-o
+        path: ./slides/week3/W3_Bias and Variance.pdf
+      - title: Classification and Generative Model
         kind: file-pdf-o
         path: ./slides/week3/W3b_Classification (v2).pdf
-      - title: Logistic Regression
-        kind: file-pdf-o
-        path: ./slides/week3/W3c_Logistic Regression (v4).pdf
       - title: W3-video
         kind: play-circle
         path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9HiAyjSyLrkMXpJAjeM2ku
 
   - title: Week 04
     slides:
+      - title: Logistic Regression
+        kind: file-pdf-o
+        path: ./slides/week4/W4_Logistic Regression (v4).pdf
       - title: Deep Learning
         kind: file-pdf-o
         path: ./slides/week4/W4_DL_introduction.pdf
