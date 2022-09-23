@@ -55,9 +55,9 @@ syllabus:
       - title: Logistic Regression
         kind: file-pdf-o
         path: ./slides/week3/W3c_Logistic Regression (v4).pdf
-      # - title: W3-video
-      #   kind: play-circle
-      #   path: https://drive.google.com/drive/folders/1jGBuc7pZehO_9FMdTL1ahfTVIGp5aoj2?usp=sharing
+      - title: W2-video
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9HiAyjSyLrkMXpJAjeM2ku
 
   - title: Week 04
     slides:
