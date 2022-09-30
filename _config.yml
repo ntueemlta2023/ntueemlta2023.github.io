@@ -203,19 +203,19 @@ resources:
 
 homeworks:
   - title: HW1 - Regression
-  #   links:
-  #     - title: video # video
-  #       kind: youtube-play 
-  #       url: https://www.youtube.com/watch?v=Wcp4VAAM468
-  #     - title: slide # slide
-  #       kind: file-pdf-o 
-  #       url: https://www.kaggle.com
-  #     - title: kaggle # kaggle
-  #       kind: tasks  
-  #       url: https://www.kaggle.com
-  #     - title: colab # colab
-  #       kind: cloud 
-  #       url: https://colab.research.google.com
+    links:
+      - title: video # video
+        kind: youtube-play 
+        url: https://www.youtube.com/watch?v=Wcp4VAAM468
+      - title: slide # slide
+        kind: file-pdf-o 
+        url: https://docs.google.com/presentation/d/1SEG9V6lsY0owG_AqIKMV07W85wlR7PSh/edit#slide=id.p1
+      - title: kaggle # kaggle
+        kind: tasks  
+        url: https://www.kaggle.com/t/b404886ab374405ba8302aa1add3dab1
+      - title: colab # colab
+        kind: cloud 
+        url: https://colab.research.google.com/drive/1ffy7uvNJr_rtaNbIlGZdrY47TkjzRKx-?usp=sharing
 
   - title: HW2 - CNN
   #   links:
