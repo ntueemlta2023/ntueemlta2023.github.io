@@ -73,10 +73,10 @@ syllabus:
       - title: Tips for DL
         kind: file-pdf-o
         path: ./slides/week4/W4_DNN tip.pdf
-      # - title: W4-video
-      #   kind: play-circle
-      #   path: https://drive.google.com/drive/folders/1telw5nIfU2zAojDErOETD2RF3lx7SirZ?usp=sharing
-  
+      - title: W4-video
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-Rf_w6K3eXjPppIdGGdR
+
   - title: Week 05
     slides:
       - title: CNN
@@ -206,7 +206,7 @@ homeworks:
     links:
       - title: video # video
         kind: youtube-play 
-        url: https://www.youtube.com/watch?v=Wcp4VAAM468
+        url: https://youtu.be/QzoSZ6XWqZQ
       - title: slide # slide
         kind: file-pdf-o 
         url: https://docs.google.com/presentation/d/1SEG9V6lsY0owG_AqIKMV07W85wlR7PSh/edit#slide=id.p1
