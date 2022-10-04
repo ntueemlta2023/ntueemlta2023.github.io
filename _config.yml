@@ -87,9 +87,9 @@ syllabus:
       - title: PCA
         kind: file-pdf-o
         path: ./slides/week5/W5_PCA.pdf
-      # - title: W5-video
-      #   kind: play-circle
-      #   path: https://www.youtube.com/watch?v=OP5HcXJg2Aw&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J&index=10
+      - title: W5-video
+        kind: play-circle
+        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_SF_YMgTqP6t_tU__M0x8h
 
   - title: Week 06
     slides:
@@ -99,15 +99,15 @@ syllabus:
       - title: Neighbor Embedding
         kind: file-pdf-o
         path: ./slides/week6/W6_TSNE.pdf
-      # - title: W6-video
-      #   kind: play-circle
-      #   path: https://drive.google.com/drive/folders/1FCQjw6BMc-AjKwQJlYZp_mpPbPKyuNXC?usp=sharing
+      - title: W6-video
+        kind: play-circle
+        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_LTqF5iG3eCWYXK5zQNvOz
    
   - title: Week 07 (Guest Lecture)
     slides:
-      # - title: W7-video
-      #   kind: play-circle
-      #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+      - title: W7-video
+        kind: play-circle
+        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_BnziQjAiIkFxSahBizoTZ
 
   - title: Week 08
     slides:
