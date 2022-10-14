@@ -227,9 +227,9 @@ homeworks:
 
   - title: HW2 - CNN
     links:
-      # - title: video # video
-      #   kind: youtube-play 
-      #   url: https://www.youtube.com/watch?v=Wcp4VAAM468
+      - title: video # video
+        kind: youtube-play 
+        url: https://youtu.be/SFWt6njTmeI
       - title: slide # slide
         kind: file-pdf-o 
         url: https://docs.google.com/presentation/d/1sV66DbhwFQRQDe_r5e611dGVyP84qosl/edit?usp=sharing&ouid=101016267389786846355&rtpof=true&sd=true
