@@ -86,7 +86,7 @@ syllabus:
         path: ./slides/week5/W5_CNN.pdf
       - title: PCA
         kind: file-pdf-o
-        path: ./slides/week5/W5_PCA.pdf
+        path: ./slides/week5/W5_PCA_v2.pdf
       - title: PCA and SVD
         kind: file-pdf-o
         path: ./slides/week5/W5_PCA_SVD.pdf
@@ -110,7 +110,7 @@ syllabus:
     slides:
       - title: W7-video
         kind: play-circle
-        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_BnziQjAiIkFxSahBizoTZ
+        path: https://www.youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
 
   - title: Week 08
     slides:
@@ -123,36 +123,36 @@ syllabus:
       - title: AdaBoost
         kind: Gradient Boosting
         path: ./slides/week8/W8_adaBoost.pdf
-      # - title: W8-video
-      #   kind: play-circle
-      #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+      - title: W8-video
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9hNFwmebcB-Ckv9Q7EY26X
 
   - title: Week 09
     slides:
       - title: GMM and EM 
         kind: file-pdf-o
         path: ./slides/week9/W9_GMM_EM.pdf
-      # - title: W9-video
-      #   kind: play-circle
-      #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+      - title: W9-video
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9rgKwCYEv4Gq2TmKN9-aIa
     
   - title: Week 10
     slides:
       - title: Semi-Supervised Learning
         kind: file-pdf-o
         path: ./slides/week10/W10_semi.pdf
-      # - title: W10-video
-      #   kind: play-circle
-      #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+      - title: W10-video
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-tTCiA6IKL8BIkvs7eyuFl
 
   - title: Week 11
     slides:
       - title: VAE
         kind: file-pdf-o
         path: ./slides/week11/W11_VAE.pdf
-      # - title: W11-video
-      #   kind: play-circle
-      #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+      - title: W11-video
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8EyMhap4-wacbC5x_3s2Kk
 
   - title: Week 12
     slides:
@@ -162,9 +162,9 @@ syllabus:
       - title: SVM Optimization
         kind: file-pdf-o
         path: ./slides/week12/W12_L2_svm_optimization.pdf   
-      # - title: W12-video
-      #   kind: play-circle
-      #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+      - title: W12-video
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k_Z6i-2G0xdmBTveQF_rEyO
 
   - title: Week 13
     slides:
@@ -177,12 +177,15 @@ syllabus:
       - title: Duality of SVM
         kind: file-pdf-o
         path: ./slides/week13/W13_L5_svm duality.pdf
-      # - title: W6-video
-      #   kind: play-circle
-      #   path: https://youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29 
+      - title: W6-video
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-aapOsa9kNH0WLZcLHONxi
    
   - title: Week 14
     slides:
+      - title: W6-video
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-VHdju-iiML0WBxTZq5Exb
       
   - title: Week 15 (Guest Lecture)
     slides:
@@ -223,19 +226,19 @@ homeworks:
         url: https://colab.research.google.com/drive/1ffy7uvNJr_rtaNbIlGZdrY47TkjzRKx-?usp=sharing
 
   - title: HW2 - CNN
-  #   links:
-  #     - title: video # video
-  #       kind: youtube-play 
-  #       url: https://www.youtube.com/watch?v=Wcp4VAAM468
-  #     - title: slide # slide
-  #       kind: file-pdf-o 
-  #       url: https://www.kaggle.com
-  #     - title: kaggle # kaggle
-  #       kind: tasks  
-  #       url: https://www.kaggle.com
-  #     - title: colab # colab
-  #       kind: cloud 
-  #       url: https://colab.research.google.com
+    links:
+      # - title: video # video
+      #   kind: youtube-play 
+      #   url: https://www.youtube.com/watch?v=Wcp4VAAM468
+      - title: slide # slide
+        kind: file-pdf-o 
+        url: https://docs.google.com/presentation/d/1sV66DbhwFQRQDe_r5e611dGVyP84qosl/edit?usp=sharing&ouid=101016267389786846355&rtpof=true&sd=true
+      - title: kaggle # kaggle
+        kind: tasks  
+        url: https://www.kaggle.com/competitions/hml-2022fall-hw2
+      - title: colab # colab
+        kind: cloud 
+        url: https://colab.research.google.com/drive/1KAoMxp7JUcOCAUilHE_xqX9XatlHskOb?usp=sharing
 
   - title: HW3 - Embedding
   #   links:
