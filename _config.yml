@@ -243,19 +243,19 @@ homeworks:
         url: https://colab.research.google.com/drive/1KAoMxp7JUcOCAUilHE_xqX9XatlHskOb?usp=sharing
 
   - title: HW3 - Embedding
-  #   links:
-  #     - title: video # video
-  #       kind: youtube-play 
-  #       url: https://www.youtube.com/watch?v=Wcp4VAAM468
-  #     - title: slide # slide
-  #       kind: file-pdf-o 
-  #       url: https://www.kaggle.com
-  #     - title: kaggle # kaggle
-  #       kind: tasks  
-  #       url: https://www.kaggle.com
-  #     - title: colab # colab
-  #       kind: cloud 
-  #       url: https://colab.research.google.com  
+    links:
+      - title: video # video
+        kind: youtube-play 
+        url: https://youtu.be/lLeQhyVIpoc
+      - title: slide # slide
+        kind: file-pdf-o 
+        url: https://docs.google.com/presentation/d/1DnKRs9mokOh6AXyTiMpHNxdtm89jun52/edit#slide=id.p1
+      - title: kaggle # kaggle
+        kind: tasks  
+        url: https://www.kaggle.com/t/647bb8fc397b4440ae51870abbd1c06f
+      - title: colab # colab
+        kind: cloud 
+        url: https://colab.research.google.com/drive/1w7HU5h0qV_QpV5STW6zN4KP_f5CXw42j?authuser=2 
 
   - title: HW4 - RNN
   #   links:
