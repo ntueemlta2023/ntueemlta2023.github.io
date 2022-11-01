@@ -255,7 +255,7 @@ homeworks:
         url: https://www.kaggle.com/t/647bb8fc397b4440ae51870abbd1c06f
       - title: colab # colab
         kind: cloud 
-        url: https://colab.research.google.com/drive/1w7HU5h0qV_QpV5STW6zN4KP_f5CXw42j?authuser=2 
+        url: https://colab.research.google.com/drive/1w7HU5h0qV_QpV5STW6zN4KP_f5CXw42j?authuser=0
 
   - title: HW4 - RNN
   #   links:
