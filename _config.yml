@@ -248,7 +248,7 @@ homeworks:
         kind: cloud 
         url: https://colab.research.google.com/drive/1KAoMxp7JUcOCAUilHE_xqX9XatlHskOb?usp=sharing
       - title: math
-        kind: tasks
+        kind: file-pdf-o 
         url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/r1otQp7Gi?fbclid=IwAR0cs5CajVy_zhDmHEDgze2V1_Jlxp95N45BF6hg1l6CgG-6IViYGAIGReE
 
   - title: HW3 - Embedding
@@ -266,7 +266,7 @@ homeworks:
         kind: cloud 
         url: https://colab.research.google.com/drive/1w7HU5h0qV_QpV5STW6zN4KP_f5CXw42j?authuser=0
       - title: math
-        kind: tasks
+        kind: file-pdf-o 
         url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/Hy3kRxTMs?fbclid=IwAR0cc-uqpmQm9_Jel9plCjj3QBDtNYEIikJGtgyvCFczcue_KCeEsXUQIHc
 
   - title: HW4 - RNN
@@ -284,7 +284,7 @@ homeworks:
         kind: cloud 
         url: https://colab.research.google.com/drive/1sMKqtdy0Ag0f9QCfTTB7VrdQ9q-4wUOs?usp=sharing
       - title: math
-        kind: tasks
+        kind: file-pdf-o 
         url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/H1ucYOpNo
 
   - title: HW5 - SVM
@@ -302,7 +302,7 @@ homeworks:
   #       kind: cloud 
   #       url: https://colab.research.google.com  
       # - title: math
-      #   kind: tasks
+      #   kind: file-pdf-o 
       #   url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/H1ucYOpNo
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
