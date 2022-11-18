@@ -258,19 +258,19 @@ homeworks:
         url: https://colab.research.google.com/drive/1w7HU5h0qV_QpV5STW6zN4KP_f5CXw42j?authuser=0
 
   - title: HW4 - RNN
-  #   links:
-  #     - title: video # video
-  #       kind: youtube-play 
-  #       url: https://www.youtube.com/watch?v=Wcp4VAAM468
-  #     - title: slide # slide
-  #       kind: file-pdf-o 
-  #       url: https://www.kaggle.com
-  #     - title: kaggle # kaggle
-  #       kind: tasks  
-  #       url: https://www.kaggle.com
-  #     - title: colab # colab
-  #       kind: cloud 
-  #       url: https://colab.research.google.com  
+    links:
+      # - title: video # video
+      #   kind: youtube-play 
+      #   url: https://www.youtube.com/watch?v=Wcp4VAAM468
+      - title: slide # slide
+        kind: file-pdf-o 
+        url: https://docs.google.com/presentation/d/1unG_d2QEFQ0sryWYN0Qr9XOLS14KHV1M5wS3nWuKCB0/edit?usp=sharing
+      - title: kaggle # kaggle
+        kind: tasks  
+        url: https://www.kaggle.com/t/73022139d2fc4619857de7a4af265186
+      - title: colab # colab
+        kind: cloud 
+        url: https://colab.research.google.com/drive/1sMKqtdy0Ag0f9QCfTTB7VrdQ9q-4wUOs?usp=sharing
 
   - title: HW5 - SVM
   #   links:
