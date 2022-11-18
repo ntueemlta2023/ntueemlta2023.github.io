@@ -226,7 +226,9 @@ homeworks:
       - title: colab # colab
         kind: cloud 
         url: https://colab.research.google.com/drive/1ffy7uvNJr_rtaNbIlGZdrY47TkjzRKx-?usp=sharing
-
+      - title: math
+        kind: file-pdf-o 
+        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/Sk1n8xPWo?fbclid=IwAR0LiCps2fhIZFJT-gYP8kr7KlvLaRvS9-ftLIaPQY5DVgye1AuHM-RW3Yg
   - title: HW2 - CNN
     links:
       - title: video # video
@@ -241,6 +243,9 @@ homeworks:
       - title: colab # colab
         kind: cloud 
         url: https://colab.research.google.com/drive/1KAoMxp7JUcOCAUilHE_xqX9XatlHskOb?usp=sharing
+      - title: math
+        kind: file-pdf-o 
+        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/r1otQp7Gi?fbclid=IwAR0cs5CajVy_zhDmHEDgze2V1_Jlxp95N45BF6hg1l6CgG-6IViYGAIGReE
 
   - title: HW3 - Embedding
     links:
@@ -256,6 +261,9 @@ homeworks:
       - title: colab # colab
         kind: cloud 
         url: https://colab.research.google.com/drive/1w7HU5h0qV_QpV5STW6zN4KP_f5CXw42j?authuser=0
+      - title: math
+        kind: file-pdf-o 
+        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/Hy3kRxTMs?fbclid=IwAR0cc-uqpmQm9_Jel9plCjj3QBDtNYEIikJGtgyvCFczcue_KCeEsXUQIHc
 
   - title: HW4 - RNN
     links:
@@ -271,7 +279,10 @@ homeworks:
       - title: colab # colab
         kind: cloud 
         url: https://colab.research.google.com/drive/1sMKqtdy0Ag0f9QCfTTB7VrdQ9q-4wUOs?usp=sharing
-
+      - title: math
+        kind: file-pdf-o 
+        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/H1ucYOpNo
+        
   - title: HW5 - SVM
   #   links:
   #     - title: video # video
