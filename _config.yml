@@ -210,7 +210,11 @@ resources:
 
 # Homework
 # Please follow the format below to update the content.
-
+  # - title: string
+  #   links:
+      # - title: string 
+      #   kind: fa fa icon name (Ref: https://fontawesome.com/v4/icons/)
+      #   url: url
 homeworks:
   - title: HW1 - Regression
     links:
@@ -227,7 +231,7 @@ homeworks:
         kind: cloud 
         url: https://colab.research.google.com/drive/1ffy7uvNJr_rtaNbIlGZdrY47TkjzRKx-?usp=sharing
       - title: math
-        kind: file-pdf-o 
+        kind: abacus
         url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/Sk1n8xPWo?fbclid=IwAR0LiCps2fhIZFJT-gYP8kr7KlvLaRvS9-ftLIaPQY5DVgye1AuHM-RW3Yg
   - title: HW2 - CNN
     links:
@@ -282,7 +286,7 @@ homeworks:
       - title: math
         kind: file-pdf-o 
         url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/H1ucYOpNo
-        
+
   - title: HW5 - SVM
   #   links:
   #     - title: video # video
