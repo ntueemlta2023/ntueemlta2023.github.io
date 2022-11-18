@@ -225,13 +225,13 @@ homeworks:
         kind: file-pdf-o 
         url: https://docs.google.com/presentation/d/1SEG9V6lsY0owG_AqIKMV07W85wlR7PSh/edit#slide=id.p1
       - title: kaggle # kaggle
-        kind: tasks  
+        kind: trophy  
         url: https://www.kaggle.com/t/b404886ab374405ba8302aa1add3dab1
       - title: colab # colab
         kind: cloud 
         url: https://colab.research.google.com/drive/1ffy7uvNJr_rtaNbIlGZdrY47TkjzRKx-?usp=sharing
       - title: math
-        kind: abacus
+        kind: file-pdf-o 
         url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/Sk1n8xPWo?fbclid=IwAR0LiCps2fhIZFJT-gYP8kr7KlvLaRvS9-ftLIaPQY5DVgye1AuHM-RW3Yg
   - title: HW2 - CNN
     links:
@@ -271,9 +271,9 @@ homeworks:
 
   - title: HW4 - RNN
     links:
-      # - title: video # video
-      #   kind: youtube-play 
-      #   url: https://www.youtube.com/watch?v=Wcp4VAAM468
+      - title: video # video
+        kind: youtube-play 
+        url: https://youtu.be/POHfbfn_aGc
       - title: slide # slide
         kind: file-pdf-o 
         url: https://docs.google.com/presentation/d/1unG_d2QEFQ0sryWYN0Qr9XOLS14KHV1M5wS3nWuKCB0/edit?usp=sharing
