@@ -2,7 +2,7 @@
 # 1. You can update website by simply updating this config file!
 # 2. Please follow the format to edit. (alignment, variable name, etc.)
 #    > For slides: don't forget to upload pdf to ./slides/weekx !
-# 3. For more detail, please contact author: R10942198@ntu.edu.tw
+# 3. For more detail, please contact author: R12942094@ntu.edu.tw
 
 # Site settings
 title: Machine Learning 
@@ -10,18 +10,14 @@ description: "Pei-Yuan Wu, Hung-Yi Lee"
 location: 106 臺北市大安區羅斯福路四段 1 號博理館 530 室
 phone: 02-3366-3700 ext.6530
 
-url: https://ntueemlta2022.github.io
-year: "2022 Fall"
-TAemail: ntueemlta2022@gmail.com
+url: https://ntueemlta2023.github.io
+year: "2023 Fall"
+TAemail: ntueemlta2023@gmail.com
 TAs:
-  - name: 林仲偉
-    email: r10942198@ntu.edu.tw
-  - name: 賴彥儒
-    email: r09942079@ntu.edu.tw
-  - name: 伏宇寬
-    email: r11942083@ntu.edu.tw
-  - name: 楊智凱
-    email: b08202033@ntu.edu.tw
+  - name: 張原嘉
+    email: r12942094@ntu.edu.tw
+  - name: 黃俊霖
+    email: r12942151@ntu.edu.tw
 
 TeacherEmail: peiyuanwu@ntu.edu.tw
 
@@ -198,11 +194,11 @@ syllabus:
 
 # Resources:
 resources:
-  - title: 2022 spring 機器學習網站 - 李宏毅
-    url: https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php
+  - title: 2023 spring 機器學習網站 - 李宏毅
+    url: https://speech.ee.ntu.edu.tw/~hylee/ml/2023-spring.php
 
-  - title: 2021 fall 機器學習網站 - 吳沛遠
-    url: https://ntueeml.github.io/ml-website/
+  - title: 2022 fall 機器學習網站 - 吳沛遠
+    url: https://ntueemlta2022.github.io/
 
   - title: 李宏毅教授 Youtube
     url: https://www.youtube.com/c/HungyiLeeNTU
@@ -309,7 +305,7 @@ homeworks:
 networks:
   - kind: facebook
     title: Join Discussion
-    url: https://www.facebook.com/groups/412720760954309/?notif_id=1661958299977609&notif_t=groups_more_posts_in_new_group&ref=notif
+    url: https://www.facebook.com/groups/1032602664677990
 
 
 ################ website theme design ################
@@ -320,7 +316,7 @@ color:
   special-links: '#FFCC00'
 
 # Footer settings
-footer: https://ntueemlta2022.github.io
+footer: https://ntueemlta2023.github.io
 
 # Build settings
 markdown: kramdown

@@ -1,8 +1,10 @@
-# ntueemlta2022.github.io
-Machine Learning 2022 Autumn - Course Page 
-Author: Zhong-Wei Lin
+# ntueemlta2023.github.io
+Machine Learning 2023 Autumn - Course Page 
+Author: Yuan-Chia Chang
 
-This coures page is created from: [Grayscale Jekyll theme](http://jekyllthemes.org/themes/grayscale/)
+This course page is adapted from 2022 Machine Learning Webpage, which is created by Zhong-Wei Lin
+
+This courses page is created from: [Grayscale Jekyll theme](http://jekyllthemes.org/themes/grayscale/)
 
 
 ## Some useful resources for building your github.io page:
