@@ -23,173 +23,173 @@ TeacherEmail: peiyuanwu@ntu.edu.tw
 
 # Syllabus
 syllabus:
-  - title: Week 01 (Moon Fest.)
-    slides:
-      - title: Syllabus
-        kind: file-pdf-o
-        path: ./slides/week1/ML syllabus (111-1).pdf
+  - title: Week 01
+#    slides:
+#      - title: Syllabus
+#        kind: file-pdf-o
+#        path: ./slides/week1/ML syllabus (111-1).pdf
       # - title: W1-video
       #   kind: play-circle
       #   path: https://drive.google.com/drive/folders/1-iHwvCefqNQCySxwoohmYbpePZq7wqoR
 
   - title: Week 02
     slides:
-      - title: Introduction
-        kind: file-pdf-o
-        path: ./slides/week2/W2_Introduction.pdf
-      - title: Regression
-        kind: file-pdf-o
-        path: ./slides/week2/W2_Regression.pdf
-      - title: W2-video
-        kind: play-circle
-        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
+#      - title: Introduction
+#        kind: file-pdf-o
+#        path: ./slides/week2/W2_Introduction.pdf
+#      - title: Regression
+#        kind: file-pdf-o
+#        path: ./slides/week2/W2_Regression.pdf
+#      - title: W2-video
+#        kind: play-circle
+#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
 
   - title: Week 03
-    slides:
-      - title: Bias and Variance
-        kind: file-pdf-o
-        path: ./slides/week3/W3a_Bias_and_Variance.pdf
-      - title: Classification - Probability Generative Model
-        kind: file-pdf-o
-        path: ./slides/week3/W3b_Classification (v2).pdf
-      - title: W3-video
-        kind: play-circle
-        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9HiAyjSyLrkMXpJAjeM2ku
+#    slides:
+#      - title: Bias and Variance
+#        kind: file-pdf-o
+#        path: ./slides/week3/W3a_Bias_and_Variance.pdf
+#      - title: Classification - Probability Generative Model
+#        kind: file-pdf-o
+#        path: ./slides/week3/W3b_Classification (v2).pdf
+#      - title: W3-video
+#        kind: play-circle
+#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9HiAyjSyLrkMXpJAjeM2ku
 
-  - title: Week 04
-    slides:
-      - title: Logistic Regression
-        kind: file-pdf-o
-        path: ./slides/week4/W4_Logistic Regression (v4).pdf
-      - title: Deep Learning
-        kind: file-pdf-o
-        path: ./slides/week4/W4_DL_introduction.pdf
-      - title: Gradient Descent
-        kind: file-pdf-o
-        path: ./slides/week4/W4_Gradient Descent.pdf
-      - title: Backpropagation
-        kind: file-pdf-o
-        path: ./slides/week4/W4_BP (v2).pdf  
-      - title: Tips for DL
-        kind: file-pdf-o
-        path: ./slides/week4/W4_DNN tip.pdf
-      - title: W4-video
-        kind: play-circle
-        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-Rf_w6K3eXjPppIdGGdRGF
+  - title: Week 04(Mid-Autumn Fest.)
+#    slides:
+#      - title: Logistic Regression
+#        kind: file-pdf-o
+#        path: ./slides/week4/W4_Logistic Regression (v4).pdf
+#      - title: Deep Learning
+#        kind: file-pdf-o
+#        path: ./slides/week4/W4_DL_introduction.pdf
+#      - title: Gradient Descent
+#        kind: file-pdf-o
+#        path: ./slides/week4/W4_Gradient Descent.pdf
+#      - title: Backpropagation
+#        kind: file-pdf-o
+#        path: ./slides/week4/W4_BP (v2).pdf  
+#      - title: Tips for DL
+#        kind: file-pdf-o
+#        path: ./slides/week4/W4_DNN tip.pdf
+#      - title: W4-video
+#        kind: play-circle
+#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-Rf_w6K3eXjPppIdGGdRGF
 
   - title: Week 05
-    slides:
-      - title: CNN
-        kind: file-pdf-o
-        path: ./slides/week5/W5_CNN.pdf
-      - title: PCA
-        kind: file-pdf-o
-        path: ./slides/week5/W5_PCA_v2.pdf
-      - title: PCA and SVD
-        kind: file-pdf-o
-        path: ./slides/week5/W5_PCA_SVD.pdf
-      - title: W5-video
-        kind: play-circle
-        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_SF_YMgTqP6t_tU__M0x8h
+#    slides:
+#      - title: CNN
+#        kind: file-pdf-o
+#        path: ./slides/week5/W5_CNN.pdf
+#      - title: PCA
+#        kind: file-pdf-o
+#        path: ./slides/week5/W5_PCA_v2.pdf
+#      - title: PCA and SVD
+#        kind: file-pdf-o
+#        path: ./slides/week5/W5_PCA_SVD.pdf
+#      - title: W5-video
+#        kind: play-circle
+#        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_SF_YMgTqP6t_tU__M0x8h
 
   - title: Week 06
-    slides:
-      - title: Auto Encoder
-        kind: file-pdf-o
-        path: ./slides/week6/W6_autoencoder.pdf
-      - title: Neighbor Embedding
-        kind: file-pdf-o
-        path: ./slides/week6/W6_TSNE.pdf
-      - title: W6-video
-        kind: play-circle
-        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_LTqF5iG3eCWYXK5zQNvOz
+#    slides:
+#      - title: Auto Encoder
+#        kind: file-pdf-o
+#       path: ./slides/week6/W6_autoencoder.pdf
+#      - title: Neighbor Embedding
+#        kind: file-pdf-o
+#        path: ./slides/week6/W6_TSNE.pdf
+#      - title: W6-video
+#        kind: play-circle
+#        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_LTqF5iG3eCWYXK5zQNvOz
    
-  - title: Week 07 (Guest Lecture)
-    slides:
-      - title: W7-video
-        kind: play-circle
-        path: https://www.youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
+  - title: Week 07
+#    slides:
+#      - title: W7-video
+#        kind: play-circle
+#        path: https://www.youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
 
   - title: Week 08
-    slides:
-      - title: RNN
-        kind: file-pdf-o
-        path: ./slides/week8/W8_RNN.pdf
-      - title: Ensemble    
-        kind: file-pdf-o
-        path: ./slides/week8/W8_ensemble.pdf
-      - title: AdaBoost
-        kind: Gradient Boosting
-        path: ./slides/week8/W8_adaBoost.pdf
-      - title: W8-video
-        kind: play-circle
-        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9hNFwmebcB-Ckv9Q7EY26X
+#    slides:
+#      - title: RNN
+#        kind: file-pdf-o
+#       path: ./slides/week8/W8_RNN.pdf
+#      - title: Ensemble    
+#        kind: file-pdf-o
+#        path: ./slides/week8/W8_ensemble.pdf
+#      - title: AdaBoost
+#        kind: Gradient Boosting
+#        path: ./slides/week8/W8_adaBoost.pdf
+#      - title: W8-video
+#        kind: play-circle
+#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9hNFwmebcB-Ckv9Q7EY26X
 
   - title: Week 09
-    slides:
-      - title: GMM and EM 
-        kind: file-pdf-o
-        path: ./slides/week9/W9_GMM_EM.pdf
-      - title: W9-video
-        kind: play-circle
-        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9rgKwCYEv4Gq2TmKN9-aIa
+#    slides:
+#      - title: GMM and EM 
+#        kind: file-pdf-o
+#        path: ./slides/week9/W9_GMM_EM.pdf
+#      - title: W9-video
+#        kind: play-circle
+#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9rgKwCYEv4Gq2TmKN9-aIa
     
   - title: Week 10
-    slides:
-      - title: Semi-Supervised Learning
-        kind: file-pdf-o
-        path: ./slides/week10/W10_semi.pdf
-      - title: W10-video
-        kind: play-circle
-        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-tTCiA6IKL8BIkvs7eyuFl
+#    slides:
+#      - title: Semi-Supervised Learning
+#       kind: file-pdf-o
+#        path: ./slides/week10/W10_semi.pdf
+#      - title: W10-video
+#        kind: play-circle
+#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-tTCiA6IKL8BIkvs7eyuFl
 
   - title: Week 11
-    slides:
-      - title: VAE
-        kind: file-pdf-o
-        path: ./slides/week11/W11_VAE.pdf
-      - title: W11-video
-        kind: play-circle
-        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8EyMhap4-wacbC5x_3s2Kk
+#    slides:
+#      - title: VAE
+#       kind: file-pdf-o
+#        path: ./slides/week11/W11_VAE.pdf
+#      - title: W11-video
+#        kind: play-circle
+#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8EyMhap4-wacbC5x_3s2Kk
 
   - title: Week 12
-    slides:
-      - title: SVM intro
-        kind: file-pdf-o
-        path: ./slides/week12/W12_L1_svm_intro.pdf
-      - title: SVM Optimization
-        kind: file-pdf-o
-        path: ./slides/week12/W12_L2_svm_optimization.pdf   
-      - title: W12-video
-        kind: play-circle
-        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k_Z6i-2G0xdmBTveQF_rEyO
+#    slides:
+#      - title: SVM intro
+#        kind: file-pdf-o
+#        path: ./slides/week12/W12_L1_svm_intro.pdf
+#      - title: SVM Optimization
+#        kind: file-pdf-o
+#        path: ./slides/week12/W12_L2_svm_optimization.pdf   
+#      - title: W12-video
+#        kind: play-circle
+#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k_Z6i-2G0xdmBTveQF_rEyO
 
   - title: Week 13
-    slides:
-      - title: SVM Kernel Method
-        kind: file-pdf-o
-        path: ./slides/week13/W13_L3_svm_kernel.pdf
-      - title: Lagrange Duality
-        kind: file-pdf-o
-        path: ./slides/week13/W13_L4_duality_intro.pdf
-      - title: Duality of SVM
-        kind: file-pdf-o
-        path: ./slides/week13/W13_L5_svm duality.pdf
-      - title: W6-video
-        kind: play-circle
-        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-aapOsa9kNH0WLZcLHONxi
+#    slides:
+#      - title: SVM Kernel Method
+#        kind: file-pdf-o
+#        path: ./slides/week13/W13_L3_svm_kernel.pdf
+#      - title: Lagrange Duality
+#        kind: file-pdf-o
+#        path: ./slides/week13/W13_L4_duality_intro.pdf
+#      - title: Duality of SVM
+#        kind: file-pdf-o
+#        path: ./slides/week13/W13_L5_svm duality.pdf
+#      - title: W6-video
+#        kind: play-circle
+#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-aapOsa9kNH0WLZcLHONxi
    
   - title: Week 14
-    slides:
-      - title: W6-video
-        kind: play-circle
-        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-VHdju-iiML0WBxTZq5Exb
+#    slides:
+#      - title: W6-video
+#        kind: play-circle
+#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-VHdju-iiML0WBxTZq5Exb
       
-  - title: Week 15 (Guest Lecture)
-    slides:
+  - title: Week 15
+ #   slides:
       
   - title: Week 16 (Final)
-    slides:
+ #   slides:
  
 
 # Resources:
@@ -213,75 +213,75 @@ resources:
       #   url: url
 homeworks:
   - title: HW1 - Regression
-    links:
-      - title: video # video
-        kind: youtube-play 
-        url: https://youtu.be/QzoSZ6XWqZQ
-      - title: slide # slide
-        kind: file-pdf-o 
-        url: https://docs.google.com/presentation/d/1SEG9V6lsY0owG_AqIKMV07W85wlR7PSh/edit#slide=id.p1
-      - title: kaggle # kaggle
-        kind: trophy  
-        url: https://www.kaggle.com/t/b404886ab374405ba8302aa1add3dab1
-      - title: colab # colab
-        kind: cloud 
-        url: https://colab.research.google.com/drive/1ffy7uvNJr_rtaNbIlGZdrY47TkjzRKx-?usp=sharing
-      - title: math
-        kind: file-pdf-o 
-        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/Sk1n8xPWo?fbclid=IwAR0LiCps2fhIZFJT-gYP8kr7KlvLaRvS9-ftLIaPQY5DVgye1AuHM-RW3Yg
+#    links:
+#      - title: video # video
+#        kind: youtube-play 
+#        url: https://youtu.be/QzoSZ6XWqZQ
+#      - title: slide # slide
+#        kind: file-pdf-o 
+#        url: https://docs.google.com/presentation/d/1SEG9V6lsY0owG_AqIKMV07W85wlR7PSh/edit#slide=id.p1
+#      - title: kaggle # kaggle
+#        kind: trophy  
+#        url: https://www.kaggle.com/t/b404886ab374405ba8302aa1add3dab1
+#      - title: colab # colab
+#        kind: cloud 
+#        url: https://colab.research.google.com/drive/1ffy7uvNJr_rtaNbIlGZdrY47TkjzRKx-?usp=sharing
+#      - title: math
+#        kind: file-pdf-o 
+#        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/Sk1n8xPWo?fbclid=IwAR0LiCps2fhIZFJT-gYP8kr7KlvLaRvS9-ftLIaPQY5DVgye1AuHM-RW3Yg
   - title: HW2 - CNN
-    links:
-      - title: video # video
-        kind: youtube-play 
-        url: https://youtu.be/SFWt6njTmeI
-      - title: slide # slide
-        kind: file-pdf-o 
-        url: https://docs.google.com/presentation/d/1sV66DbhwFQRQDe_r5e611dGVyP84qosl/edit?usp=sharing&ouid=101016267389786846355&rtpof=true&sd=true
-      - title: kaggle # kaggle
-        kind: trophy  
-        url: https://www.kaggle.com/competitions/hml-2022fall-hw2
-      - title: colab # colab
-        kind: cloud 
-        url: https://colab.research.google.com/drive/1KAoMxp7JUcOCAUilHE_xqX9XatlHskOb?usp=sharing
-      - title: math
-        kind: file-pdf-o 
-        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/r1otQp7Gi?fbclid=IwAR0cs5CajVy_zhDmHEDgze2V1_Jlxp95N45BF6hg1l6CgG-6IViYGAIGReE
+#    links:
+#      - title: video # video
+#        kind: youtube-play 
+#        url: https://youtu.be/SFWt6njTmeI
+#      - title: slide # slide
+#        kind: file-pdf-o 
+#        url: https://docs.google.com/presentation/d/1sV66DbhwFQRQDe_r5e611dGVyP84qosl/edit?usp=sharing&ouid=101016267389786846355&rtpof=true&sd=true
+#      - title: kaggle # kaggle
+#        kind: trophy  
+#        url: https://www.kaggle.com/competitions/hml-2022fall-hw2
+#      - title: colab # colab
+#        kind: cloud 
+#        url: https://colab.research.google.com/drive/1KAoMxp7JUcOCAUilHE_xqX9XatlHskOb?usp=sharing
+#      - title: math
+#       kind: file-pdf-o 
+#        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/r1otQp7Gi?fbclid=IwAR0cs5CajVy_zhDmHEDgze2V1_Jlxp95N45BF6hg1l6CgG-6IViYGAIGReE
 
   - title: HW3 - Embedding
-    links:
-      - title: video # video
-        kind: youtube-play 
-        url: https://youtu.be/lLeQhyVIpoc
-      - title: slide # slide
-        kind: file-pdf-o 
-        url: https://docs.google.com/presentation/d/1DnKRs9mokOh6AXyTiMpHNxdtm89jun52/edit#slide=id.p1
-      - title: kaggle # kaggle
-        kind: trophy  
-        url: https://www.kaggle.com/t/647bb8fc397b4440ae51870abbd1c06f
-      - title: colab # colab
-        kind: cloud 
-        url: https://colab.research.google.com/drive/1w7HU5h0qV_QpV5STW6zN4KP_f5CXw42j?authuser=0
-      - title: math
-        kind: file-pdf-o 
-        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/Hy3kRxTMs?fbclid=IwAR0cc-uqpmQm9_Jel9plCjj3QBDtNYEIikJGtgyvCFczcue_KCeEsXUQIHc
+#    links:
+#      - title: video # video
+#        kind: youtube-play 
+#        url: https://youtu.be/lLeQhyVIpoc
+#      - title: slide # slide
+#        kind: file-pdf-o 
+#        url: https://docs.google.com/presentation/d/1DnKRs9mokOh6AXyTiMpHNxdtm89jun52/edit#slide=id.p1
+#      - title: kaggle # kaggle
+#        kind: trophy  
+#        url: https://www.kaggle.com/t/647bb8fc397b4440ae51870abbd1c06f
+#      - title: colab # colab
+#        kind: cloud 
+#        url: https://colab.research.google.com/drive/1w7HU5h0qV_QpV5STW6zN4KP_f5CXw42j?authuser=0
+#      - title: math
+#        kind: file-pdf-o 
+#        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/Hy3kRxTMs?fbclid=IwAR0cc-uqpmQm9_Jel9plCjj3QBDtNYEIikJGtgyvCFczcue_KCeEsXUQIHc
 
   - title: HW4 - RNN
-    links:
-      - title: video # video
-        kind: youtube-play 
-        url: https://youtu.be/POHfbfn_aGc
-      - title: slide # slide
-        kind: file-pdf-o 
-        url: https://docs.google.com/presentation/d/1unG_d2QEFQ0sryWYN0Qr9XOLS14KHV1M5wS3nWuKCB0/edit?usp=sharing
-      - title: kaggle # kaggle
-        kind: trophy  
-        url: https://www.kaggle.com/t/73022139d2fc4619857de7a4af265186
-      - title: colab # colab
-        kind: cloud 
-        url: https://colab.research.google.com/drive/1sMKqtdy0Ag0f9QCfTTB7VrdQ9q-4wUOs?usp=sharing
-      - title: math
-        kind: file-pdf-o 
-        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/H1ucYOpNo
+#    links:
+#      - title: video # video
+#        kind: youtube-play 
+#        url: https://youtu.be/POHfbfn_aGc
+#      - title: slide # slide
+#        kind: file-pdf-o 
+#        url: https://docs.google.com/presentation/d/1unG_d2QEFQ0sryWYN0Qr9XOLS14KHV1M5wS3nWuKCB0/edit?usp=sharing
+#      - title: kaggle # kaggle
+#        kind: trophy  
+#        url: https://www.kaggle.com/t/73022139d2fc4619857de7a4af265186
+#      - title: colab # colab
+#        kind: cloud 
+#        url: https://colab.research.google.com/drive/1sMKqtdy0Ag0f9QCfTTB7VrdQ9q-4wUOs?usp=sharing
+#      - title: math
+#        kind: file-pdf-o 
+#        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/H1ucYOpNo
 
   - title: HW5 - SVM
   #   links:
