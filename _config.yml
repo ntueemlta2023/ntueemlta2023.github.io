@@ -28,31 +28,31 @@ TeacherEmail: peiyuanwu@ntu.edu.tw
 # Syllabus
 syllabus:
   - title: Week 01
-#    slides:
-#      - title: Syllabus
-#        kind: file-pdf-o
-#        path: ./slides/week1/ML syllabus (111-1).pdf
+    slides:
+      - title: Syllabus
+        kind: file-pdf-o
+        path: ./slides/week1/ML syllabus (111-2).pdf
       # - title: W1-video
       #   kind: play-circle
       #   path: https://drive.google.com/drive/folders/1-iHwvCefqNQCySxwoohmYbpePZq7wqoR
 
   - title: Week 02
     slides:
-#      - title: Introduction
-#        kind: file-pdf-o
-#        path: ./slides/week2/W2_Introduction.pdf
-#      - title: Regression
-#        kind: file-pdf-o
-#        path: ./slides/week2/W2_Regression.pdf
+      - title: Introduction
+        kind: file-pdf-o
+        path: ./slides/week2/W2_Introduction.pdf
+      - title: Regression
+        kind: file-pdf-o
+        path: ./slides/week2/W2_Regression.pdf
 #      - title: W2-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
 
   - title: Week 03
-#    slides:
-#      - title: Bias and Variance
-#        kind: file-pdf-o
-#        path: ./slides/week3/W3a_Bias_and_Variance.pdf
+    slides:
+      - title: Bias and Variance
+        kind: file-pdf-o
+        path: ./slides/week3/W3a_Bias_and_Variance.pdf
 #      - title: Classification - Probability Generative Model
 #        kind: file-pdf-o
 #        path: ./slides/week3/W3b_Classification (v2).pdf
