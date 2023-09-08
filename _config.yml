@@ -31,7 +31,7 @@ syllabus:
     slides:
       - title: Syllabus
         kind: file-pdf-o
-        path: ./slides/week1/ML syllabus (111-2).pdf
+        path: ./slides/week1/ML syllabus (112-1).pdf
       # - title: W1-video
       #   kind: play-circle
       #   path: https://drive.google.com/drive/folders/1-iHwvCefqNQCySxwoohmYbpePZq7wqoR
