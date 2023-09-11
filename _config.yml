@@ -31,32 +31,42 @@ syllabus:
     slides:
       - title: Syllabus
         kind: file-pdf-o
-        path: ./slides/week1/ML syllabus (112-1).pdf
+        path: ./slides/week1/ML syllabus (112-1).
 
-      - title: W1-video
+      - title: Introduction
+        kind: file-pdf-o
+        path: ./slides/week1/W1_Introduction.
+        
+      
+      - title: Regression
+        kind: file-pdf-o
+        path: ./slides/week1/W1_Regression.pdf
+      
+
+      - title: W1-video(最後 25 分鐘沒聲音)
         kind: play-circle
         path: https://www.youtube.com/playlist?list=PLIKHU3mMrCpgNlyO9hEwGVxNMJHoeP4IZ
 
+      - title: Regression-video(2022)
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
+
   - title: Week 02
-    slides:
-      - title: Introduction
+      - title: Bias and Variance
         kind: file-pdf-o
-        path: ./slides/week2/W2_Introduction.pdf
-      - title: Regression
+        path: ./slides/week2/W2a_Bias_and_Variance.pdf
+
+      - title: Classification - Probability Generative Model
         kind: file-pdf-o
-        path: ./slides/week2/W2_Regression.pdf
+        path: ./slides/week2/W2b_Classification (v2).pdf
 #      - title: W2-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
 
   - title: Week 03
     slides:
-      - title: Bias and Variance
-        kind: file-pdf-o
-        path: ./slides/week3/W3a_Bias_and_Variance.pdf
-#      - title: Classification - Probability Generative Model
-#        kind: file-pdf-o
-#        path: ./slides/week3/W3b_Classification (v2).pdf
+
+
 #      - title: W3-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9HiAyjSyLrkMXpJAjeM2ku
