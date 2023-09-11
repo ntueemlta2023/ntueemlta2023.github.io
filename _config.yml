@@ -42,15 +42,16 @@ syllabus:
         kind: file-pdf-o
         path: ./slides/week1/W1_Regression.pdf
 
-      - title: W1-video
+      - title: W1-video(最後 25 分鐘沒聲音)
         kind: play-circle
         path: https://www.youtube.com/playlist?list=PLIKHU3mMrCpgNlyO9hEwGVxNMJHoeP4IZ
 
-#      - title: Regression-video-2022
-#        kind: play-circle
-#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
+      - title: Regression-video(2022)
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
 
   - title: Week 02
+    slides:
       - title: Bias and Variance
         kind: file-pdf-o
         path: ./slides/week2/W2a_Bias_and_Variance.pdf
