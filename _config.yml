@@ -46,9 +46,9 @@ syllabus:
         kind: play-circle
         path: https://www.youtube.com/playlist?list=PLIKHU3mMrCpgNlyO9hEwGVxNMJHoeP4IZ
 
-      - title: Regression-video-2022
-        kind: play-circle
-        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
+#      - title: Regression-video-2022
+#        kind: play-circle
+#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
 
   - title: Week 02
       - title: Bias and Variance
