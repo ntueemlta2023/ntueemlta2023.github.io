@@ -31,11 +31,11 @@ syllabus:
     slides:
       - title: Syllabus
         kind: file-pdf-o
-        path: ./slides/week1/ML syllabus (112-1).
+        path: ./slides/week1/ML syllabus (112-1).pdf
 
       - title: Introduction
         kind: file-pdf-o
-        path: ./slides/week1/W1_Introduction.
+        path: ./slides/week1/W1_Introduction.pdf
         
       
       - title: Regression
