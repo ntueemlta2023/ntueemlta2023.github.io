@@ -230,11 +230,6 @@ resources:
       #   kind: fa fa icon name (Ref: https://fontawesome.com/v4/icons/)
       #   url: url
 homeworks:
- - title: HW1 - Regression
-   links:
-     - title: slide # slide
-       kind: file-pdf-o 
-       url: ./exams/ML_107_final_ques.pdf
 #  - title: HW1 - Regression
 #    links:
 #      - title: video # video
@@ -325,31 +320,31 @@ homeworks:
       #   url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/H1ucYOpNo
 
 
-# - title: 107
-#     links:
-#       - title: 107 Final Exam
-#         kind: file-pdf-o
-#         url: ./exams/ML_107_final_ques.pdf
-# - title: 108
-#     links:
-#       - title: 108 Final Exam
-#         kind: file-pdf-o
-#         url: ./exams/ML_108_final_ques.pdf
-# - title: 109
-#     links:
-#       - title: 109 Final Exam
-#         kind: file-pdf-o
-#         url: ./exams/ML_109_final_ques.pdf
-# - title: 110
-#     links:
-#       - title: 110 Final Exam
-#         kind: file-pdf-o
-#         url: ./exams/ML_110_final_ques.pdf
-# - title: 111
-#     links:
-#       - title: 111 Final Exam
-#         kind: file-pdf-o
-#         url: ./exams/ML_111_final_ques.pdf
+- title: Exam-107
+    links:
+      - title: 107 Final Exam
+        kind: file-pdf-o
+        url: ./exams/ML_107_final_ques.pdf
+- title: Exam-108
+    links:
+      - title: 108 Final Exam
+        kind: file-pdf-o
+        url: ./exams/ML_108_final_ques.pdf
+- title: Exam-109
+    links:
+      - title: 109 Final Exam
+        kind: file-pdf-o
+        url: ./exams/ML_109_final_ques.pdf
+- title: Exam-110
+    links:
+      - title: 110 Final Exam
+        kind: file-pdf-o
+        url: ./exams/ML_110_final_ques.pdf
+- title: Exam-111
+    links:
+      - title: 111 Final Exam
+        kind: file-pdf-o
+        url: ./exams/ML_111_final_ques.pdf
 exams:
 # - title: 107
 #     links:
