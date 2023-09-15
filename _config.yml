@@ -64,7 +64,7 @@ syllabus:
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
 
   - title: Week 03
-#    slides:
+    slides:
 
 
 #      - title: W3-video
@@ -72,7 +72,7 @@ syllabus:
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9HiAyjSyLrkMXpJAjeM2ku
 
   - title: Week 04(Mid-Autumn Fest.)
-#    slides:
+    slides:
 #      - title: Logistic Regression
 #        kind: file-pdf-o
 #        path: ./slides/week4/W4_Logistic Regression (v4).pdf
@@ -93,7 +93,7 @@ syllabus:
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-Rf_w6K3eXjPppIdGGdRGF
 
   - title: Week 05
-#    slides:
+     slides:
 #      - title: CNN
 #        kind: file-pdf-o
 #        path: ./slides/week5/W5_CNN.pdf
@@ -108,7 +108,7 @@ syllabus:
 #        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_SF_YMgTqP6t_tU__M0x8h
 
   - title: Week 06
-#    slides:
+    slides:
 #      - title: Auto Encoder
 #        kind: file-pdf-o
 #       path: ./slides/week6/W6_autoencoder.pdf
@@ -120,13 +120,13 @@ syllabus:
 #        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_LTqF5iG3eCWYXK5zQNvOz
    
   - title: Week 07
-#    slides:
+    slides:
 #      - title: W7-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
 
   - title: Week 08
-#    slides:
+    slides:
 #      - title: RNN
 #        kind: file-pdf-o
 #       path: ./slides/week8/W8_RNN.pdf
@@ -141,7 +141,7 @@ syllabus:
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9hNFwmebcB-Ckv9Q7EY26X
 
   - title: Week 09
-#    slides:
+    slides:
 #      - title: GMM and EM 
 #        kind: file-pdf-o
 #        path: ./slides/week9/W9_GMM_EM.pdf
@@ -150,7 +150,7 @@ syllabus:
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9rgKwCYEv4Gq2TmKN9-aIa
     
   - title: Week 10
-#    slides:
+    slides:
 #      - title: Semi-Supervised Learning
 #       kind: file-pdf-o
 #        path: ./slides/week10/W10_semi.pdf
@@ -159,7 +159,7 @@ syllabus:
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-tTCiA6IKL8BIkvs7eyuFl
 
   - title: Week 11
-#    slides:
+    slides:
 #      - title: VAE
 #       kind: file-pdf-o
 #        path: ./slides/week11/W11_VAE.pdf
@@ -168,7 +168,7 @@ syllabus:
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8EyMhap4-wacbC5x_3s2Kk
 
   - title: Week 12
-#    slides:
+    slides:
 #      - title: SVM intro
 #        kind: file-pdf-o
 #        path: ./slides/week12/W12_L1_svm_intro.pdf
@@ -180,7 +180,7 @@ syllabus:
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k_Z6i-2G0xdmBTveQF_rEyO
 
   - title: Week 13
-#    slides:
+    slides:
 #      - title: SVM Kernel Method
 #        kind: file-pdf-o
 #        path: ./slides/week13/W13_L3_svm_kernel.pdf
@@ -195,19 +195,19 @@ syllabus:
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-aapOsa9kNH0WLZcLHONxi
    
   - title: Week 14
-#    slides:
+    slides:
 #      - title: W6-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-VHdju-iiML0WBxTZq5Exb
       
   - title: Week 15
- #   slides:
+    slides:
       
   - title: Week 16 (Final)
-     slides:
-      - title: Final Exam(107-1)
+    slides:
+      - title: Bias and Variance
         kind: file-pdf-o
-       path: ./slides/week16/ML_107_final_ques.pdf
+        path: ./slides/week16/ML_107_final_ques.pdf
 
 #      - title: 108 Final Exam
 #        kind: file-pdf-o
