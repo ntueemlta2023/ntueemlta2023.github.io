@@ -74,9 +74,6 @@ syllabus:
 
   - title: Week 04(Mid-Autumn Fest.)
 #    slides:
-#      - title: 中秋節快樂！
-#        kind: file-pdf-o
-#        path: ./img/moon.jpg
 #      - title: Logistic Regression
 #        kind: file-pdf-o
 #        path: ./slides/week4/W4_Logistic Regression (v4).pdf
@@ -98,9 +95,9 @@ syllabus:
 
   - title: Week 05
     slides:
-     - title: CNN
-       kind: file-pdf-o
-       path: ./slides/week5/W5_CNN.pdf
+    #  - title: CNN
+    #    kind: file-pdf-o
+    #    path: ./slides/week5/W5_CNN.pdf
 #      - title: PCA
 #        kind: file-pdf-o
 #        path: ./slides/week5/W5_PCA_v2.pdf
@@ -326,31 +323,31 @@ exams:
    links:
      - title: Final-Exam-107 # slide
        kind: file-pdf-o 
-       url: ./exams/ML_107_final_ques.pdf
+       path: ./exams/ML_107_final_ques.pdf
 
  - title: Exam-108
    links:
      - title: Final-Exam-108 # slide
        kind: file-pdf-o 
-       url: ./exams/ML_108_final_ques.pdf
+       path: ./exams/ML_108_final_ques.pdf
 
  - title: Exam-109
    links:
      - title: Final-Exam-109 # slide
        kind: file-pdf-o 
-       url: ./exams/ML_109_final_ques.pdf
+       path: ./exams/ML_109_final_ques.pdf
 
  - title: Exam-110
    links:
      - title: Final-Exam-110 # slide
        kind: file-pdf-o 
-       url: ./exams/ML_110_final_ques.pdf
+       path: ./exams/ML_110_final_ques.pdf
 
  - title: Exam-111
    links:
      - title: Final-Exam-111 # slide
        kind: file-pdf-o 
-       url: ./exams/ML_111_final_ques.pdf
+       path: ./exams/ML_111_final_ques.pdf
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 networks:
