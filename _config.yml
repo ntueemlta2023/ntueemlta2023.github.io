@@ -354,7 +354,7 @@ networks:
 # Color settings (hex-codes without the leading hash-tag)
 color:
   light: '#ECF8FA'
-  links: '#79FF79' # color for button
+  links: '#219ab3' # color for button
   special-links: '#FFCC00'
 
 # Footer settings
