@@ -204,9 +204,8 @@ syllabus:
  #   slides:
       
   - title: Week 16 (Final)
-
-   slides:
-      - title: 107 Final Exam
+     slides:
+      - title: Final Exam(107-1)
         kind: file-pdf-o
        path: ./slides/week16/ML_107_final_ques.pdf
 
