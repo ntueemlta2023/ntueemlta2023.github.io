@@ -74,6 +74,9 @@ syllabus:
 
 #  - title: Week 04(Mid-Autumn Fest.)
 #    slides:
+#      - title: 中秋節快樂！
+#        kind: file-pdf-o
+#        path: ./img/moon.jpg
 #      - title: Logistic Regression
 #        kind: file-pdf-o
 #        path: ./slides/week4/W4_Logistic Regression (v4).pdf
@@ -317,31 +320,31 @@ homeworks:
       #   url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/H1ucYOpNo
 
 exams:
-# - title: 107
-#     links:
-#       - title: 107 Final Exam
-#         kind: file-pdf-o
-#         path: ./exams/ML_107_final_ques.pdf
-# - title: 108
-#     links:
-#       - title: 108 Final Exam
-#         kind: file-pdf-o
-#         path: ./exams/ML_108_final_ques.pdf
-# - title: 109
-#     links:
-#       - title: 109 Final Exam
-#         kind: file-pdf-o
-#         path: ./exams/ML_109_final_ques.pdf
-# - title: 110
-#     links:
-#       - title: 110 Final Exam
-#         kind: file-pdf-o
-#         path: ./exams/ML_110_final_ques.pdf
-# - title: 111
-#     links:
-#       - title: 111 Final Exam
-#         kind: file-pdf-o
-#         path: ./exams/ML_111_final_ques.pdf
+- title: 107
+    links:
+      - title: 107 Final Exam
+        kind: file-pdf-o
+        path: ./exams/ML_107_final_ques.pdf
+- title: 108
+    links:
+      - title: 108 Final Exam
+        kind: file-pdf-o
+        path: ./exams/ML_108_final_ques.pdf
+- title: 109
+    links:
+      - title: 109 Final Exam
+        kind: file-pdf-o
+        path: ./exams/ML_109_final_ques.pdf
+- title: 110
+    links:
+      - title: 110 Final Exam
+        kind: file-pdf-o
+        path: ./exams/ML_110_final_ques.pdf
+- title: 111
+    links:
+      - title: 111 Final Exam
+        kind: file-pdf-o
+        path: ./exams/ML_111_final_ques.pdf
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 networks:
