@@ -65,7 +65,9 @@ syllabus:
 
   - title: Week 03
     slides:
-
+      - title: 107 Final Exam
+        kind: file-pdf-o
+        path: ./slides/week16/ML_107_final_ques.pdf
 
 #      - title: W3-video
 #        kind: play-circle
@@ -205,9 +207,9 @@ syllabus:
       
   - title: Week 16 (Final)
     slides:
-      - title: Bias and Variance
-        kind: file-pdf-o
-        path: ./slides/week16/ML_107_final_ques.pdf
+#      - title: 107 Final Exam
+#        kind: file-pdf-o
+#        path: ./slides/week16/ML_107_final_ques.pdf
 
 #      - title: 108 Final Exam
 #        kind: file-pdf-o
