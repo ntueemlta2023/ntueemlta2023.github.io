@@ -322,27 +322,27 @@ homeworks:
 
 - title: Exam-107
     links:
-      - title: 107 Final Exam
+      - title: Final-Exam-107
         kind: file-pdf-o
         url: ./exams/ML_107_final_ques.pdf
 - title: Exam-108
     links:
-      - title: 108 Final Exam
+      - title:  Final-Exam-108
         kind: file-pdf-o
         url: ./exams/ML_108_final_ques.pdf
 - title: Exam-109
     links:
-      - title: 109 Final Exam
+      - title:  Final-Exam-109
         kind: file-pdf-o
         url: ./exams/ML_109_final_ques.pdf
 - title: Exam-110
     links:
-      - title: 110 Final Exam
+      - title:  Final-Exam-110
         kind: file-pdf-o
         url: ./exams/ML_110_final_ques.pdf
 - title: Exam-111
     links:
-      - title: 111 Final Exam
+      - title:  Final-Exam-111
         kind: file-pdf-o
         url: ./exams/ML_111_final_ques.pdf
 exams:
