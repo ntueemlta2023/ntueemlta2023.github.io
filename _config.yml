@@ -351,7 +351,7 @@ networks:
 ################ website theme design ################
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#000000'
+  light: '#78cdd1'
   links: '#219ab3' # color for button
   special-links: '#FFCC00'
 
