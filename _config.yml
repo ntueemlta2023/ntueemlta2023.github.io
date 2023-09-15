@@ -65,14 +65,14 @@ syllabus:
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
 
-#  - title: Week 03
+  - title: Week 03
 #    slides:
 
 #      - title: W3-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9HiAyjSyLrkMXpJAjeM2ku
 
-#  - title: Week 04(Mid-Autumn Fest.)
+  - title: Week 04(Mid-Autumn Fest.)
 #    slides:
 #      - title: 中秋節快樂！
 #        kind: file-pdf-o
@@ -96,11 +96,11 @@ syllabus:
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-Rf_w6K3eXjPppIdGGdRGF
 
-#  - title: Week 05
-#     slides:
-#      - title: CNN
-#        kind: file-pdf-o
-#        path: ./slides/week5/W5_CNN.pdf
+  - title: Week 05
+    slides:
+     - title: CNN
+       kind: file-pdf-o
+       path: ./slides/week5/W5_CNN.pdf
 #      - title: PCA
 #        kind: file-pdf-o
 #        path: ./slides/week5/W5_PCA_v2.pdf
@@ -111,7 +111,7 @@ syllabus:
 #        kind: play-circle
 #        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_SF_YMgTqP6t_tU__M0x8h
 
-#  - title: Week 06
+  - title: Week 06
 #    slides:
 #      - title: Auto Encoder
 #        kind: file-pdf-o
@@ -123,13 +123,13 @@ syllabus:
 #        kind: play-circle
 #        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_LTqF5iG3eCWYXK5zQNvOz
    
-#  - title: Week 07
+  - title: Week 07
 #    slides:
 #      - title: W7-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
 
-#  - title: Week 08
+  - title: Week 08
 #    slides:
 #      - title: RNN
 #        kind: file-pdf-o
@@ -144,7 +144,7 @@ syllabus:
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9hNFwmebcB-Ckv9Q7EY26X
 
-#  - title: Week 09
+  - title: Week 09
 #    slides:
 #      - title: GMM and EM 
 #        kind: file-pdf-o
@@ -153,7 +153,7 @@ syllabus:
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9rgKwCYEv4Gq2TmKN9-aIa
     
- # - title: Week 10
+  - title: Week 10
 #    slides:
 #      - title: Semi-Supervised Learning
 #       kind: file-pdf-o
@@ -162,7 +162,7 @@ syllabus:
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-tTCiA6IKL8BIkvs7eyuFl
 
-#  - title: Week 11
+  - title: Week 11
 #    slides:
 #      - title: VAE
 #       kind: file-pdf-o
@@ -171,7 +171,7 @@ syllabus:
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8EyMhap4-wacbC5x_3s2Kk
 
-#  - title: Week 12
+  - title: Week 12
 #    slides:
 #      - title: SVM intro
 #        kind: file-pdf-o
@@ -183,7 +183,7 @@ syllabus:
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k_Z6i-2G0xdmBTveQF_rEyO
 
-#  - title: Week 13
+  - title: Week 13
 #    slides:
 #      - title: SVM Kernel Method
 #        kind: file-pdf-o
@@ -198,16 +198,16 @@ syllabus:
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-aapOsa9kNH0WLZcLHONxi
    
-#  - title: Week 14
+  - title: Week 14
 #    slides:
 #      - title: W6-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-VHdju-iiML0WBxTZq5Exb
       
-#  - title: Week 15
+  - title: Week 15
 #    slides:
       
-#  - title: Week 16 (Final)
+  - title: Week 16 (Final)
 #    slides:
 
 # Resources:
@@ -232,7 +232,7 @@ resources:
 homeworks:
 
 
-#  - title: HW1 - Regression
+  - title: HW1 - Regression
 #    links:
 #      - title: video # video
 #        kind: youtube-play 
@@ -249,7 +249,7 @@ homeworks:
 #      - title: math
 #        kind: file-pdf-o 
 #        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/Sk1n8xPWo?fbclid=IwAR0LiCps2fhIZFJT-gYP8kr7KlvLaRvS9-ftLIaPQY5DVgye1AuHM-RW3Yg
-#  - title: HW2 - CNN
+  - title: HW2 - CNN
 #    links:
 #      - title: video # video
 #        kind: youtube-play 
@@ -267,7 +267,7 @@ homeworks:
 #       kind: file-pdf-o 
 #        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/r1otQp7Gi?fbclid=IwAR0cs5CajVy_zhDmHEDgze2V1_Jlxp95N45BF6hg1l6CgG-6IViYGAIGReE
 
-#  - title: HW3 - Embedding
+  - title: HW3 - Embedding
 #    links:
 #      - title: video # video
 #        kind: youtube-play 
@@ -285,7 +285,7 @@ homeworks:
 #        kind: file-pdf-o 
 #        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/Hy3kRxTMs?fbclid=IwAR0cc-uqpmQm9_Jel9plCjj3QBDtNYEIikJGtgyvCFczcue_KCeEsXUQIHc
 
-#  - title: HW4 - RNN
+  - title: HW4 - RNN
 #    links:
 #      - title: video # video
 #        kind: youtube-play 
@@ -303,7 +303,7 @@ homeworks:
 #        kind: file-pdf-o 
 #        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/H1ucYOpNo
 
-#  - title: HW5 - SVM
+  - title: HW5 - SVM
   #   links:
   #     - title: video # video
   #       kind: youtube-play 
