@@ -64,9 +64,9 @@ syllabus:
       - title: Classification - Probability Generative Model
         kind: file-pdf-o
         path: ./slides/week2/W2b_Classification (v2).pdf
-#      - title: W2-video
-#        kind: play-circle
-#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8sCKiw5stPtq0lhkV67iW2
+      - title: W2-video
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLIKHU3mMrCpgd7ED1YW5BJa2n1qR1XdJE
 
   - title: Week 03
 #    slides:
