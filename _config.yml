@@ -67,6 +67,9 @@ syllabus:
       - title: W2-video
         kind: play-circle
         path: https://www.youtube.com/playlist?list=PLIKHU3mMrCpgd7ED1YW5BJa2n1qR1XdJE
+     - title: Logistic Regression
+       kind: file-pdf-o
+       path: ./slides/week2/W2_Logistic Regression (v4).pdf
 
   - title: Week 03
 #    slides:
@@ -77,9 +80,7 @@ syllabus:
 
   - title: Week 04(Mid-Autumn Fest.)
 #    slides:
-#      - title: Logistic Regression
-#        kind: file-pdf-o
-#        path: ./slides/week4/W4_Logistic Regression (v4).pdf
+
 #      - title: Deep Learning
 #        kind: file-pdf-o
 #        path: ./slides/week4/W4_DL_introduction.pdf
