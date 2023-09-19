@@ -75,7 +75,7 @@ syllabus:
 
 
   - title: Week 03
-   slides:
+    slides:
       - title: Deep Learning
         kind: file-pdf-o
         path: ./slides/week3/W3_DL_introduction.pdf
