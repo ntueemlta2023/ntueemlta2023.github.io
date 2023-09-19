@@ -76,18 +76,18 @@ syllabus:
 
   - title: Week 03
    slides:
-     - title: Deep Learning
-       kind: file-pdf-o
-       path: ./slides/week3/W3_DL_introduction.pdf
-     - title: Gradient Descent
-       kind: file-pdf-o
-       path: ./slides/week3/W3_Gradient Descent.pdf
-     - title: Backpropagation
-       kind: file-pdf-o
-       path: ./slides/week3/W3_BP (v2).pdf  
-     - title: Tips for DL
-       kind: file-pdf-o
-       path: ./slides/week3/W3_DNN tip.pdf
+      - title: Deep Learning
+        kind: file-pdf-o
+        path: ./slides/week3/W3_DL_introduction.pdf
+      - title: Gradient Descent
+        kind: file-pdf-o
+        path: ./slides/week3/W3_Gradient Descent.pdf
+      - title: Backpropagation
+        kind: file-pdf-o
+        path: ./slides/week3/W3_BP (v2).pdf  
+      - title: Tips for DL
+        kind: file-pdf-o
+        path: ./slides/week3/W3_DNN tip.pdf
 #      - title: W3-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9HiAyjSyLrkMXpJAjeM2ku
