@@ -64,34 +64,36 @@ syllabus:
       - title: Classification - Probability Generative Model
         kind: file-pdf-o
         path: ./slides/week2/W2b_Classification (v2).pdf
-      - title: W2-video
-        kind: play-circle
-        path: https://www.youtube.com/playlist?list=PLIKHU3mMrCpgd7ED1YW5BJa2n1qR1XdJE
+
       - title: Logistic Regression
         kind: file-pdf-o
         path: ./slides/week2/W2_Logistic Regression (v4).pdf
 
+      - title: W2-video
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLIKHU3mMrCpgd7ED1YW5BJa2n1qR1XdJE
+
+
   - title: Week 03
-#    slides:
+   slides:
+     - title: Deep Learning
+       kind: file-pdf-o
+       path: ./slides/week3/W3_DL_introduction.pdf
+     - title: Gradient Descent
+       kind: file-pdf-o
+       path: ./slides/week3/W3_Gradient Descent.pdf
+     - title: Backpropagation
+       kind: file-pdf-o
+       path: ./slides/week3/W3_BP (v2).pdf  
+     - title: Tips for DL
+       kind: file-pdf-o
+       path: ./slides/week3/W3_DNN tip.pdf
 #      - title: W3-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9HiAyjSyLrkMXpJAjeM2ku
 
   - title: Week 04(Mid-Autumn Fest.)
 #    slides:
-
-#      - title: Deep Learning
-#        kind: file-pdf-o
-#        path: ./slides/week4/W4_DL_introduction.pdf
-#      - title: Gradient Descent
-#        kind: file-pdf-o
-#        path: ./slides/week4/W4_Gradient Descent.pdf
-#      - title: Backpropagation
-#        kind: file-pdf-o
-#        path: ./slides/week4/W4_BP (v2).pdf  
-#      - title: Tips for DL
-#        kind: file-pdf-o
-#        path: ./slides/week4/W4_DNN tip.pdf
 #      - title: W4-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-Rf_w6K3eXjPppIdGGdRGF
