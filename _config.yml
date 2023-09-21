@@ -92,109 +92,107 @@ syllabus:
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9HiAyjSyLrkMXpJAjeM2ku
 
   - title: Week 04(Mid-Autumn Fest.)
-#    slides:
-#      - title: W4-video
-#        kind: play-circle
-#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-Rf_w6K3eXjPppIdGGdRGF
+
 
   - title: Week 05
     slides:
-    #  - title: CNN
-    #    kind: file-pdf-o
-    #    path: ./slides/week5/W5_CNN.pdf
-#      - title: PCA
-#        kind: file-pdf-o
-#        path: ./slides/week5/W5_PCA_v2.pdf
-#      - title: PCA and SVD
-#        kind: file-pdf-o
-#        path: ./slides/week5/W5_PCA_SVD.pdf
+      - title: CNN
+        kind: file-pdf-o
+        path: ./slides/week5/W5_CNN.pdf
+      - title: PCA
+        kind: file-pdf-o
+        path: ./slides/week5/W5_PCA_v2.pdf
+      - title: PCA and SVD
+        kind: file-pdf-o
+        path: ./slides/week5/W5_PCA_SVD.pdf
 #      - title: W5-video
 #        kind: play-circle
 #        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_SF_YMgTqP6t_tU__M0x8h
 
   - title: Week 06
-#    slides:
-#      - title: Auto Encoder
-#        kind: file-pdf-o
-#       path: ./slides/week6/W6_autoencoder.pdf
-#      - title: Neighbor Embedding
-#        kind: file-pdf-o
-#        path: ./slides/week6/W6_TSNE.pdf
+    slides:
+      - title: Auto Encoder
+        kind: file-pdf-o
+        path: ./slides/week6/W6_autoencoder.pdf
+
 #      - title: W6-video
 #        kind: play-circle
 #        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_LTqF5iG3eCWYXK5zQNvOz
    
   - title: Week 07
-#    slides:
+    slides:
+      - title: Neighbor Embedding
+        kind: file-pdf-o
+        path: ./slides/week7/W7_TSNE.pdf
 #      - title: W7-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
 
   - title: Week 08
-#    slides:
-#      - title: RNN
-#        kind: file-pdf-o
-#       path: ./slides/week8/W8_RNN.pdf
-#      - title: Ensemble    
-#        kind: file-pdf-o
-#        path: ./slides/week8/W8_ensemble.pdf
-#      - title: AdaBoost
-#        kind: Gradient Boosting
-#        path: ./slides/week8/W8_adaBoost.pdf
+    slides:
+      - title: RNN
+        kind: file-pdf-o
+       path: ./slides/week8/W8_RNN.pdf
+      - title: Ensemble    
+        kind: file-pdf-o
+        path: ./slides/week8/W8_ensemble.pdf
+      - title: AdaBoost
+        kind: Gradient Boosting
+        path: ./slides/week8/W8_adaBoost.pdf
 #      - title: W8-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9hNFwmebcB-Ckv9Q7EY26X
 
   - title: Week 09
-#    slides:
-#      - title: GMM and EM 
-#        kind: file-pdf-o
-#        path: ./slides/week9/W9_GMM_EM.pdf
+    slides:
+      - title: GMM and EM 
+        kind: file-pdf-o
+        path: ./slides/week9/W9_GMM_EM.pdf
 #      - title: W9-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9rgKwCYEv4Gq2TmKN9-aIa
     
   - title: Week 10
-#    slides:
-#      - title: Semi-Supervised Learning
-#       kind: file-pdf-o
-#        path: ./slides/week10/W10_semi.pdf
+    slides:
+      - title: Semi-Supervised Learning
+        kind: file-pdf-o
+        path: ./slides/week10/W10_semi.pdf
 #      - title: W10-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-tTCiA6IKL8BIkvs7eyuFl
 
   - title: Week 11
-#    slides:
-#      - title: VAE
-#       kind: file-pdf-o
-#        path: ./slides/week11/W11_VAE.pdf
+    slides:
+      - title: VAE
+        kind: file-pdf-o
+        path: ./slides/week11/W11_VAE.pdf
 #      - title: W11-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8EyMhap4-wacbC5x_3s2Kk
 
   - title: Week 12
-#    slides:
-#      - title: SVM intro
-#        kind: file-pdf-o
-#        path: ./slides/week12/W12_L1_svm_intro.pdf
-#      - title: SVM Optimization
-#        kind: file-pdf-o
-#        path: ./slides/week12/W12_L2_svm_optimization.pdf   
+    slides:
+      - title: SVM intro
+        kind: file-pdf-o
+        path: ./slides/week12/W12_L1_svm_intro.pdf
+      - title: SVM Optimization
+        kind: file-pdf-o
+        path: ./slides/week12/W12_L2_svm_optimization.pdf   
 #      - title: W12-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k_Z6i-2G0xdmBTveQF_rEyO
 
   - title: Week 13
-#    slides:
-#      - title: SVM Kernel Method
-#        kind: file-pdf-o
-#        path: ./slides/week13/W13_L3_svm_kernel.pdf
-#      - title: Lagrange Duality
-#        kind: file-pdf-o
-#        path: ./slides/week13/W13_L4_duality_intro.pdf
-#      - title: Duality of SVM
-#        kind: file-pdf-o
-#        path: ./slides/week13/W13_L5_svm duality.pdf
+    slides:
+      - title: SVM Kernel Method
+        kind: file-pdf-o
+        path: ./slides/week13/W13_L3_svm_kernel.pdf
+      - title: Lagrange Duality
+        kind: file-pdf-o
+        path: ./slides/week13/W13_L4_duality_intro.pdf
+      - title: Duality of SVM
+        kind: file-pdf-o
+        path: ./slides/week13/W13_L5_svm duality.pdf
 #      - title: W6-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-aapOsa9kNH0WLZcLHONxi
