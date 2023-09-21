@@ -132,7 +132,7 @@ syllabus:
     slides:
       - title: RNN
         kind: file-pdf-o
-       path: ./slides/week8/W8_RNN.pdf
+        path: ./slides/week8/W8_RNN.pdf
       - title: Ensemble    
         kind: file-pdf-o
         path: ./slides/week8/W8_ensemble.pdf
