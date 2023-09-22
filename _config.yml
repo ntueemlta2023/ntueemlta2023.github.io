@@ -238,7 +238,7 @@ homeworks:
 #        url: https://youtu.be/QzoSZ6XWqZQ
       - title: slide # slide
         kind: file-pdf-o 
-        url: https://ntueemlta2023.github.io/homeworks/hw1/ml-2023fall-hw1-slide
+        url: https://ntueemlta2023.github.io/homeworks/hw1/ml-2023fall-hw1-slide.pdf
       - title: kaggle # kaggle
         kind: trophy  
         url: https://www.kaggle.com/t/77f7840897974d2684e29a9c0c8afbff
@@ -247,10 +247,10 @@ homeworks:
         url: https://colab.research.google.com/drive/1gydf76dnh7cFnmIOWMLM4xhL73vMYRPH?usp=sharing
       - title: math
         kind: file-pdf-o 
-        url: https://ntueemlta2023.github.io/homeworks/hw1/ml-2023fall-hw1-math
+        url: https://ntueemlta2023.github.io/homeworks/hw1/ml-2023fall-hw1-math.pdf
       - title: TA sharing
         kind: file-pdf-o 
-        url: https://ntueemlta2023.github.io/homeworks/hw1/TA_Sharing
+        url: https://ntueemlta2023.github.io/homeworks/hw1/TA_Sharing.pdf
 
   - title: HW2 - CNN
 #    links:
