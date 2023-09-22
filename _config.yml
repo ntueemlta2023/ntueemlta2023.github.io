@@ -232,22 +232,26 @@ homeworks:
 
 
   - title: HW1 - Regression
-#    links:
+    links:
 #      - title: video # video
 #        kind: youtube-play 
 #        url: https://youtu.be/QzoSZ6XWqZQ
-#      - title: slide # slide
-#        kind: file-pdf-o 
-#        url: https://docs.google.com/presentation/d/1SEG9V6lsY0owG_AqIKMV07W85wlR7PSh/edit#slide=id.p1
-#      - title: kaggle # kaggle
-#        kind: trophy  
-#        url: https://www.kaggle.com/t/b404886ab374405ba8302aa1add3dab1
-#      - title: colab # colab
-#        kind: cloud 
-#        url: https://colab.research.google.com/drive/1ffy7uvNJr_rtaNbIlGZdrY47TkjzRKx-?usp=sharing
-#      - title: math
-#        kind: file-pdf-o 
-#        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/Sk1n8xPWo?fbclid=IwAR0LiCps2fhIZFJT-gYP8kr7KlvLaRvS9-ftLIaPQY5DVgye1AuHM-RW3Yg
+      - title: slide # slide
+        kind: file-pdf-o 
+        url: https://ntueemlta2023.github.io/homeworks/hw1/ml-2023fall-hw1-slide
+      - title: kaggle # kaggle
+        kind: trophy  
+        url: https://www.kaggle.com/t/77f7840897974d2684e29a9c0c8afbff
+      - title: colab # colab
+        kind: cloud 
+        url: https://colab.research.google.com/drive/1gydf76dnh7cFnmIOWMLM4xhL73vMYRPH?usp=sharing
+      - title: math
+        kind: file-pdf-o 
+        url: https://ntueemlta2023.github.io/homeworks/hw1/ml-2023fall-hw1-math
+      - title: TA sharing
+        kind: file-pdf-o 
+        url: https://ntueemlta2023.github.io/homeworks/hw1/TA_Sharing
+math. pdf
   - title: HW2 - CNN
 #    links:
 #      - title: video # video
