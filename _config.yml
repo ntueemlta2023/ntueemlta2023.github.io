@@ -87,9 +87,9 @@ syllabus:
       - title: Tips for DL
         kind: file-pdf-o
         path: ./slides/week3/W3_DNN tip.pdf
-#      - title: W3-video
-#        kind: play-circle
-#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9HiAyjSyLrkMXpJAjeM2ku
+      - title: W3-video
+        kind: play-circle
+        path: https://youtube.com/playlist?list=PLIKHU3mMrCpjS4HeIvNV9W6EbuDhQz3M3&si=PxEmHWj_ix-tmmzh
 
   - title: Week 04(Mid-Autumn Fest.)
 
@@ -233,9 +233,9 @@ homeworks:
 
   - title: HW1 - Regression
     links:
-#      - title: video # video
-#        kind: youtube-play 
-#        url: https://youtu.be/QzoSZ6XWqZQ
+      - title: video # video
+        kind: youtube-play 
+        url: https://www.youtube.com/playlist?list=PLIKHU3mMrCpit82_uYZNo5ATtpMPmZIDQ
       - title: slide # slide
         kind: file-pdf-o 
         url: https://ntueemlta2023.github.io/homeworks/hw1/ml-2023fall-hw1-slide.pdf
