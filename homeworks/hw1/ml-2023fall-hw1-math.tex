@@ -344,8 +344,8 @@ $$\sum_i \kappa_i \left(y_i-\boldsymbol{X}_{\mathrm{i}} \boldsymbol{\theta} \rig
 
 Show that the optimal solution that minimizes the loss function is $\boldsymbol{\theta^*} $ =  $[ \boldsymbol{w^{\star}}^T, b^{\star}]^T$, where 
 \begin{gather*}
-\boldsymbol{w^{\star}}=\left( \boldsymbol{\tilde{X}}^T \boldsymbol{K} \boldsymbol{\tilde{X}} + \lambda \boldsymbol{I} - \frac{1}{\Tr{(\boldsymbol{K})}} \boldsymbol{\tilde{X}}^T \boldsymbol{K} \boldsymbol{e} \boldsymbol{e}^T \boldsymbol{K} \boldsymbol{\tilde{X}} \right)^{-1} \boldsymbol{\tilde{X}}^T \boldsymbol{K} \left( \boldsymbol{y} - \frac{1}{\Tr{(\boldsymbol{K})}} \boldsymbol{e}^T \boldsymbol{K} \boldsymbol{y} \boldsymbol{e} \right),\\
-b^{\star} = \frac{1}{\Tr{(\boldsymbol{K})}} \left( \boldsymbol{e}^T \boldsymbol{y} - \boldsymbol{e}^T \boldsymbol{K} \boldsymbol{\tilde{X}} \boldsymbol{w^{\star}} \right)^T
+\boldsymbol{w^{\star}}=\left( \boldsymbol{\tilde{X}}^T \boldsymbol{K} \boldsymbol{\tilde{X}} + \lambda \boldsymbol{I} - \frac{1}{\Tr{(\boldsymbol{K})}} \boldsymbol{\tilde{X}}^T \boldsymbol{K} \boldsymbol{e} \boldsymbol{e}^T \boldsymbol{K} \boldsymbol{\tilde{X}} \right)^{-1} \boldsymbol{\tilde{X}}^T \boldsymbol{K} \left( \boldsymbol{y} - \frac{1}{\Tr{(\boldsymbol{K})}} \boldsymbol{e} \boldsymbol{e}^T \boldsymbol{K} \boldsymbol{y} \right),\\
+b^{\star} = \frac{1}{\Tr{(\boldsymbol{K})}} \left( \boldsymbol{e}^T \boldsymbol{K} \boldsymbol{y} - \boldsymbol{e}^T \boldsymbol{K} \boldsymbol{\tilde{X}} \boldsymbol{w^{\star}} \right)^T
 \end{gather*}
 %
 for which $\boldsymbol{e}= [1 \ ... \ 1]^T$ denotes the all one vector, $\boldsymbol{X} = [\boldsymbol{\tilde{X}} \boldsymbol{e}] $, $\Tr{(\boldsymbol{K})}$ is the trace of the matrix $\boldsymbol{K}$, and that $\matK$ and $\matI$ are defined as in (a).
