@@ -359,7 +359,7 @@ Given dataset $S = \{(\mathbf{x}_i,y_i)\}_{i=1}^N$, if the inputs $\mathbf{x}_i 
 $${\tilde L}_{ss}(\mathbf{w},b) = \mathbb{E}\left[ \frac{1}{2N}\sum_{i=1}^{N}\left(f_{\mathbf{w},b}(\mathbf{x}_i + \boldsymbol{\eta}_i)-y_i\right)^2 \right]$$
 where the expectation is taken over the randomness of input noises $\boldsymbol{\eta}_1,...,\boldsymbol{\eta}_N$. Additionally, the inputs ($\mathbf{x}_i$) and the input noise ($\boldsymbol{\eta}_i$) are independent.
 
-Now assume the input noises $\mathbf{\eta}_i = [\eta_{i,1} ~ \eta_{i,2} ~ ... \eta_{i,k}]$ are random vectors with zero mean $\mathbb{E}[\eta_{i,j}] = 0$, and the covariance between components is given by
+Now assume the input noises $\mathbf{\eta}_i = [\eta_{i,1}, \eta_{i,2}, ... ,\eta_{i,k}]^T$ are random vectors with zero mean $\mathbb{E}[\eta_{i,j}] = 0$, and the covariance between components is given by
 $$\mathbb{E}[\eta_{i,j}\eta_{i',j'}] = \delta_{i,i'}\delta_{j,j'} \sigma^2$$
 where $\delta_{i,i'} = \left\{\begin{array}{ll} 
 1 & \mbox{, if} ~ i = i'\\
