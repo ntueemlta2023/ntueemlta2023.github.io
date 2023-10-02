@@ -284,7 +284,7 @@ In this question, we tackle the binary classification problem through the genera
 %
 where $\theta = (\pi_1,\pi_2,\vecmu_1,\vecmu_2,\matSigma_1,\matSigma_2)$ for which
 \begin{equation*}
-f_{\vecmu_k,\matSigma_k}(\vecx) = \frac{1}{(2\pi)^{d/2}}\frac{1}{\left| \matSigma_k \right|^{1/2}}\exp\left(-\frac{1}{2}(\vecx-\vecmu_k)\tran \matSigma_k^{-1}(\vecx-\vecmu_i)\right).
+f_{\vecmu_k,\matSigma_k}(\vecx) = \frac{1}{(2\pi)^{d/2}}\frac{1}{\left| \matSigma_k \right|^{1/2}}\exp\left(-\frac{1}{2}(\vecx-\vecmu_k)\tran \matSigma_k^{-1}(\vecx-\vecmu_k)\right).
 \end{equation*}
 %
 Now suppose we observe data points $\vecx_1,...,\vecx_N$ and their corresponding labels $y_1,...,y_N$.
@@ -297,7 +297,7 @@ Now suppose we observe data points $\vecx_1,...,\vecx_N$ and their corresponding
 %
 \item (0.3 pt) Write down $\prob_\theta[Y=\calC_1|X=\vecx]$ and $\prob_\theta[X=\vecx|Y=\calC_1]$ in terms of $\theta = (\pi_1,\pi_2,\vecmu_1,\vecmu_2,\matSigma_1,\matSigma_2)$. What are the physical meaning of the aforementioned quantities?
 %
-\item (0.3 pt) Express $\prob_\theta[X=\vecx|Y=\calC_1]$ in the form of $\sigma(z)$, where $\sigma(\cdot)$ denotes the sigmoid function, and express $z$ in terms of $\theta = (\pi_1,\pi_2,\vecmu_1,\vecmu_2,\matSigma_1,\matSigma_2)$ and $x$.
+\item (0.3 pt) Express $\prob_\theta[Y=\calC_1|X=\vecx]$ in the form of $\sigma(z)$, where $\sigma(\cdot)$ denotes the sigmoid function, and express $z$ in terms of $\theta = (\pi_1,\pi_2,\vecmu_1,\vecmu_2,\matSigma_1,\matSigma_2)$ and $x$.
 \end{enumerate}
 %
 \item (1.2 pt) Suppose we pose an additional constraint that the covariance matrices of the two Gaussian distributions are identical, namely $\Sigma_1=\Sigma_2=\Sigma$, in which the generative model is parameterized by $\vartheta = (\pi_1,\pi_2,\vecmu_1,\vecmu_2,\matSigma)$. Redo questions (a) under such setting.
@@ -345,7 +345,7 @@ $$\sum_i \kappa_i \left(y_i-\boldsymbol{X}_{\mathrm{i}} \boldsymbol{\theta} \rig
 Show that the optimal solution that minimizes the loss function is $\boldsymbol{\theta^*} $ =  $[ \boldsymbol{w^{\star}}^T, b^{\star}]^T$, where 
 \begin{gather*}
 \boldsymbol{w^{\star}}=\left( \boldsymbol{\tilde{X}}^T \boldsymbol{K} \boldsymbol{\tilde{X}} + \lambda \boldsymbol{I} - \frac{1}{\Tr{(\boldsymbol{K})}} \boldsymbol{\tilde{X}}^T \boldsymbol{K} \boldsymbol{e} \boldsymbol{e}^T \boldsymbol{K} \boldsymbol{\tilde{X}} \right)^{-1} \boldsymbol{\tilde{X}}^T \boldsymbol{K} \left( \boldsymbol{y} - \frac{1}{\Tr{(\boldsymbol{K})}} \boldsymbol{e} \boldsymbol{e}^T \boldsymbol{K} \boldsymbol{y} \right),\\
-b^{\star} = \frac{1}{\Tr{(\boldsymbol{K})}} \left( \boldsymbol{e}^T \boldsymbol{K} \boldsymbol{y} - \boldsymbol{e}^T \boldsymbol{K} \boldsymbol{\tilde{X}} \boldsymbol{w^{\star}} \right)^T
+b^{\star} = \frac{1}{\Tr{(\boldsymbol{K})}} \left( \boldsymbol{e}^T \boldsymbol{K} \boldsymbol{y} - \boldsymbol{e}^T \boldsymbol{K} \boldsymbol{\tilde{X}} \boldsymbol{w^{\star}} \right)
 \end{gather*}
 %
 for which $\boldsymbol{e}= [1 \ ... \ 1]^T$ denotes the all one vector, $\boldsymbol{X} = [\boldsymbol{\tilde{X}} \boldsymbol{e}] $, $\Tr{(\boldsymbol{K})}$ is the trace of the matrix $\boldsymbol{K}$, and that $\matK$ and $\matI$ are defined as in (a).
@@ -401,3 +401,4 @@ You can find the definition and the usage by yourself. It is also welcome to dis
 %where $f(x^{\star})$ is the optimal value.
 
 \end{document}
+
