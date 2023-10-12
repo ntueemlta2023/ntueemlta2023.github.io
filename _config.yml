@@ -271,7 +271,7 @@ homeworks:
         url: https://www.kaggle.com/competitions/ml2023-fall-hw2
       - title: colab # colab
         kind: cloud 
-        url: https://colab.research.google.com/drive/1Lxs8RkBkWwlPHqjw20K7ur G90bjnyDiv?usp=sharing
+        url: https://colab.research.google.com/drive/1Lxs8RkBkWwlPHqjw20K7urG90bjnyDiv?usp=sharing
       - title: math
         kind: file-pdf-o 
         url: https://ntueemlta2023.github.io/homeworks/hw2/ml-2023fall-hw2-math.pdf
