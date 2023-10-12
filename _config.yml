@@ -256,22 +256,25 @@ homeworks:
         url: https://ntueemlta2023.github.io/homeworks/hw1/TA_Sharing.pdf
 
   - title: HW2 - CNN
-#    links:
+    links:
 #      - title: video # video
 #        kind: youtube-play 
-#        url: https://youtu.be/SFWt6njTmeI
-#      - title: slide # slide
-#        kind: file-pdf-o 
-#        url: https://docs.google.com/presentation/d/1sV66DbhwFQRQDe_r5e611dGVyP84qosl/edit?usp=sharing&ouid=101016267389786846355&rtpof=true&sd=true
-#      - title: kaggle # kaggle
-#        kind: trophy  
-#        url: https://www.kaggle.com/competitions/hml-2022fall-hw2
-#      - title: colab # colab
-#        kind: cloud 
-#        url: https://colab.research.google.com/drive/1KAoMxp7JUcOCAUilHE_xqX9XatlHskOb?usp=sharing
-#      - title: math
-#       kind: file-pdf-o 
-#        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/r1otQp7Gi?fbclid=IwAR0cs5CajVy_zhDmHEDgze2V1_Jlxp95N45BF6hg1l6CgG-6IViYGAIGReE
+#        url: https://www.youtube.com/playlist?list=PLIKHU3mMrCpit82_uYZNo5ATtpMPmZIDQ
+      - title: slide # slide
+        kind: file-pdf-o 
+        url: https://ntueemlta2023.github.io/homeworks/hw2/ml-2023fall-hw2-slide.pdf
+      - title: kaggle # kaggle
+        kind: trophy  
+        url: https://www.kaggle.com/competitions/ml2023-fall-hw2
+      - title: colab # colab
+        kind: cloud 
+        url: https://colab.research.google.com/drive/1Lxs8RkBkWwlPHqjw20K7ur G90bjnyDiv?usp=sharing
+      - title: math
+        kind: file-pdf-o 
+        url: https://ntueemlta2023.github.io/homeworks/hw2/ml-2023fall-hw2-math.pdf
+      - title: programming Report
+        kind: file-pdf-o 
+        url: https://docs.google.com/document/d/17-_3_qAvuQMhCGIKns_apA8IOlktasso/edit?usp=sharing&ouid=112465961449455869485&rtpof=true&sd=true
 
   - title: HW3 - Embedding
 #    links:
