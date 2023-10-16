@@ -121,6 +121,7 @@ syllabus:
         kind: file-pdf-o
         path: ./slides/week6/W6_autoencoder.pdf
 
+
 #      - title: W6-video
 #        kind: play-circle
 #        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_LTqF5iG3eCWYXK5zQNvOz
@@ -257,6 +258,9 @@ homeworks:
       - title: TA sharing
         kind: file-pdf-o 
         url: https://ntueemlta2023.github.io/homeworks/hw1/TA_Sharing.pdf
+      - title: Bonus sharing
+        kind: youtube-play 
+        url: https://youtube.com/playlist?list=PLIKHU3mMrCpiHAV7VKuQRgJRMkygmkou1&feature=shared
 
   - title: HW2 - CNN
     links:
