@@ -262,6 +262,9 @@ homeworks:
         kind: youtube-play 
         url: https://youtube.com/playlist?list=PLIKHU3mMrCpiHAV7VKuQRgJRMkygmkou1&feature=shared
 
+      - title: math-solution
+        kind: file-pdf-o 
+        url: https://ntueemlta2023.github.io/homeworks/hw1/ml-2023fall-hw1-math-solution.pdf
   - title: HW2 - CNN
     links:
 #      - title: video # video
