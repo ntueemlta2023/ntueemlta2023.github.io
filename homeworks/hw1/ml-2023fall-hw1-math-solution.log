@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.2)  17 OCT 2023 16:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.2)  17 OCT 2023 16:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -433,7 +433,7 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count294
 \l__pdf_internal_box=\box61
 )
-No file ml-2023fall-hw1-math-solution.aux.
+(./ml-2023fall-hw1-math-solution.aux)
 \openout1 = `ml-2023fall-hw1-math-solution.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 226.
@@ -503,4 +503,214 @@ LaTeX Font Info:    ... okay on input line 226.
 LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 226.
 LaTeX Font Info:    ... okay on input line 226.
 LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 226.
-LaTeX Fon
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+Package hyperref Info: Link coloring OFF on input line 226.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count295
+)
+LaTeX Info: Redefining \ref on input line 226.
+LaTeX Info: Redefining \pageref on input line 226.
+LaTeX Info: Redefining \nameref on input line 226.
+ (./ml-2023fall-hw1-math-solution.out) (./ml-2023fall-hw1-math-solution.out)
+\@outlinefile=\write3
+\openout3 = `ml-2023fall-hw1-math-solution.out'.
+
+ (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count296
+\scratchdimen=\dimen162
+\scratchbox=\box62
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen163
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks37
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count302
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 22
+9.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 229
+.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 229
+.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Reference `eq:matrix_product_trace_derivative' on page 1 undefin
+ed on input line 259.
+
+
+LaTeX Warning: Reference `eq:matrix_det_log_derivative' on page 1 undefined on 
+input line 274.
+
+[1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<hint.jpg, id=28, 2479.2625pt x 1389.19pt>
+File: hint.jpg Graphic file (type jpg)
+<use hint.jpg>
+Package pdftex.def Info: hint.jpg  used on input line 305.
+(pdftex.def)             Requested size: 377.17943pt x 211.33713pt.
+
+Overfull \hbox (7.41426pt too wide) in paragraph at lines 330--332
+[]\OT1/cmr/m/n/10 (0.3 pt) Write down $\U/msb/m/n/10 P[]\OT1/cmr/m/n/10 [\OML/c
+mm/m/it/10 Y \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 C[]j\OML/cmm/m/it/10 X \OT1/cmr
+/m/n/10 = \OT1/cmr/bx/n/10 x\OT1/cmr/m/n/10 ]$ and $\U/msb/m/n/10 P[]\OT1/cmr/m
+/n/10 [\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = \OT1/cmr/bx/n/10 x\OMS/cmsy/m/n/10 
+j\OML/cmm/m/it/10 Y \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 C[]\OT1/cmr/m/n/10 ]$ in
+ terms of $\OML/cmm/m/it/10 ^^R \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 ^^Y[]; ^^Y[
+]; [][]; [][]; \OT1/cmr/m/n/10 ^^F[]\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 ^^F[])$.
+
+ []
+
+[2 <./hint.jpg>]
+LaTeX Font Info:    Trying to load font information for U+bbm on input line 344
+.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/bbm-macros/ubbm.fd
+File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
+)
+Overfull \hbox (55.02115pt too wide) detected at line 381
+[]
+ []
+
+[3]
+Overfull \hbox (36.50671pt too wide) detected at line 388
+\OML/cmm/m/it/10 z \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ln[] \OMS/cmsy/m/n/10 ^^@
+ []\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 (^^F[])[]\OML/cmm/m/it/10 x \OT1/cmr/m/n
+/10 + \OML/cmm/m/it/10 ^^V[]\OT1/cmr/m/n/10 (^^F[])[]\OML/cmm/m/it/10 x \OMS/cm
+sy/m/n/10 ^^@ []\OML/cmm/m/it/10 ^^V[]\OT1/cmr/m/n/10 (^^F[])[]\OML/cmm/m/it/10
+ ^^V[] \OT1/cmr/m/n/10 + []\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 (^^F[])[]\OML/cm
+m/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^V[]\OT1/cmr/m/n/10 (^^F[])[
+]\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + []\OML/cmm/m/it/10 ^^V[]\OT1/cmr/m/n/10 (
+^^F[])[]\OML/cmm/m/it/10 ^^V[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 ln[]
+ []
+
+
+Overfull \hbox (55.77844pt too wide) in paragraph at lines 410--411
+\OT1/cmr/m/n/10 In this ques-tion, you will train a bi-nary clas-si-fier based 
+on the data which can be down-loaded from []https://reurl.cc/2EZMzn[]
+ []
+
+[4]
+Overfull \hbox (5.71951pt too wide) detected at line 445
+\OML/cmm/m/it/10 ^^Y[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\O
+ML/cmm/m/it/10 ; ^^Y[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\O
+ML/cmm/m/it/10 ; [][] \OT1/cmr/m/n/10 = [\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2\
+OML/cmm/m/it/10 :\OT1/cmr/m/n/10 03\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/
+cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 05]\OML/cmm/m/it/10 ; [][] \OT1/c
+mr/m/n/10 = [1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 01\OML/cmm/m/it/10 ; \OT1/cmr/m
+/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 00]\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 
+^^F[] = [] \OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 ^^F[] = []
+ []
+
+
+Overfull \hbox (3.16045pt too wide) in paragraph at lines 450--450
+[][]\OT1/cmr/bx/n/14.4 Problem 4 (Closed-Form Lin-ear Re-gres-sion So-lu-tion) 
+(1 pts + Bonus
+ []
+
+
+Overfull \hbox (1.47226pt too wide) in paragraph at lines 492--494
+\OT1/cmr/m/n/10 Next, take gra-di-ent of $[]$ and set it to $0$, you will get t
+he op-ti-mal so-lu-tion $[]$ = $[][] [][][][]$ 
+ []
+
+[5] [6] [7] [8] (./ml-2023fall-hw1-math-solution.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package rerunfilecheck Info: File `ml-2023fall-hw1-math-solution.out' has not c
+hanged.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 13138 strings out of 478268
+ 195978 string characters out of 5846347
+ 508915 words of memory out of 5000000
+ 31063 multiletter control sequences out of 15000+600000
+ 482162 words of font info for 81 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,16n,63p,479b,615s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+} </Users/changyuanchia/Library/texlive/2022/texmf-var/fonts/pk/ljfour/public/b
+bm/bbm10.600pk></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/
+cmextra/cmbsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+ib10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextr
+a/cmmib5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
+extra/cmmib7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.p
+fb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.
+pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pf
+b>
+Output written on ml-2023fall-hw1-math-solution.pdf (8 pages, 405853 bytes).
+PDF statistics:
+ 234 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
