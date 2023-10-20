@@ -122,9 +122,9 @@ syllabus:
         path: ./slides/week6/W6_autoencoder.pdf
 
 
-#      - title: W6-video
-#        kind: play-circle
-#        path: https://youtube.com/playlist?list=PLLb0Q4dUC0k_LTqF5iG3eCWYXK5zQNvOz
+      - title: W6-video
+        kind: play-circle
+        path: https://www.youtube.com/watch?v=PsHdFO8gEnQ&list=PLIKHU3mMrCpix-HdTZNW1XhvpWCXNdRsJ
    
   - title: Week 07
     slides:
