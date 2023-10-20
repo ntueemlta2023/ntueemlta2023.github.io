@@ -131,10 +131,15 @@ syllabus:
       - title: Neighbor Embedding
         kind: file-pdf-o
         path: ./slides/week7/W7_TSNE.pdf
-#      - title: W7-video
-#        kind: play-circle
-#        path: https://www.youtube.com/playlist?list=PLxk9aIYXCa9czvYZSo1p3AlR9ydXyfJ29
-
+      - title: RNN - 1
+        kind: play-circle
+        path: https://www.youtube.com/watch?v=xCGidAeyS4M
+      - title: RNN - 2
+        kind: play-circle
+        path: https://www.youtube.com/watch?v=xCGidAeyS4M
+      - title: W7-video
+        kind: play-circle
+        path: https://studio.youtube.com/playlist?list=PLIKHU3mMrCpiGPbR7xmZFlqr_GVwKPaZm
   - title: Week 08
     slides:
       - title: RNN
