@@ -151,9 +151,9 @@ syllabus:
       - title: AdaBoost
         kind: Gradient Boosting
         path: ./slides/week8/W8_adaBoost.pdf
-#      - title: W8-video
-#        kind: play-circle
-#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9hNFwmebcB-Ckv9Q7EY26X
+      - title: W8-video
+        kind: play-circle
+        path: https://www.youtube.com/watch?v=yU7QEWTGApA&list=PLIKHU3mMrCpgoFiox4ofPRA1yLyaeurwA
 
   - title: Week 09
     slides:
@@ -293,9 +293,9 @@ homeworks:
 
   - title: HW3 - Embedding
     links:
-#      - title: video # video
-#        kind: youtube-play 
-#        url: https://www.youtube.com/playlist?list=PLIKHU3mMrCpit82_uYZNo5ATtpMPmZIDQ
+      - title: video # video
+        kind: youtube-play 
+        url: https://www.youtube.com/watch?v=BgKQIdQJKCQ&list=PLIKHU3mMrCpjmJnjiVLfARYBoVUUXmRnw
       - title: slide # slide
         kind: file-pdf-o 
         url: https://ntueemlta2023.github.io/homeworks/hw3/ml-2023fall-hw3-slide.pdf
