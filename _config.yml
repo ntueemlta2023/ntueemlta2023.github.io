@@ -27,8 +27,8 @@ TAs:
 TeacherEmail: peiyuanwu@ntu.edu.tw
 
 Officehour: 星期四 9:30~11:30 電二 234
-TAhour: 星期二 10:00~12:00(程式) 地點待定
-TAhour: 星期二 15:30~16:20(數學）電二 225
+TAhour: 星期二 10:00~12:00(程式) 地點待定 15:30~16:20（數學）電二 225
+TAhourReservation: https://app.simplymeet.me/ntueemlta2023/tahour
 # Syllabus
 syllabus:
   - title: Week 01
