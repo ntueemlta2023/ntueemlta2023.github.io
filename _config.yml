@@ -27,8 +27,8 @@ TAs:
 TeacherEmail: peiyuanwu@ntu.edu.tw
 
 Officehour: 星期四 9:30~11:30 電二 234
-TAhour: 星期二 15:30~16:20 電二 225
-TAhourReservation: https://app.simplymeet.me/ntueemlta2023/tahour
+TAhour: 星期二 10:00~12:00(程式) 地點待定 星期二 15:30~16:20（數學）電二 225
+#TAhourReservation: https://app.simplymeet.me/ntueemlta2023/tahour
 # Syllabus
 syllabus:
   - title: Week 01
@@ -139,7 +139,7 @@ syllabus:
         path: https://www.youtube.com/watch?v=xCGidAeyS4M
       - title: W7-video
         kind: play-circle
-        path: https://studio.youtube.com/playlist?list=PLIKHU3mMrCpiGPbR7xmZFlqr_GVwKPaZm
+        path: https://youtube.com/playlist?list=PLIKHU3mMrCpiGPbR7xmZFlqr_GVwKPaZm&feature=shared
   - title: Week 08
     slides:
       - title: RNN
@@ -272,9 +272,9 @@ homeworks:
         url: https://ntueemlta2023.github.io/homeworks/hw1/ml-2023fall-hw1-math-solution.pdf
   - title: HW2 - CNN
     links:
-#      - title: video # video
-#        kind: youtube-play 
-#        url: https://www.youtube.com/playlist?list=PLIKHU3mMrCpit82_uYZNo5ATtpMPmZIDQ
+      - title: video # video
+        kind: youtube-play 
+        url: https://youtube.com/playlist?list=PLIKHU3mMrCpio6fcvZSrs3BcMQha87bcR&feature=shared
       - title: slide # slide
         kind: file-pdf-o 
         url: https://ntueemlta2023.github.io/homeworks/hw2/ml-2023fall-hw2-slide.pdf
@@ -292,22 +292,25 @@ homeworks:
         url: https://docs.google.com/document/d/17-_3_qAvuQMhCGIKns_apA8IOlktasso/edit?usp=sharing&ouid=112465961449455869485&rtpof=true&sd=true
 
   - title: HW3 - Embedding
-#    links:
+    links:
 #      - title: video # video
 #        kind: youtube-play 
-#        url: https://youtu.be/lLeQhyVIpoc
-#      - title: slide # slide
-#        kind: file-pdf-o 
-#        url: https://docs.google.com/presentation/d/1DnKRs9mokOh6AXyTiMpHNxdtm89jun52/edit#slide=id.p1
-#      - title: kaggle # kaggle
-#        kind: trophy  
-#        url: https://www.kaggle.com/t/647bb8fc397b4440ae51870abbd1c06f
-#      - title: colab # colab
-#        kind: cloud 
-#        url: https://colab.research.google.com/drive/1w7HU5h0qV_QpV5STW6zN4KP_f5CXw42j?authuser=0
-#      - title: math
-#        kind: file-pdf-o 
-#        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/Hy3kRxTMs?fbclid=IwAR0cc-uqpmQm9_Jel9plCjj3QBDtNYEIikJGtgyvCFczcue_KCeEsXUQIHc
+#        url: https://www.youtube.com/playlist?list=PLIKHU3mMrCpit82_uYZNo5ATtpMPmZIDQ
+      - title: slide # slide
+        kind: file-pdf-o 
+        url: https://ntueemlta2023.github.io/homeworks/hw3/ml-2023fall-hw3-slide.pdf
+      - title: kaggle # kaggle
+        kind: trophy  
+        url: https://www.kaggle.com/competitions/ml2023-fall-hw3
+      - title: colab # colab
+        kind: cloud 
+        url: https://colab.research.google.com/drive/1_YkFH7Ajkd6zlee3feHcmOnwW0f98yDx?usp=sharing
+      - title: math
+        kind: file-pdf-o 
+        url: https://ntueemlta2023.github.io/homeworks/hw3/ml-2023fall-hw3-math.pdf
+      - title: programming Report Template
+        kind: file-pdf-o 
+        url: https://docs.google.com/document/d/1n4RGIxXpLrTakT1TkypLvLs1dpuBJkaq/edit?usp=sharing&ouid=112465961449455869485&rtpof=true&sd=true
 
   - title: HW4 - RNN
 #    links:
