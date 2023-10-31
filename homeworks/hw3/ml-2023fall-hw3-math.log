@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.2)  27 OCT 2023 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.2)  31 OCT 2023 21:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -906,12 +906,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 <RNN.png, id=56, 1642.938pt x 570.933pt>
 File: RNN.png Graphic file (type png)
 <use RNN.png>
-Package pdftex.def Info: RNN.png  used on input line 361.
+Package pdftex.def Info: RNN.png  used on input line 362.
 (pdftex.def)             Requested size: 377.17943pt x 131.06789pt.
 <ex_dt.png, id=57, 396.48125pt x 316.18124pt>
 File: ex_dt.png Graphic file (type png)
 <use ex_dt.png>
-Package pdftex.def Info: ex_dt.png  used on input line 380.
+Package pdftex.def Info: ex_dt.png  used on input line 381.
 (pdftex.def)             Requested size: 188.5861pt x 150.3951pt.
 
 
@@ -922,9 +922,9 @@ Package rerunfilecheck Info: File `ml-2023fall-hw3-math.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23785 strings out of 478268
- 428622 string characters out of 5846347
- 695661 words of memory out of 5000000
+ 23786 strings out of 478268
+ 428629 string characters out of 5846347
+ 696662 words of memory out of 5000000
  41527 multiletter control sequences out of 15000+600000
  480694 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -951,10 +951,10 @@ ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
 e/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/te
 xlive/2022/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/20
 22/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on ml-2023fall-hw3-math.pdf (5 pages, 388140 bytes).
+Output written on ml-2023fall-hw3-math.pdf (5 pages, 389314 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
+ 177 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

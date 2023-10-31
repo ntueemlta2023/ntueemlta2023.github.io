@@ -223,7 +223,7 @@
 \title{HW3 Handwritten Assignment}
 \author{Lecturor: Pei-Yuan Wu\\
 TAs: {Yuan-Chia Chang(Problem 1, 2), Chun-Lin Huang(Problem 3, 4, 5)}}
-\date{October 2023, First Edition}
+\date{October 2023, Second Edition}
 \begin{document}
 
 \maketitle
@@ -309,10 +309,11 @@ Also, please plot the reduced points $\boldsymbol{z_1},...,\boldsymbol{z_{10}}$ 
        c
      \end{bmatrix}
   \end{align}
-  where $c$ is a constant. Since all the points fall into a plane, the span of these points is $\mathbb{R}^2$. In order to construct $\boldsymbol{z_1},...,\boldsymbol{z_{10}}$ such that span\{$\boldsymbol{z_1},...,\boldsymbol{z_{10}}\}=\mathbb{R}^3$, we need choose the second, third, fourth smallest eigenvalue and the corresponding eigenvectors. Please plot the reduced points $\boldsymbol{z_1},...,\boldsymbol{z_{10}}$ in 3-D scatter plot and verify that whether 
-$\quad Trace(\boldsymbol{\Psi}^T \boldsymbol{L} \boldsymbol{\Psi})=0.726$ \ and $\quad \boldsymbol{\Psi}^T \boldsymbol{D} \boldsymbol{\Psi} = \boldsymbol{I}_3$.
+  where $c$ is a constant. Since all the points fall into a plane, the span of these points is $\mathbb{R}^2$. In order to construct $\boldsymbol{z_1},...,\boldsymbol{z_{10}}$ such that span\{$\boldsymbol{z_1},...,\boldsymbol{z_{10}}\}=\mathbb{R}^3$, we need choose the second, third, fourth smallest eigenvalue and the corresponding eigenvectors. Please plot the reduced points by the updated $\boldsymbol{z_1},...,\boldsymbol{z_{10}}$ in 3-D scatter plot and verify that whether 
+$\quad Trace(\boldsymbol{\Psi}^T \boldsymbol{L} \boldsymbol{\Psi})=1.098$ \ and $\quad \boldsymbol{\Psi}^T \boldsymbol{D} \boldsymbol{\Psi} = \boldsymbol{I}_3$.
 
-\item Show that for no matter the graph is, there is an eigenvector \begin{align}
+\item Show that for no matter the graph is, there is an eigenvector of $\boldsymbol{L}$ 
+\begin{align}
     \begin{bmatrix}
        c \\
        c \\
@@ -323,15 +324,15 @@ $\quad Trace(\boldsymbol{\Psi}^T \boldsymbol{L} \boldsymbol{\Psi})=0.726$ \ and 
   where $c$ is a constant, and the corresponding eigenvalue is 0.
 
 \item By Neighbor Embedding Slide p.9, please show that \\
-$ \forall f =$
+$ \forall \boldsymbol{f} =$
 $\begin{bmatrix}
    f_1 \\
    f_2 \\
    \vdots \\
    f_N
 \end{bmatrix}$
-$\in \mathbb{R}^N, f^T L f=\sum\limits_{1 \leq i,j \leq N}(f_i-f_j)^2$.
-\item Show that if $f$ is an eigenvector which corresponds to eigenvalue 0, then $f^T L f=0$.
+$\in \mathbb{R}^N, \boldsymbol{f}^T \boldsymbol{L} \boldsymbol{f}=\frac{1}{2}\sum\limits_{1 \leq i,j \leq N} w_{ij}(f_i-f_j)^2$.
+\item Show that if $\boldsymbol{f}$ is an eigenvector of $\boldsymbol{L}$ which corresponds to eigenvalue 0, then $\boldsymbol{f}^T \boldsymbol{L} \boldsymbol{f}=0$.
 \item Show that if the graph is connected, the second smallest eigenvalue 
  of $\boldsymbol{L}$ will be nonzero.
 
@@ -360,7 +361,7 @@ Backpropagation through time is a critical concept to know as we train a recurre
     \centering
     \includegraphics[width=0.8\textwidth]{RNN.png}
 \end{figure}
-The Simple RNN module has two kinds of weights, $w_i$ and $w_h$, such that $h_t = \text{tanh}(w_ix_t + w_hh_{t-1})$, where $t$ represents the index of steps. The module has the weight $w_o$ such that $\hat{y} = \sigma(w_o h_2)$, where $\sigma(w_oh_2) = \frac{1}{1+\text{exp}(-w_o h_2)}$. The initial state $h_0$ is set to be $0$. The sequential input only contains $\{x_1, x_2\}$; the label is $y$; the loss function is MSE. Please derive $\frac{\partial L(y, \hat{y})}{\partial w_o}$, $\frac{\partial L(y, \hat{y})}{\partial w_h}$, $\frac{\partial L(y, \hat{y})}{\partial w_i}$ in terms of $x_1$, $x_2$, $h_0$, $h_1$, $h_2$, $w_i$, $w_o$, and $w_h$.
+The Simple RNN module has two kinds of weights, $w_x$ and $w_h$, such that $h_t = \text{tanh}(w_xx_t + w_hh_{t-1})$, where $t$ represents the index of steps. The module has the weight $w_o$ such that $\hat{y} = \sigma(w_o h_2)$, where $\sigma(w_oh_2) = \frac{1}{1+\text{exp}(-w_o h_2)}$. The initial state $h_0$ is set to be $0$. The sequential input only contains $\{x_1, x_2\}$; the label is $y$; the loss function is MSE. Please derive $\frac{\partial L(y, \hat{y})}{\partial w_o}$, $\frac{\partial L(y, \hat{y})}{\partial w_h}$, $\frac{\partial L(y, \hat{y})}{\partial w_x}$ in terms of $x_1$, $x_2$, $h_0$, $h_1$, $h_2$, $w_x$, $w_o$, and $w_h$.
 
 
 
@@ -396,5 +397,6 @@ In the following questions we consider classification of two cases. Please calcu
  \section*{Version Description}
  \begin{enumerate}
      \item First Edition: Finish Problem 1 to 5
+     \item Second Edition: Updated Problem 2(4) 2(5) 2(6) 2(7)'s typo
  \end{enumerate}
 \end{document}
