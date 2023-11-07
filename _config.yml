@@ -136,7 +136,7 @@ syllabus:
         path: https://www.youtube.com/watch?v=xCGidAeyS4M
       - title: RNN - 2
         kind: play-circle
-        path: https://www.youtube.com/watch?v=xCGidAeyS4M
+        path: https://www.youtube.com/watch?v=rTqmWlnwz_0
       - title: W7-video
         kind: play-circle
         path: https://youtube.com/playlist?list=PLIKHU3mMrCpiGPbR7xmZFlqr_GVwKPaZm&feature=shared
@@ -160,9 +160,9 @@ syllabus:
       - title: GMM and EM 
         kind: file-pdf-o
         path: ./slides/week9/W9_GMM_EM.pdf
-#      - title: W9-video
-#        kind: play-circle
-#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k9rgKwCYEv4Gq2TmKN9-aIa
+      - title: W9-video
+        kind: play-circle
+        path: https://www.youtube.com/watch?v=x1mLmYv24II&list=PLIKHU3mMrCpinv0x7uHvwOxonQIX4tEH2
     
   - title: Week 10
     slides:
