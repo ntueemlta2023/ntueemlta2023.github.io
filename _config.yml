@@ -316,22 +316,25 @@ homeworks:
         url: https://docs.google.com/document/d/1n4RGIxXpLrTakT1TkypLvLs1dpuBJkaq/edit?usp=sharing&ouid=112465961449455869485&rtpof=true&sd=true
 
   - title: HW4 - RNN
-#    links:
-#      - title: video # video
-#        kind: youtube-play 
-#        url: https://youtu.be/POHfbfn_aGc
-#      - title: slide # slide
-#        kind: file-pdf-o 
-#        url: https://docs.google.com/presentation/d/1unG_d2QEFQ0sryWYN0Qr9XOLS14KHV1M5wS3nWuKCB0/edit?usp=sharing
-#      - title: kaggle # kaggle
-#        kind: trophy  
-#        url: https://www.kaggle.com/t/73022139d2fc4619857de7a4af265186
-#      - title: colab # colab
-#        kind: cloud 
-#        url: https://colab.research.google.com/drive/1sMKqtdy0Ag0f9QCfTTB7VrdQ9q-4wUOs?usp=sharing
-#      - title: math
-#        kind: file-pdf-o 
-#        url: https://hackmd.io/@lH2AB7kCSAS3NPw2FffsGg/H1ucYOpNo
+    links:
+      - title: video # video
+        kind: youtube-play 
+        url: https://www.youtube.com/playlist?list=PLIKHU3mMrCphcU9icrtaubju6VIoWaULt
+      - title: slide # slide
+        kind: file-pdf-o 
+        url: https://ntueemlta2023.github.io/homeworks/hw4/ml-2023fall-hw4-slide.pdf
+      - title: kaggle # kaggle
+        kind: trophy  
+        url: https://www.kaggle.com/competitions/ml-2023-fall-hw3
+      - title: colab # colab
+        kind: cloud 
+        url: https://colab.research.google.com/drive/16PvhbI67Ork5c16C0XIuRJaks9ru3-N0?usp=sharing
+      - title: math
+        kind: file-pdf-o 
+        url: https://ntueemlta2023.github.io/homeworks/hw4/ml-2023fall-hw4-math.pdf
+      - title: programming Report Template
+        kind: file-pdf-o 
+        url: https://docs.google.com/document/d/1cO0q5AA_QTyIokC_eOdJJCrqfZeGkDLo94AuoiSoStU/edit?usp=sharing
 
   - title: HW5 - SVM
   #   links:
