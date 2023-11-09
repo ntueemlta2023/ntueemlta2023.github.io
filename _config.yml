@@ -169,6 +169,9 @@ syllabus:
       - title: Semi-Supervised Learning
         kind: file-pdf-o
         path: ./slides/week10/W10_semi.pdf
+      - title: meeting link
+        kind: file-pdf-o
+        path: link.pdf
 #      - title: W10-video
 #        kind: play-circle
 #        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-tTCiA6IKL8BIkvs7eyuFl
