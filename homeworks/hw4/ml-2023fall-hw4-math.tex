@@ -226,7 +226,7 @@
 \title{HW4 Handwritten Assignment}
 \author{Lecturor: Pei-Yuan Wu\\
 TAs: {Chun-Lin Huang(Problem 1, 2), Yuan-Chia Chang(Problem 3, 4, 5)}}
-\date{November 2023, Second Edition}
+\date{November 2023, Third Edition}
 \begin{document}
 
 \maketitle
@@ -388,8 +388,16 @@ Let's consider the graph that we have seen in HW3 Problem 2.
 We have previously known that $x_1$ node is in Class 1 and $x_7$ node is in Class 2. Now, we want to separate these 10 nodes into Class 1 and Class 2.
 
 Consider the transition matrix $\boldsymbol{T}$,
-$$\boldsymbol{T}_{i,j} = \frac{\boldsymbol{W}_{i,j}}{\sum_{k=1}^{10} \boldsymbol{W}_{k,j}}$$,
-where $\boldsymbol{W}$ is the adjacency matrix of the graph G. $\boldsymbol{T}_{i,j}$ represents the probability that node $j$ will propagate its own state to node $i$.
+$$\boldsymbol{T}_{i,j} = \frac{\boldsymbol{\Tilde{W}}_{i,j}}{\sum_{k=1}^{10} \boldsymbol{\Tilde{W}}_{k,j}}$$,
+where $\boldsymbol{\Tilde{W}}$ is the adjusted adjacency matrix of the graph G, which is defined as 
+$$\boldsymbol{\Tilde{W}} = \boldsymbol{W} + \delta
+\begin{bmatrix}
+    1 & 1 & \dots  & 1 \\
+    1 & 1 & \dots  & 1 \\
+    \vdots & \vdots & \ddots & \vdots \\
+    1 & 1 &  \dots  &  1
+\end{bmatrix}$$. $\delta > 0$ is a small number. By adjusting the adjacency matrix, the weight of edge being connected in the original graph G is $1+\delta$ and the weight of other edges is $\delta$. Through the adjustment, we can prevent that the algorithm runs unsupervised due to the isolated labeled nodes. In the toy example, we set $\delta=0.01$.  
+$\boldsymbol{T}_{i,j}$ represents the probability that node $j$ will propagate its own state to node $i$. For example, $\boldsymbol{T}_{2,1} = \boldsymbol{T}_{3,1} = \boldsymbol{T}_{4,1} \approx 0.326 \approx \frac{1}{3}, \boldsymbol{T}_{1,1} = \boldsymbol{T}_{5,1} = \boldsymbol{T}_{6,1} = \boldsymbol{T}_{7,1}= \boldsymbol{T}_{8,1}= \boldsymbol{T}_{9,1}= \boldsymbol{T}_{10,1}\approx 0.003$, which shows that node 1 will transfer its label to three neighbors with probability around 1 over 3. Also, it will transfer its label to other nodes(including itself) with probability slightly greater than zero.
 
  \begin{enumerate}
 \item Please write down the transition matrix $\boldsymbol{T}$.
@@ -426,9 +434,11 @@ There are three main procedures in the loop. First, every node propagates it own
 
 To show the convergence of label convergence algorithm, we consider more general case as the following statement.
 
-Let $(x_1, y_1),...,(x_l,y_l)$ be labeled data, where $y_i$ takes value in $ \{ 1,..,C \} $, which indicates that $x_i$ lies in Class $y_i$. Note that there must exist one data in every Class. Otherwise, we only need to consider the other classes that contains labeled data. Also, we have $u$ unlabeled data  $(x_{l+1}, y_{l+1}),...,(x_{l+u},y_{l+u})$, where $y_j$ is an unknown value, which lies in $\{ 1,...,C \}$. We can construct the transition matrix $\boldsymbol{T}$,
-$$\boldsymbol{T}_{i,j} = \frac{\boldsymbol{W}_{i,j}}{\sum_{k=1}^{l+u} \boldsymbol{W}_{k,j}}$$,
-where $\boldsymbol{W}$ is the adjacency matrix of the $l+u$ data.
+Let $(x_1, y_1),...,(x_l,y_l)$ be labeled data, where $y_i$ takes value in $ \{ 1,..,C \} $, which indicates that $x_i$ lies in Class $y_i$. Also, we have $u$ unlabeled data  $(x_{l+1}, y_{l+1}),...,(x_{l+u},y_{l+u})$, where $y_j$ is an unknown value, which lies in $\{ 1,...,C \}$. 
+
+We can construct the transition matrix $\boldsymbol{T}$,
+$$\boldsymbol{T}_{i,j} = \frac{\boldsymbol{\Tilde{W}}_{i,j}}{\sum_{k=1}^{l+u} \boldsymbol{\Tilde{W}}_{k,j}}$$,
+where $\boldsymbol{\Tilde{W}}_{i,j} > 0, \quad i,j = 1,..., l+u$.
 
 Also, we define the label matrix sequence $$\boldsymbol{Y}^t \in \mathbb{R}^{(l+u) \times C} \quad t=0,1,...$$ where the $i_{th}$ row of $\boldsymbol{Y}^t$ means the probability distribution of node $x_i$ at time $t$. $\boldsymbol{Y}^t_{i,j}$ means the probability that the node $x_i$ lies in Class $j$ at time $t$. For $\boldsymbol{Y}^0$, we clamp the first $l$ rows as following,
 $$\boldsymbol{Y}^{t}_{i,j}= \mathbbm{1}\{y_i=j\} \quad i = 1,...,l, j = 1,...,C$$,
@@ -480,22 +490,20 @@ $\begin{bmatrix}
 \item Please show that after an iteration,
 $$ \boldsymbol{Y}^{t}_U = \boldsymbol{\overline{T}}_{uu} \boldsymbol{Y}^{t-1}_U + \boldsymbol{\overline{T}}_{ul} \boldsymbol{Y}^{t-1}_L, t = 1,2,...,$$
 $$\boldsymbol{Y}^{t}_L =  \boldsymbol{Y}^{t-1}_L, t = 1, 2,...$$
-\item From the above result, we let $\boldsymbol{Y}_L=\boldsymbol{Y}^{t}_L$ for any $t$. Show that 
-$$ \boldsymbol{Y}^{*}_U =  \lim_{n\to\infty} (\boldsymbol{\overline{T}}_{uu}^n \boldsymbol{Y}^{0} + \sum_{i=1}^n \boldsymbol{\overline{T}}_{uu}^{i-1} \boldsymbol{\overline{T}}_{ul} \boldsymbol{Y}_L)$$
+\item From the above result, we let $\boldsymbol{Y}_L=\boldsymbol{Y}^{t}_L$ for any $t$. Show that for $t \geq 1$ 
+$$ \boldsymbol{Y}^{t}_U = \boldsymbol{\overline{T}}_{uu}^t \boldsymbol{Y}^{0} + \sum_{i=1}^t \boldsymbol{\overline{T}}_{uu}^{i-1} \boldsymbol{\overline{T}}_{ul} \boldsymbol{Y}_L$$
 
-\item Please show that $\sum_{i=1}^u \boldsymbol{\overline{T}_{uu}}_{i,j} < 1, i=1,...,u$, $\sum_{i=1}^u \lim_{n\to\infty} \boldsymbol{\overline{T}_{uu}}_{i,j}^n = 0, i=1,...,u$, \\ and $\lim_{n\to\infty} \boldsymbol{\overline{T}_{uu}}^n = \boldsymbol{O}$.
+\item Please show that $\sum_{i=1}^u \boldsymbol{\overline{T}_{uu}}_{i,j} = \gamma_j$, where $0 < \gamma_j < 1$, for $j=1,...,u$. Use the fact to derive $\sum_{i=1}^u  \boldsymbol{\overline{T}_{uu}^n}_{i,j} \leq \gamma^n$, for $ j=1,...,u$, where $\gamma = \max\limits_{j=1,...,u} \gamma_j $. Last, derive $\lim_{n\to\infty} \boldsymbol{\overline{T}_{uu}^n} = \boldsymbol{O}$.
 
-\item Please show that $\lim_{n\to\infty} \boldsymbol{\overline{T}}_{uu}^n \boldsymbol{Y}^{0} = \boldsymbol{0}$. Hence $\boldsymbol{Y}^{*}_U = \lim_{n\to\infty}\sum_{i=1}^n \boldsymbol{\overline{T}}_{uu}^{i-1} \boldsymbol{\overline{T}}_{ul} \boldsymbol{Y}_L$.
 
-\item Define $\boldsymbol{S}_n = \boldsymbol{I} + \boldsymbol{\overline{T}}_{uu} + \boldsymbol{\overline{T}}_{uu}^2 + ... + \boldsymbol{\overline{T}}_{uu}^{n-1}, \quad \boldsymbol{S}(\boldsymbol{I}-\boldsymbol{\overline{T}}_{uu}) = \boldsymbol{I} - \boldsymbol{\overline{T}}_{uu}^{n}$. Use the fact and 6. to show that 
-$\lim_{n\to\infty}\boldsymbol{S}_n \boldsymbol{\overline{T}}_{ul} \boldsymbol{Y}_L = (\boldsymbol{I}-\boldsymbol{\overline{T}}_{uu}))^{-1}\boldsymbol{\overline{T}}_{ul} \boldsymbol{Y}_L$. Hence, $\boldsymbol{Y}^{*}_U = (\boldsymbol{I}-\boldsymbol{\overline{T}}_{uu}))^{-1}\boldsymbol{\overline{T}}_{ul} \boldsymbol{Y}_L$, 
-
-$\boldsymbol{Y}^{*}=
+\item Define $\boldsymbol{S}_n = \boldsymbol{I} + \boldsymbol{\overline{T}}_{uu} + \boldsymbol{\overline{T}}_{uu}^2 + ... + \boldsymbol{\overline{T}}_{uu}^{n-1}, \quad \boldsymbol{S}_n(\boldsymbol{I}-\boldsymbol{\overline{T}}_{uu}) = \boldsymbol{I} - \boldsymbol{\overline{T}}_{uu}^{n}$. Use the fact to show that  
+$\lim_{n\to\infty}\boldsymbol{S}_n = (\boldsymbol{I}-\boldsymbol{\overline{T}}_{uu})^{-1}$. Combined all the result above, please show that $\boldsymbol{Y}^{*}_U = (\boldsymbol{I}-\boldsymbol{\overline{T}}_{uu}))^{-1}\boldsymbol{\overline{T}}_{ul} \boldsymbol{Y}_L$. \\
+Hence, $\boldsymbol{Y}^{*}=
 \begin{bmatrix}
 \boldsymbol{Y}_L \\
 \boldsymbol{Y}^{*}_U
 \end{bmatrix}
-$, which can be obtained analytically regardless of the initial value $\boldsymbol{Y}^0$. 
+$, which can be obtained analytically regardless of the initial value $\boldsymbol{Y}^0$.
 
 \item Please calculate the analytical solution $\boldsymbol{Y}^{*}$ on the toy example above. Does the solution correspond to the iteration solution $\boldsymbol{Y}^{t}$?
 \end{enumerate}
@@ -504,5 +512,6 @@ $, which can be obtained analytically regardless of the initial value $\boldsymb
  \begin{enumerate}
      \item First Edition: Finish Problem 1 to 5
      \item Second Edition: Revise the data description in Problem 5 Generalized Label Propagation.
+     \item Third Edition: Revise Problem 5 to make the definition more robust.
  \end{enumerate}
 \end{document}
