@@ -353,7 +353,7 @@ class k. Please show your derivations.
 
 \section*{Problem 5 (Label Propagation Algorithm)(1.5\%)}
 
-In this problem, we will learn the essence of label propagation algorithm, which is a semi-supervised learning algorithm, by executing on a toy example. Next, we will show that the algorithm will convergence, which can be express analytically.
+In this problem, we will investigate label propagation algorithm by executing on a toy example. Next, we will show that the algorithm will convergence, which can be express analytically.
 
 Let's consider the graph that we have seen in HW3 Problem 2.
 
@@ -382,7 +382,7 @@ Let's consider the graph that we have seen in HW3 Problem 2.
     \draw (8) to [out=90,in=180,looseness=3]  (9);
     \draw (9) -- (10); 
     \end{tikzpicture}
-        \caption{undirected connected graph $G$}
+        \caption{undirected connected graph $G$ with labeled node}
     \end{figure}
 
 We have previously known that $x_1$ node is in Class 1 and $x_7$ node is in Class 2. Now, we want to separate these 10 nodes into Class 1 and Class 2.
@@ -410,7 +410,7 @@ After defining label matrix $\boldsymbol{Y}$ and transition matrix $\boldsymbol{
     \Repeat
         \State t = t + 1
         \State $\boldsymbol{Y}^{t}$ = $\boldsymbol{T} \boldsymbol{Y}^{t-1}$ \Comment{Random walk to its neighbor}
-        \State $\boldsymbol{Y}^{t}_{i,j} = \boldsymbol{Y}^{t}_{i,j} / (\boldsymbol{Y}^{t}_{i,1} + \boldsymbol{Y}^{t}_{i,2}) \quad i=1,...,C, j = 1, 2$ \Comment{Normalize the probability distribution}
+        \State $\boldsymbol{Y}^{t}_{i,j} = \boldsymbol{Y}^{t}_{i,j} / (\boldsymbol{Y}^{t}_{i,1} + \boldsymbol{Y}^{t}_{i,2}) \quad i=1,...,10, j=1,2$ \Comment{Normalize the probability distribution}
         \State $\boldsymbol{Y}^{t}_{1,1} = 1, \boldsymbol{Y}^{t}_{1,2} = 0,\boldsymbol{Y}^{t}_{7,1} = 0,\boldsymbol{Y}^{t}_{7,2} = 1$ \Comment{Clamp the labeled data}
     \Until{ $||\boldsymbol{Y}^{t}-\boldsymbol{Y}^{t-1}||_F < \epsilon$}
     \State If $\boldsymbol{Y}^{t}_{i,1} > 0.5$ then node $x_i$ lies in Class 1, otherwise node $x_i$ lies in Class 2, \quad $i=1,...,10$
