@@ -226,7 +226,7 @@
 \title{HW4 Handwritten Assignment}
 \author{Lecturor: Pei-Yuan Wu\\
 TAs: {Chun-Lin Huang(Problem 1, 2), Yuan-Chia Chang(Problem 3, 4, 5)}}
-\date{November 2023, First Edition}
+\date{November 2023, Second Edition}
 \begin{document}
 
 \maketitle
@@ -353,7 +353,7 @@ class k. Please show your derivations.
 
 \section*{Problem 5 (Label Propagation Algorithm)(1.5\%)}
 
-In this problem, we will investigate label propagation algorithm by executing on a toy example. Next, we will show that the algorithm will convergence, which can be express analytically.
+In this problem, we will investigate label propagation algorithm by executing on a toy example. Next, we will show that the algorithm will convergence, which can be expressed analytically.
 
 Let's consider the graph that we have seen in HW3 Problem 2.
 
@@ -426,7 +426,7 @@ There are three main procedures in the loop. First, every node propagates it own
 
 To show the convergence of label convergence algorithm, we consider more general case as the following statement.
 
-Let $(x_1, y_1),...,(x_l,y_l)$ be labeled data, where $\{y_1, ..., y_n\}=\{1,...,C\}$, which indicates that $x_i$ is in Class $y_i$. Also, we have $u$ unlabeled data  $(x_{l+1}, y_{l+1}),...,(x_{l+u},y_{l+u})$. We can construct the transition matrix $\boldsymbol{T}$,
+Let $(x_1, y_1),...,(x_l,y_l)$ be labeled data, where $y_i$ takes value in $ \{ 1,..,C \} $, which indicates that $x_i$ lies in Class $y_i$. Note that there must exist one data in every Class. Otherwise, we only need to consider the other classes that contains labeled data. Also, we have $u$ unlabeled data  $(x_{l+1}, y_{l+1}),...,(x_{l+u},y_{l+u})$, where $y_j$ is an unknown value, which lies in $\{ 1,...,C \}$. We can construct the transition matrix $\boldsymbol{T}$,
 $$\boldsymbol{T}_{i,j} = \frac{\boldsymbol{W}_{i,j}}{\sum_{k=1}^{l+u} \boldsymbol{W}_{k,j}}$$,
 where $\boldsymbol{W}$ is the adjacency matrix of the $l+u$ data.
 
@@ -503,5 +503,6 @@ $, which can be obtained analytically regardless of the initial value $\boldsymb
  \section*{Version Description}
  \begin{enumerate}
      \item First Edition: Finish Problem 1 to 5
+     \item Second Edition: Revise the data description in Problem 5 Generalized Label Propagation.
  \end{enumerate}
 \end{document}
