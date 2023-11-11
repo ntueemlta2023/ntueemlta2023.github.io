@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.2)  11 NOV 2023 01:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.2)  11 NOV 2023 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -961,7 +961,7 @@ Package rerunfilecheck Info: File `ml-2023fall-hw4-math.out' has not changed.
 Here is how much of TeX's memory you used:
  24460 strings out of 478268
  440363 string characters out of 5846347
- 708585 words of memory out of 5000000
+ 708586 words of memory out of 5000000
  42174 multiletter control sequences out of 15000+600000
  481055 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -985,7 +985,7 @@ fb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
 sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
 local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ml-2023fall-hw4-math.pdf (6 pages, 231836 bytes).
+Output written on ml-2023fall-hw4-math.pdf (6 pages, 231833 bytes).
 PDF statistics:
  171 PDF objects out of 1000 (max. 8388607)
  122 compressed objects within 2 object streams
