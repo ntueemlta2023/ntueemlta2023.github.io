@@ -172,9 +172,9 @@ syllabus:
       - title: meeting link
         kind: file-pdf-o
         path: link.pdf
-#      - title: W10-video
-#        kind: play-circle
-#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-tTCiA6IKL8BIkvs7eyuFl
+      - title: Semi-supervised Learning video(2022)
+        kind: play-circle
+        path: https://www.youtube.com/watch?v=bFgk369TjMI&list=PLLb0Q4dUC0k-tTCiA6IKL8BIkvs7eyuFl
 
   - title: Week 11
     slides:
