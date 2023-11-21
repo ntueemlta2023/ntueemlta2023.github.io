@@ -181,9 +181,9 @@ syllabus:
       - title: VAE
         kind: file-pdf-o
         path: ./slides/week11/W11_VAE.pdf
-#      - title: W11-video
-#        kind: play-circle
-#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k8EyMhap4-wacbC5x_3s2Kk
+      - title: W11-video
+        kind: play-circle
+        path: https://www.youtube.com/watch?v=4kU6IsrSJI4&list=PLIKHU3mMrCpiuM5qcJVk96IL1HXdX10DG
 
   - title: Week 12
     slides:
