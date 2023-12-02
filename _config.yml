@@ -208,9 +208,9 @@ syllabus:
       - title: Duality of SVM
         kind: file-pdf-o
         path: ./slides/week13/W13_L5_svm duality.pdf
-#      - title: W6-video
-#        kind: play-circle
-#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-aapOsa9kNH0WLZcLHONxi
+      - title: W13-video
+        kind: play-circle
+        path: https://studio.youtube.com/playlist/PLIKHU3mMrCpiM8to7psf9X8l0XSLcc1Wv/videos
    
   - title: Week 14
 #    slides:
