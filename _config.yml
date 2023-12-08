@@ -210,7 +210,7 @@ syllabus:
         path: ./slides/week13/W13_L5_svm duality.pdf
       - title: W13-video
         kind: play-circle
-        path: https://studio.youtube.com/playlist/PLIKHU3mMrCpiM8to7psf9X8l0XSLcc1Wv/videos
+        path: https://www.youtube.com/playlist?list=PLIKHU3mMrCpiM8to7psf9X8l0XSLcc1Wv
    
   - title: Week 14
 #    slides:
