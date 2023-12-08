@@ -213,10 +213,10 @@ syllabus:
         path: https://www.youtube.com/playlist?list=PLIKHU3mMrCpiM8to7psf9X8l0XSLcc1Wv
    
   - title: Week 14
-#    slides:
-#      - title: W6-video
-#        kind: play-circle
-#        path: https://www.youtube.com/playlist?list=PLLb0Q4dUC0k-VHdju-iiML0WBxTZq5Exb
+    slides:
+      - title: W14-video
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLIKHU3mMrCpjFEhzRHtmh8hYLq5_e3_9q
       
   - title: Week 15
 #    slides:
