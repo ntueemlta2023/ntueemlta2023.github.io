@@ -219,7 +219,10 @@ syllabus:
         path: https://www.youtube.com/playlist?list=PLIKHU3mMrCpjFEhzRHtmh8hYLq5_e3_9q
       
   - title: Week 15
-#    slides:
+    slides:
+      - title: PAC
+        kind: file-pdf-o
+        path: ./slides\week15\W14_PAC introduction.pdf
       
   - title: Week 16 (Final)
 #    slides:
