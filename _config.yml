@@ -223,7 +223,7 @@ syllabus:
       - title: PAC
         kind: file-pdf-o
         path: ./slides\week15\W14_PAC introduction.pdf
-      - title: W14-video
+      - title: W15-video
         kind: play-circle
         path: https://www.youtube.com/playlist?list=PLIKHU3mMrCpi5XyFIhrwvGUS4ooh7kkZU
       
@@ -371,6 +371,9 @@ homeworks:
       - title: programming Report Template
         kind: file-pdf-o 
         url: https://docs.google.com/document/d/1z0visPuuFZRrBGMvJvm59v9BLOTWmY3QjlU-cLqjl0M/edit?usp=sharing
+      - title: math-solution
+        kind: file-pdf-o 
+        url: https://ntueemlta2023.github.io/homeworks/hw5/ml-2023fall-hw5-math-solution.pdf
 
 exams:
  - title: Exam-107
