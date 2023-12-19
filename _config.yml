@@ -223,6 +223,9 @@ syllabus:
       - title: PAC
         kind: file-pdf-o
         path: ./slides\week15\W14_PAC introduction.pdf
+      - title: W14-video
+        kind: play-circle
+        path: https://www.youtube.com/playlist?list=PLIKHU3mMrCpi5XyFIhrwvGUS4ooh7kkZU
       
   - title: Week 16 (Final)
 #    slides:
