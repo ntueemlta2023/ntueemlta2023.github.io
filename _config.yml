@@ -276,9 +276,6 @@ homeworks:
         kind: youtube-play 
         url: https://youtube.com/playlist?list=PLIKHU3mMrCpiHAV7VKuQRgJRMkygmkou1&feature=shared
 
-      - title: math-solution
-        kind: file-pdf-o 
-        url: https://ntueemlta2023.github.io/homeworks/hw1/ml-2023fall-hw1-math-solution.pdf
   - title: HW2 - CNN
     links:
       - title: video # video
@@ -299,9 +296,6 @@ homeworks:
       - title: programming Report Template
         kind: file-pdf-o 
         url: https://docs.google.com/document/d/17-_3_qAvuQMhCGIKns_apA8IOlktasso/edit?usp=sharing&ouid=112465961449455869485&rtpof=true&sd=true
-      - title: math-solution
-        kind: file-pdf-o 
-        url: https://ntueemlta2023.github.io/homeworks/hw2/ml-2023fall-hw2-math-solution.pdf
 
   - title: HW3 - Embedding
     links:
@@ -323,9 +317,6 @@ homeworks:
       - title: programming Report Template
         kind: file-pdf-o 
         url: https://docs.google.com/document/d/1n4RGIxXpLrTakT1TkypLvLs1dpuBJkaq/edit?usp=sharing&ouid=112465961449455869485&rtpof=true&sd=true
-      - title: math-solution
-        kind: file-pdf-o 
-        url: https://ntueemlta2023.github.io/homeworks/hw3/ml-2023fall-hw3-math-solution.pdf
 
   - title: HW4 - RNN
     links:
@@ -347,9 +338,7 @@ homeworks:
       - title: programming Report Template
         kind: file-pdf-o 
         url: https://docs.google.com/document/d/1cO0q5AA_QTyIokC_eOdJJCrqfZeGkDLo94AuoiSoStU/edit?usp=sharing
-      - title: math-solution
-        kind: file-pdf-o 
-        url: https://ntueemlta2023.github.io/homeworks/hw4/ml-2023fall-hw4-math-solution.pdf
+
 
   - title: HW5 - SVM
     links:
@@ -371,9 +360,6 @@ homeworks:
       - title: programming Report Template
         kind: file-pdf-o 
         url: https://docs.google.com/document/d/1z0visPuuFZRrBGMvJvm59v9BLOTWmY3QjlU-cLqjl0M/edit?usp=sharing
-      - title: math-solution
-        kind: file-pdf-o 
-        url: https://ntueemlta2023.github.io/homeworks/hw5/ml-2023fall-hw5-math-solution.pdf
 
 exams:
  - title: Exam-107
